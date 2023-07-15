@@ -1,0 +1,34 @@
+#hotel{
+  background: url("../../../assets/img/hotels.png") no-repeat center/cover;
+  background-size: contain;
+  fill: rgba(0, 0, 0, 0.20);
+  height: 825px;
+
+.hotel
+
+{
+  margin-top:  -35%;
+  margin-right: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  h1{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+  }
+  p{
+    color: #FFF;
+    font-family: Syne;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+}

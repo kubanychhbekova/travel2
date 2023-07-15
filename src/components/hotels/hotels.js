@@ -1,6 +1,6 @@
 import React from 'react';
-import Hotel from "./hotel/hotel";
 import HotelSearch from "./search/hotelSearch";
+import Hotel from "./hotel/hotel";
 
 const Hotels = () => {
     return (

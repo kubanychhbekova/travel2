@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {useDispatch, useSelector} from "react-redux";
-import {Places} from "../../back-end/backend";
+import {Places} from "../../../../travel2/src/back-end/backend";
 import {IoIosArrowForward} from "react-icons/io";
 import {MdKeyboardArrowRight} from "react-icons/md";
 import {NavLink} from "react-router-dom";
