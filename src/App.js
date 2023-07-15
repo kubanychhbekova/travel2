@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Header from "../../travel2/src/components/header";
+import Footer from "../../travel2/src/components/footer/footer";
+import {Route, Routes} from "react-router-dom";
+import Pages from "../../travel2/src/components/pages/pages";
+import Hotels from "../../travel2/src/components/hotels/hotels";
+import Detail from "../../travel2/src/components/popular/popularDetails/detail";
+import HotelDetail from "../../travel2/src/components/hotels/hotelDetail/hotelDetail";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+        <Header/>
+        <Routes>
+          <Route path={"/"} element={<Pages/>}/>
+          <Route path={"/hotels"} element={<Hotels/>}/>
+          <Route path={"/popular/:id"} element={<Detail/>}/>
+          <Route path={"/hotels/:id"} element={<HotelDetail/>}/>
+        </Routes>
+        <Footer/>
+      </div>
   );
 }
 
