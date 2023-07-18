@@ -3,7 +3,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import { hotels } from "../../../back-end/backend";
 import { regions } from "../../../back-end/backend";
 import { NavLink } from "react-router-dom";
-import Link from "../../link/link";
+import Link from "../../link/Ourlink";
+import Ourlink from "../../link/Ourlink";
 
 const HotelSearch = () => {
     const  product  = useSelector(s => s.product);
@@ -153,6 +154,7 @@ const HotelSearch = () => {
                     </div>
                 </div>
             </div>
+            <Ourlink/>
         </div>
     );
 };
