@@ -17,8 +17,10 @@ const Header = () => {
                         <div className="header--logo__pages">
                             <NavLink to="/"> <h1>Main</h1></NavLink>
                             <NavLink to="/hotels"> <h1>Hotels</h1></NavLink>
+
                       <h1>Routes</h1>
-                            <h1>Map</h1>
+                            <NavLink to="/map"><h1>Map</h1></NavLink>
+
                             <h1>Contacts</h1>
                             <div className="header--logo__pages--select">
                                 <select name="language"  id="1">
