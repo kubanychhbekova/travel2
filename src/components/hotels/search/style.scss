@@ -22,7 +22,7 @@
         z-index: 2;
 
         &--first {
-          width: 470px;
+          width: 455px;
           padding: 12px;
 
           border-radius: 10px;
@@ -95,7 +95,7 @@
         z-index: 2;
 
         &--first {
-          width: 425px;
+          width: 450px;
           height: 17px;
           flex-shrink: 0;
           border-radius: 10px;
@@ -173,6 +173,10 @@
           line-height: normal;
           border: none;
           cursor: pointer;
+          &:hover{
+            background: rgba(9, 146, 213, 0.50);
+
+          }
         }
       }
     }
@@ -180,11 +184,13 @@
     &--bottom {
       display: flex;
       flex-wrap: wrap;
-      gap: 30px;
+      justify-content: flex-start;
+      gap: 40px;
 
       &__cards {
         position: relative;
         z-index: 1;
+
 
         &--card {
           img {
