@@ -526,708 +526,7 @@ export const regions = [
 
 ]
 
-/**
- // export const hotels = [
- //     {
-//         id: 1,
-//         region: "Issyk-Kul",
-//         districts: [
-//             {
-//                 id: 11,
-//                 name: "Issyk-Kul districts",
-//                 hotels: [
-//                     {
-//
-//                         id: 111,
-//                         title: "Club-hotel Royal Beach",
-//                         description1: "We are pleased to offer you to relax in our recreation complex - swimming pool, billiards, table tennis, as well as beach volleyball, cinema, disco club. All this is created so that you can take a break from the bustle of the city...",
-//                         description: "This lively waterfront resort is 8 km from Issyk-Kul International Airport and 28 km from the beach with ancient stromatolites and microbialites.\n" +
-//                             "Bright rooms with park or mountain views, TVs, mini-fridges and tea/coffee making facilities. Superior rooms feature balconies. Suites have seating areas and lake-side balconies.\n" +
-//                             "Three meals a day are included in the price. There is a restaurant, a lounge area, an indoor pool, a games room, a cinema, a playground and a business center on site. There are discos. Parking is free.",
-//                         img: royal1,
-//                         img1: royal,
-//                         img2: [royal2, royal3],
-//                         img3: [royal4, royal5, royal6, royal7],
-//                         address: "234км, Чок-Тал, Ысык-Көл району",
-//                         star: 0
-//                     },
-//                     {
-//                         id: 112,
-//                         title: "Guest complex «ARTek»",
-//                         description1: "We offer you to relax in the guest complex, which is a 3-minute walk from the beach, the territory is landscaped, fenced, with round-the-clock security, there is a parking lot.",
-//                         description: " The guest complex \"ARTek\" is located on the northern coast of the lake. Issyk-Kul in the village of Tamchi (40 km from Balykchy) 210 km from Bishkek. We offer you to relax in the guest complex, which is a 3-minute walk from the beach, the territory is landscaped, fenced, with round-the-clock security, there is a parking lot.",
-//                         img: artek,
-//                         img1: artek1,
-//                         img2: [artek2, artek3],
-//                         img3: [artek4, artek5, artek6, artek7],
-//                         address: "Жундубаев Сагыналы, A363, Тамчи 722119",
-//                         star: 0
-//                     },
-//                     {
-//                         id: 113,
-//                         title: "Hotel Isyyk Kol",
-//                         description1: "Located in Balykchy, Issyk Hotel - Kol features a shared lounge and a garden. The reception is open 24/7. Guests can use the shared kitchen.",
-//                         description: "The air-conditioned rooms are equipped with a flat-screen TV with cable channels. There is also a kitchen, a dining area, a seating area, a safety deposit box and a private bathroom with a shower and a hairdryer. Some rooms at the Issyk - Kol Hotel offer views of the lake. Each room has a kettle. In addition, towels and bed linen are provided.\n" +
-//                             "\n" +
-//                             "Guests at Issyk - Kol Hotel can enjoy a continental or buffet breakfast each morning.",
-//                         img: hotel,
-//                         img1: hotel,
-//                         img2: [hotel1, hotel2],
-//                         img3: [hotel3, hotel4, hotel5, hotel6],
-//                         address: "город Балыкчы улица аманбаева №208, Балыкчи 721900",
-//                         star: 0
-//                     },
-//                 ]
-//             },
-//             {
-//                 id: 12,
-//                 name: "Cholpon-Ata city",
-//                 hotels: [
-//                     {
-//                         id: 121,
-//                         title: "Olimp Hotel",
-//                         description1: "It features a shared lounge, terrace, restaurant and bar. Other facilities at this 3-star hotel include a kids' club and a shared kitchen.",
-//                         description: "Some rooms have a kitchenette with a refrigerator and microwave.\n" +
-//                             "\n" +
-//                             "Guests can enjoy buffet, continental or American breakfast in the morning.\n" +
-//                             "\n" +
-//                             "There is a children's playground on site. The area is popular for hiking and cycling. This 3-star hotel offers bike hire.\n" +
-//                             "\n" +
-//                             "Staff at the 24-hour front desk speak Russian and English and are ready to help guests at any time.\n" +
-//                             "\n" +
-//                             "Issyk-Kul International Airport is 33 km from Olimp Hotel.",
-//                         img: olimp,
-//                         img1: olimp,
-//                         img2: [olimp1, olimp2],
-//                         img3: [olimp3, olimp4, olimp5, olimp6],
-//                         address: "Proektiruemaya 18, Бактуу-Долоноту",
-//                         star: 3
-//                     },
-//                     {
-//                         id: 122,
-//                         title: "Zaton Guesthouse",
-//                         description1: "Rooms at the Zaton Guest House have a private bathroom with a shower and a hairdryer, and free Wi-Fi. Some rooms offer mountain views. All rooms are equipped with a flat-screen TV with satellite channels.",
-//                         description: " Located in Cholpon-Ata, Zaton Guest House features a garden. Free private parking is available on site. An airport shuttle can be arranged for an extra fee.\n" +
-//                             "\n" +
-//                             "Other amenities include a kettle. Rooms at the Zaton Guest House have a private bathroom with a shower and a hairdryer, and free Wi-Fi. Some rooms offer mountain views. All rooms are equipped with a flat-screen TV with satellite channels.\n" +
-//                             "\n" +
-//                             "A la carte, continental or vegan breakfast is served daily.\n" +
-//                             "\n" +
-//                             "The nearest airport is Issyk-Kul International Airport, 31 km from Zaton Guest House.",
-//                         img: zaton,
-//                         img1: zaton,
-//                         img2: [zaton1, zaton2],
-//                         img3: [zaton3, zaton4, zaton5, zaton6],
-//                         address: "J3VP+438, Чолпон-Ата"
-//                     },
-//                     {
-//                         id: 123,
-//                         title: "Hotel Zeto",
-//                         description1: "Hotel “Zeto - Zeto” is located in Cholpon-Ata. It features a restaurant, bar, garden, free WiFi and a terrace. Those who wish can book family rooms. A balcony overlooking the lake is also available.",
-//                         description: "Hotel “Zeto - Zeto” is located in Cholpon-Ata. It features a restaurant, bar, garden, free WiFi and a terrace. Those who wish can book family rooms. A balcony overlooking the lake is also available.\n" +
-//                             "\n" +
-//                             "Some units have a kitchen equipped with a microwave, oven and refrigerator.\n" +
-//                             "\n" +
-//                             "The front desk staff speaks Russian and English and will be happy to provide you with useful tourist information.",
-//                         img: zeto,
-//                         img1: zeto1,
-//                         img2: [zeto2, zeto3],
-//                         img3: [zeto4, zeto5, zeto6, zeto7],
-//                         address: "Lenina Street 13, Чолпон-Ата 722100"
-//                     },
-//                 ]
-//             },
-//             {
-//                 id: 13,
-//                 name: "Kara-Kol city",
-//                 hotels: [
-//                     {
-//                         id: 131,
-//                         title: "My hotel Karakol",
-//                         description1: "Caravan Hotel is located in Karakol. Among the various facilities of this property are a shared lounge and ski storage space. The accommodation provides a 24-hour front desk, airport transfers, a shared kitchen and free WiFi throughout the property.",
-//                         description: "The 3-star My Karakol Hotel is located in Karakol. It offers a bar and barbecue facilities. This 3-star hotel offers room service, a 24-hour front desk and free Wi-Fi. The hotel has family rooms.\n" +
-//                             "\n" +
-//                             "Some rooms at the hotel have a private bathroom and mountain views.\n" +
-//                             "\n" +
-//                             "A buffet breakfast is served every morning, which includes continental and vegetarian dishes. My hotel Karakol has a restaurant serving local cuisine. Vegetarian, dairy-free and vegan dishes are also available.\n" +
-//                             "\n" +
-//                             "Guests of the hotel can enjoy various activities in Karakol and the surrounding area, including skiing and cycling.\n" +
-//                             "\n" +
-//                             "The nearest airport is Issyk-Kul International Airport, 172 km from My hotel Karakol.",
-//                         img: myHotel,
-//                         img1: myHotel1,
-//                         img2: [myHotel2, myHotel3],
-//                         img3: [myHotel4, myHotel5, myHotel6, myHotel7],
-//                         address: "Масалиева 43, 722200 Каракол, Киргизия ",
-//                         star: 3
-//                     },
-//                     {
-//                         id: 132,
-//                         title: "Hotel 78 Cafe",
-//                         description1: "Hotel 78 Cafe has a garden, terrace, a restaurant and bar in Karakol. Boasting family rooms, this property also provides guests with a children's playground.",
-//                         description: "A à la carte breakfast is served every morning at 78 Cafe Hotel.\n" +
-//
-//                             "Amenities include a terrace. Guests at 78 Cafe Hotel will be able to enjoy activities in and around Karakol, like skiing.\n" +
-//
-//                             "Jol Golot is 3.8 km from the hotel, while Maman is 5.1 km away. The nearest airport is Issyk-Kul International Airport, 174 km from 78 Cafe Hotel. An airport shuttle can be arranged for an extra fee.",
-//                         img: cafe,
-//                         img1: cafe1,
-//                         img2: [cafe2, cafe3],
-//                         img3: [cafe4, cafe5, cafe6, cafe7],
-//                         address: " Orozbekova str.78, 722206 Каракол, Киргизия "
-//                     },
-//                     {
-//                         id: 133,
-//                         title: "Muras Hotel Karakol",
-//                         description1: "Located in Karakol, Muras Karakol Hotel features a shared lounge. At the property you will find a shared kitchen and a terrace. Free private parking is available on site. An airport shuttle service can be arranged for an extra charge",
-//                         description: "Each room at the hotel has a desk.\n" +
-//                             "\n" +
-//                             "A continental breakfast is served each morning at Muras Karakol Hotel.\n" +
-//                             "\n" +
-//                             "In Karakol and its surroundings, you can actively spend your leisure time, including skiing.\n" +
-//                             "\n" +
-//                             "The reception staff speaks English and Russian and is always happy to provide guests with useful tourist information.\n" +
-//                             "\n" +
-//                             "The nearest airport is Issyk-Kul International Airport, 168 km from Muras Hotel.",
-//                         img: muras,
-//                         img1: muras1,
-//                         img2: [muras2, muras3],
-//                         img3: [muras4, muras5, muras6, muras7],
-//                         address: " улица Пржевальского б/н, 722200 Каракол, Киргизия"
-//                     },
-//                 ]
-//             },
-//         ]
-//     },
- //     {
-//         id: 2,
-//         region: "Bishkek",
-//         districts: [
-//             {
-//                 id: 21,
-//                 name: "Pervomaisky district",
-//                 hotels: [
-//                     {
-//                         id: 211,
-//                         title: "Lavitor hotel",
-//                         description1: "Hotel Lavitor is located in Bishkek. It offers free bikes, a garden, a terrace, a restaurant, a ski pass sales point, ski storage, a bar, BBQ facilities and currency exchange. Room service is available. The property offers a free shuttle service.",
-//                         description: "The air-conditioned rooms are equipped with a flat-screen TV with cable channels. They include a seating area, a safety deposit box and a private bathroom with a shower, a hairdryer and free toiletries. A kettle is provided. Some rooms have a balcony, while others offer mountain views. Rooms at Lavitor Hotel are stocked with bed linen and towels.\n" +
-//                             "\n" +
-//                             "An à la carte, continental and vegetarian breakfast is served each morning.\n" +
-//                             "\n" +
-//                             "The area is popular for cycling and skiing. Car rental is available for guests.\n" +
-//                             "\n" +
-//                             "The property offers ironing facilities, free private parking, a business center and a 24-hour front desk.",
-//                         img: lavitor,
-//                         img1: lavitor,
-//                         img2: [lavitor1, lavitor2],
-//                         img3: [lavitor3, lavitor5, lavitor6, lavitor4],
-//                         address: " Bayalinova 166a, 720014 Бишкек, Киргизия",
-//                         star: 0
-//                     },
-//                     {
-//                         id: 212,
-//                         title: "Gоlden Dragon Villa Hotel",
-//                         description1: "All rooms at the hotel are equipped with a kettle. Other amenities include air conditioning, a wardrobe and a flat-screen TV. Some rooms at Golden Dragon Villa have a balcony. All rooms are stocked with towels and bed linen.",
-//                         description: "Featuring a garden and a bar, Golden Dragon Villa is a 3-star hotel located in Bishkek. This 3-star hotel offers a concierge service and luggage storage space. There is a 24-hour front desk. Airport transfers and room service are available. Free Wi-Fi is provided.\n" +
-//                             "\n" +
-//                             "All rooms at the hotel are equipped with a kettle. Other amenities include air conditioning, a wardrobe and a flat-screen TV. Some rooms at Golden Dragon Villa have a balcony. All rooms are stocked with towels and bed linen.\n" +
-//                             "\n" +
-//                             "Guests at the Golden Dragon Villa can enjoy a continental breakfast.",
-//                         img: golden,
-//                         img1: golden,
-//                         img2: [artek2, artek3],
-//                         img3: [artek4, artek5, artek6, artek7],
-//                         address: " Kasymaly Bayalinov Street 134, 720040 Бишкек, Киргизия ",
-//                         star: 0
-//                     },
-//                     {
-//                         id: 213,
-//                         title: "Sheraton Bishkek",
-//                         description1: "Sheraton Bishkek Hotel is located in Bishkek. It offers free bike rental, a terrace, a restaurant and a bar.",
-//                         description: "The air-conditioned rooms are equipped with a flat-screen TV with cable channels. There is also a kitchen, a dining area, a seating area, a safety deposit box and a private bathroom with a shower and a hairdryer. Some rooms at the Issyk - Kol Hotel offer views of the lake. Each room has a kettle. In addition, towels and bed linen are provided.\n" +
-//                             "\n" +
-//                             "Guests at Issyk - Kol Hotel can enjoy a continental or buffet breakfast each morning.",
-//                         img: sheraton,
-//                         img1: sheraton1,
-//                         img2: [sheraton2, sheraton3],
-//                         img3: [sheraton4, sheraton5, sheraton6, sheraton7],
-//                         address: " Sheraton Grand Bishkek 148B, Kievskaya Street, 720001 Бишкек, Киргизия ",
-//                         star: 5
-//                     },
-//                 ]
-//             },
-//             {
-//                 id: 22,
-//                 name: "Sverdlovsk district",
-//                 hotels: [
-//                     {
-//                         id: 221,
-//                         title: "Maryotel",
-//                         description1: "This 4-star hotel is located in Bishkek. It offers spacious rooms decorated in a contemporary style. Free Wi-Fi and parking are provided",
-//                         description: "Some rooms have a kitchenette with a refrigerator and microwave.\n" +
-//                             "\n" +
-//                             "Guests can enjoy buffet, continental or American breakfast in the morning.\n" +
-//                             "\n" +
-//                             "There is a children's playground on site. The area is popular for hiking and cycling. This 3-star hotel offers bike hire.\n" +
-//                             "\n" +
-//                             "Staff at the 24-hour front desk speak Russian and English and are ready to help guests at any time.\n" +
-//                             "\n" +
-//                             "Issyk-Kul International Airport is 33 km from Olimp Hotel.",
-//                         img: mar,
-//                         img1: mar1,
-//                         img2: [mar2, mar3],
-//                         img3: [mar4, mar5, mar6, mar7],
-//                         address: " Pobedy Prospekt 351, 724300 Бишкек, Киргизия ",
-//                         star: 4
-//                     },
-//                     {
-//                         id: 222,
-//                         title: "Lumarc Hotel",
-//                         description1: "The 3-star Lumarc Hotel is located in Bishkek. This 3-star hotel has a restaurant. It offers air-conditioned rooms with free Wi-Fi and a private bathroom. Free private parking is available on site. An airport shuttle can be arranged at an additional cost.",
-//                         description: " Located in Cholpon-Ata, Zaton Guest House features a garden. Free private parking is available on site. An airport shuttle can be arranged for an extra fee.\n" +
-//                             "\n" +
-//                             "Other amenities include a kettle. Rooms at the Zaton Guest House have a private bathroom with a shower and a hairdryer, and free Wi-Fi. Some rooms offer mountain views. All rooms are equipped with a flat-screen TV with satellite channels.\n" +
-//                             "\n" +
-//                             "A la carte, continental or vegan breakfast is served daily.\n" +
-//                             "\n" +
-//                             "The nearest airport is Issyk-Kul International Airport, 31 km from Zaton Guest House.",
-//                         img: lamrc,
-//                         img1: lamrc,
-//                         img2: [zaton1, zaton2],
-//                         img3: [zaton3, zaton4, zaton5, zaton6],
-//                         address: " Frunze Street 122, 720000 Бишкек, Киргизия",
-//                         star: 0
-//                     },
-//                     {
-//                         id: 223,
-//                         title: "Futuro Hotel Bishkek",
-//                         description1: "Futuro Bishkek Hotel is located in Bishkek, a 2-minute walk from central Chui Avenue and a 10-minute drive from Ala-Too Square. Free Wi-Fi is available on site.",
-//                         description: "Hotel “Zeto - Zeto” is located in Cholpon-Ata. It features a restaurant, bar, garden, free WiFi and a terrace. Those who wish can book family rooms. A balcony overlooking the lake is also available.\n" +
-//                             "\n" +
-//                             "Some units have a kitchen equipped with a microwave, oven and refrigerator.\n" +
-//                             "\n" +
-//                             "The front desk staff speaks Russian and English and will be happy to provide you with useful tourist information.",
-//                         img: futuro,
-//                         img1: futuro1,
-//                         img2: [futuro2, futuro3],
-//                         img3: [zeto4, zeto5, zeto6, zeto7],
-//                         address: "Udmurtskaia Street 13, 720000 Бишкек, Киргизия"
-//                     },
-//                 ]
-//             },
-//             {
-//                 id: 23,
-//                 name: "Leninsky district",
-//                 hotels: [
-//                     {
-//                         id: 231,
-//                         title: "Hotel Touristan Bishkek",
-//                         description1: "Featuring a bar, Touristan Bishkek is a 3-star hotel located in Bishkek. This 3-star hotel has a 24-hour front desk. Room service is available. Guests can visit the snack bar.",
-//                         description: "The 3-star My Karakol Hotel is located in Karakol. It offers a bar and barbecue facilities. This 3-star hotel offers room service, a 24-hour front desk and free Wi-Fi. The hotel has family rooms.\n" +
-//                             "\n" +
-//                             "Some rooms at the hotel have a private bathroom and mountain views.\n" +
-//                             "\n" +
-//                             "A buffet breakfast is served every morning, which includes continental and vegetarian dishes. My hotel Karakol has a restaurant serving local cuisine. Vegetarian, dairy-free and vegan dishes are also available.\n" +
-//                             "\n" +
-//                             "Guests of the hotel can enjoy various activities in Karakol and the surrounding area, including skiing and cycling.\n" +
-//                             "\n" +
-//                             "The nearest airport is Issyk-Kul International Airport, 172 km from My hotel Karakol.",
-//                         img: touristan,
-//                         img1: touristan1,
-//                         img2: [myHotel2, myHotel3],
-//                         img3: [myHotel4, myHotel5, myHotel6, myHotel7],
-//                         address: " 194 Bokonbayev Street 194 Bokonbayev Street, 720021 Бишкек, Киргизия ",
-//                         star: 3
-//                     },
-//                     {
-//                         id: 232,
-//                         title: "Garden Hotel & SPA",
-//                         description1: "Garden Spa Hotel is located in Bishkek. It features a bar, restaurant, a shared lounge and terrace. All rooms at the 4-star hotel offer city views.",
-//                         description: "A à la carte breakfast is served every morning at 78 Cafe Hotel.\n" +
-//
-//                             "Amenities include a terrace. Guests at 78 Cafe Hotel will be able to enjoy activities in and around Karakol, like skiing.\n" +
-//
-//                             "Jol Golot is 3.8 km from the hotel, while Maman is 5.1 km away. The nearest airport is Issyk-Kul International Airport, 174 km from 78 Cafe Hotel. An airport shuttle can be arranged for an extra fee.",
-//                         img: spa,
-//                         img1: spa1,
-//                         img2: [cafe2, cafe3],
-//                         img3: [cafe4, cafe5, cafe6, cafe7],
-//                         address: " Южная Магистраль пересекает ул. Баха. Эмилбека Айлчиева 61, 720047 Бишкек ",
-//                         star: 4
-//                     },
-//                     {
-//                         id: 233,
-//                         title: "Eva At Home - Bishkek",
-//                         description1: "Eva At Home - Bishkek is located in Bishkek. The reception is open 24 hours a day, free Wi-Fi is available throughout the property and there is an ATM in the building.",
-//                         description: "Each room at the hotel has a desk.\n" +
-//                             "\n" +
-//                             "A continental breakfast is served each morning at Muras Karakol Hotel.\n" +
-//                             "\n" +
-//                             "In Karakol and its surroundings, you can actively spend your leisure time, including skiing.\n" +
-//                             "\n" +
-//                             "The reception staff speaks English and Russian and is always happy to provide guests with useful tourist information.\n" +
-//                             "\n" +
-//                             "The nearest airport is Issyk-Kul International Airport, 168 km from Muras Hotel.",
-//                         img: eva,
-//                         img1: eva1,
-//                         img2: [eva2, muras3],
-//                         img3: [muras4, muras5, muras6, muras7],
-//                         address: " 262 Moskovskaya Street, 720010 Бишкек, Киргизия ",
-//                         star: 0
-//                     },
-//                 ]
-//             },
-//             {
-//                 id: 24,
-//                 name: "Oktyabrsky district",
-//                 hotels: [
-//                     {
-//                         id: 241,
-//                         title: "Hotel Resident Bishkek",
-//                         description1: "Located in Bishkek, Resident Bishkek 2021Opening Hotel offers 4-star accommodation with a terrace and a bar. This 4-star hotel offers a shared lounge, air conditioning, a private bathroom and free WiFi.",
-//                         description: "The 3-star My Karakol Hotel is located in Karakol. It offers a bar and barbecue facilities. This 3-star hotel offers room service, a 24-hour front desk and free Wi-Fi. The hotel has family rooms.\n" +
-//                             "\n" +
-//                             "Some rooms at the hotel have a private bathroom and mountain views.\n" +
-//                             "\n" +
-//                             "A buffet breakfast is served every morning, which includes continental and vegetarian dishes. My hotel Karakol has a restaurant serving local cuisine. Vegetarian, dairy-free and vegan dishes are also available.\n" +
-//                             "\n" +
-//                             "Guests of the hotel can enjoy various activities in Karakol and the surrounding area, including skiing and cycling.\n" +
-//                             "\n" +
-//                             "The nearest airport is Issyk-Kul International Airport, 172 km from My hotel Karakol.",
-//                         img: res,
-//                         img1: res1,
-//                         img2: [res2, myHotel3],
-//                         img3: [myHotel4, myHotel5, myHotel6, myHotel7],
-//                         address: " 102/4 Yunusaliev Avenue Юнусалиева 102/4 Джантошева, 720005 Бишкек, Киргизия ",
-//                         star: 4
-//                     },
-//                     {
-//                         id: 242,
-//                         title: "Garnet hotel",
-//                         description1: "Offering free WiFi, Garnet Apart Hotel is located in Bishkek. Free private parking is available on site.",
-//                         description: "A à la carte breakfast is served every morning at 78 Cafe Hotel.\n" +
-//
-//                             "Amenities include a terrace. Guests at 78 Cafe Hotel will be able to enjoy activities in and around Karakol, like skiing.\n" +
-//
-//                             "Jol Golot is 3.8 km from the hotel, while Maman is 5.1 km away. The nearest airport is Issyk-Kul International Airport, 174 km from 78 Cafe Hotel. An airport shuttle can be arranged for an extra fee.",
-//                         img: gra,
-//                         img1: gra,
-//                         img2: [cafe2, cafe3],
-//                         img3: [cafe4, cafe5, cafe6, cafe7],
-//                         address: "  Ulitsa Kulmurzayeva 318, 720082 Бишкек, Киргизия",
-//                         star: 0
-//                     },
-//                     {
-//                         id: 243,
-//                         title: "iO Hotel Bishkek",
-//                         description1: "The  IO Bishkek Hotel is  1-star hotel offers luggage storage space. The reception is open 24/7.   Free Wi-Fi is provided.",
-//                         description: "Each room at the hotel has a desk.\n" +
-//                             "\n" +
-//                             "A continental breakfast is served each morning at Muras Karakol Hotel.\n" +
-//                             "\n" +
-//                             "In Karakol and its surroundings, you can actively spend your leisure time, including skiing.\n" +
-//                             "\n" +
-//                             "The reception staff speaks English and Russian and is always happy to provide guests with useful tourist information.\n" +
-//                             "\n" +
-//                             "The nearest airport is Issyk-Kul International Airport, 168 km from Muras Hotel.",
-//                         img: io,
-//                         img1: eva1,
-//                         img2: [eva2, muras3],
-//                         img3: [muras4, muras5, muras6, muras7],
-//                         address: " 262 Moskovskaya Street, 720010 Бишкек, Киргизия ",
-//                         star: 0
-//                     },
-//                 ]
-//             },
-//         ]
-//     },
- //     {
-//         id: 3,
-//         region: "Chuy",
-//         districts: [
-//             {
-//                 id: 31,
-//                 name: "Alamudun district",
-//                 hotels: [
-//                     {
-//                         id: 311,
-//                         title: "Olive Ala Archa hotel",
-//                         description1: "Featuring a bar, restaurant, terrace, free WiFi and a children's playground, Olive Ala Archa is a 3-star hotel located in Verkhnyaya Ala-Archa. All rooms offer river views. ",
-//                         description: "The air-conditioned rooms are equipped with a flat-screen TV with cable channels. They include a seating area, a safety deposit box and a private bathroom with a shower, a hairdryer and free toiletries. A kettle is provided. Some rooms have a balcony, while others offer mountain views. Rooms at Lavitor Hotel are stocked with bed linen and towels.\n" +
-//                             "\n" +
-//                             "An à la carte, continental and vegetarian breakfast is served each morning.\n" +
-//                             "\n" +
-//                             "The area is popular for cycling and skiing. Car rental is available for guests.\n" +
-//                             "\n" +
-//                             "The property offers ironing facilities, free private parking, a business center and a 24-hour front desk.",
-//                         img: olive,
-//                         img1: olive1,
-//                         img2: [lavitor1, lavitor2],
-//                         img3: [lavitor3, lavitor5, lavitor6, lavitor4],
-//                         address: "  Дачное сообщество Наука 293, 724306 Verkhnyaya Alaarcha, Киргизия",
-//                         star: 3
-//                     },
-//                 ]
-//             },
-//             {
-//                 id: 32,
-//                 name: "Sverdlovsk district",
-//                 hotels: [
-//                     {
-//                         id: 321,
-//                         title: "GSupara Chunkurchak",
-//                         description1: "Supara Chunkurchak is located in Alamedin. It features a fitness centre, a garden, a terrace and a restaurant. Concierge services are offered to guests. There is a playground for children.",
-//                         description: "Featuring a garden and a bar, Golden Dragon Villa is a 3-star hotel located in Bishkek. This 3-star hotel offers a concierge service and luggage storage space. There is a 24-hour front desk. Airport transfers and room service are available. Free Wi-Fi is provided.\n" +
-//                             "\n" +
-//                             "All rooms at the hotel are equipped with a kettle. Other amenities include air conditioning, a wardrobe and a flat-screen TV. Some rooms at Golden Dragon Villa have a balcony. All rooms are stocked with towels and bed linen.\n" +
-//                             "\n" +
-//                             "Guests at the Golden Dragon Villa can enjoy a continental breakfast.",
-//                         img: supra,
-//                         img1: supra1,
-//                         img2: [supra3, supra2],
-//                         img3: [artek4, artek5, artek6, artek7],
-//                         address: " Gorge Chunkurchak, 720001 Alamedin, Киргизия  ",
-//                         star: 0
-//                     },
-//                     {
-//                         id: 322,
-//                         title: "Eco Resort Kara Bulak",
-//                         description1: " Eco-resort Kara Bulak is located in Alamedin. There is a bar on site. All rooms are equipped with a kitchenette, a private bathroom, a flat-screen TV with satellite channels, a terrace, free private parking and free Wi-Fi.",
-//                         description: " Located in Cholpon-Ata, Zaton Guest House features a garden. Free private parking is available on site. An airport shuttle can be arranged for an extra fee.\n" +
-//                             "\n" +
-//                             "Other amenities include a kettle. Rooms at the Zaton Guest House have a private bathroom with a shower and a hairdryer, and free Wi-Fi. Some rooms offer mountain views. All rooms are equipped with a flat-screen TV with satellite channels.\n" +
-//                             "\n" +
-//                             "A la carte, continental or vegan breakfast is served daily.\n" +
-//                             "\n" +
-//                             "The nearest airport is Issyk-Kul International Airport, 31 km from Zaton Guest House.",
-//                         img: eco,
-//                         img1: eco1,
-//                         img2: [zaton1, zaton2],
-//                         img3: [zaton3, zaton4, zaton5, zaton6],
-//                         address: " s. Arashan, urochische Tatyr, mestnosty Kara-Bulak, 720021 Alamedin, Киргизия ",
-//                         star: 0
-//                     },
-//                 ]
-//             },
-//
-//         ]
-//     },
- //     {
-//         id: 4,
-//         region: "Naryn",
-//         districts: [
-//             {
-//                 id: 41,
-//                 name: "Jumgal district",
-//                 hotels: [
-//                     {
-//                         id: 411,
-//                         title: "Yurt Camp Sary-Bulun",
-//                         description1: "Offering a bar, Yurt Camping Sary-Bulun is a 5-star hotel located in Song-Kul. This 5-star hotel has a 24-hour front desk. Room service is available. Those who wish can book family rooms.",
-//                         description: "The air-conditioned rooms are equipped with a flat-screen TV with cable channels. They include a seating area, a safety deposit box and a private bathroom with a shower, a hairdryer and free toiletries. A kettle is provided. Some rooms have a balcony, while others offer mountain views. Rooms at Lavitor Hotel are stocked with bed linen and towels.\n" +
-//                             "\n" +
-//                             "An à la carte, continental and vegetarian breakfast is served each morning.\n" +
-//                             "\n" +
-//                             "The area is popular for cycling and skiing. Car rental is available for guests.\n" +
-//                             "\n" +
-//                             "The property offers ironing facilities, free private parking, a business center and a 24-hour front desk.",
-//                         img: nar,
-//                         img1: nar1,
-//                         img2: [lavitor1, lavitor2],
-//                         img3: [lavitor3, lavitor5, lavitor6, lavitor4],
-//                         address: "  озеро Сон-Куль, 722506 Song-Kul, Киргизия",
-//                         star: 5
-//                     },
-//
-//                 ]
-//             },
-//             {
-//                 id: 42,
-//                 name: "Kochkor  district",
-//                 hotels: [
-//                     {
-//                         id: 421,
-//                         title: "Olive hotel Kochkor",
-//                         description1: "Olive Kochkor Hotel is located in Kochkor. This 3-star hotel offers free Wi-Fi and a tour desk. Organized delivery of food and drinks in the room. The hotel can book family rooms.",
-//                         description: "Featuring a garden and a bar, Golden Dragon Villa is a 3-star hotel located in Bishkek. This 3-star hotel offers a concierge service and luggage storage space. There is a 24-hour front desk. Airport transfers and room service are available. Free Wi-Fi is provided.\n" +
-//                             "\n" +
-//                             "All rooms at the hotel are equipped with a kettle. Other amenities include air conditioning, a wardrobe and a flat-screen TV. Some rooms at Golden Dragon Villa have a balcony. All rooms are stocked with towels and bed linen.\n" +
-//                             "\n" +
-//                             "Guests at the Golden Dragon Villa can enjoy a continental breakfast.",
-//                         img: kochkor,
-//                         img1: kochkor1,
-//                         img2: [supra3, supra2],
-//                         img3: [artek4, artek5, artek6, artek7],
-//                         address: " улица Сагынбая Орозбакова 77, 722800 Кочкор, Киргизия ",
-//                         star: 3
-//                     },
-//                 ]
-//             },
-//             {
-//                 id: 43,
-//                 name: "Naryn  district",
-//                 hotels: [
-//                     {
-//                         id: 431,
-//                         title: "Zheenkan 1",
-//                         description1: "Zhezenkan 1 Hotel is located in Naryn. Guests can relax in the shared lounge and enjoy free Wi-Fi throughout.",
-//                         description: "Featuring a garden and a bar, Golden Dragon Villa is a 3-star hotel located in Bishkek. This 3-star hotel offers a concierge service and luggage storage space. There is a 24-hour front desk. Airport transfers and room service are available. Free Wi-Fi is provided.\n" +
-//                             "\n" +
-//                             "All rooms at the hotel are equipped with a kettle. Other amenities include air conditioning, a wardrobe and a flat-screen TV. Some rooms at Golden Dragon Villa have a balcony. All rooms are stocked with towels and bed linen.\n" +
-//                             "\n" +
-//                             "Guests at the Golden Dragon Villa can enjoy a continental breakfast.",
-//                         img: zhen,
-//                         img1: zhen,
-//                         img2: [zhen1, supra2],
-//                         img3: [artek4, artek5, artek6, artek7],
-//                         address: "  Lenina 8, kv 8, 722915 Naryn, Киргизия – ",
-//                         star: 0
-//                     },
-//                     {
-//                         id: 432,
-//                         title: "Grand Khan tenry Naryn",
-//                         description1: "Hotel GRAND KHAN TENGRI 4 * is located in the city of Naryn. The complex has a restaurant, a 24-hour front desk and a shared kitchen. Free Wi-Fi is available throughout the property.",
-//                         description: "Featuring a garden and a bar, Golden Dragon Villa is a 3-star hotel located in Bishkek. This 3-star hotel offers a concierge service and luggage storage space. There is a 24-hour front desk. Airport transfers and room service are available. Free Wi-Fi is provided.\n" +
-//                             "\n" +
-//                             "All rooms at the hotel are equipped with a kettle. Other amenities include air conditioning, a wardrobe and a flat-screen TV. Some rooms at Golden Dragon Villa have a balcony. All rooms are stocked with towels and bed linen.\n" +
-//                             "\n" +
-//                             "Guests at the Golden Dragon Villa can enjoy a continental breakfast.",
-//                         img: khan,
-//                         img1: khan1,
-//                         img2: [khan2, supra2],
-//                         img3: [artek4, artek5, artek6, artek7],
-//                         address: "Асан Жусупов №2, 722600 Naryn, Киргизия ",
-//                         star: 4
-//                     },
-//                     {
-//                         id: 433,
-//                         title: "Aska Hotel",
-//                         description1: "Aska Hotel is located in Naryn. It features a bar, garden, terrace and free Wi-Fi. The hotel has family rooms.",
-//                         description: "Featuring a garden and a bar, Golden Dragon Villa is a 3-star hotel located in Bishkek. This 3-star hotel offers a concierge service and luggage storage space. There is a 24-hour front desk. Airport transfers and room service are available. Free Wi-Fi is provided.\n" +
-//                             "\n" +
-//                             "All rooms at the hotel are equipped with a kettle. Other amenities include air conditioning, a wardrobe and a flat-screen TV. Some rooms at Golden Dragon Villa have a balcony. All rooms are stocked with towels and bed linen.\n" +
-//                             "\n" +
-//                             "Guests at the Golden Dragon Villa can enjoy a continental breakfast.",
-//                         img: aska,
-//                         img1: aska1,
-//                         img2: [khan2, supra2],
-//                         img3: [artek4, artek5, artek6, artek7],
-//                         address: "Chiechieibaieva, dom 30a, 722917 Naryn, Киргизия  ",
-//                         star: 0
-//                     },
-//                 ]
-//             },
-//
-//         ]
-//     },
- //     {
-//         id: 5,
-//         region: "Jalal-Abad",
-//         districts: [
-//             {
-//                 id: 51,
-//                 name: "Aksy district",
-//                 hotels: [
-//                     {
-//                         id: 511,
-//                         title: "Guest House Sary-Chelek",
-//                         description1: "Sary-Chelek Guesthouse is located in Arkit and features a garden and a terrace. Guests can make use of the barbecue facilities and order room service. It offers a 24-hour front desk, a shared kitchen and a tour desk.",
-//                         description: "The air-conditioned rooms are equipped with a flat-screen TV with cable channels. They include a seating area, a safety deposit box and a private bathroom with a shower, a hairdryer and free toiletries. A kettle is provided. Some rooms have a balcony, while others offer mountain views. Rooms at Lavitor Hotel are stocked with bed linen and towels.\n" +
-//                             "\n" +
-//                             "An à la carte, continental and vegetarian breakfast is served each morning.\n" +
-//                             "\n" +
-//                             "The area is popular for cycling and skiing. Car rental is available for guests.\n" +
-//                             "\n" +
-//                             "The property offers ironing facilities, free private parking, a business center and a 24-hour front desk.",
-//                         img: sary,
-//                         img1: sary1,
-//                         img2: [sary2, sary3],
-//                         img3: [sary4, lavitor5, lavitor6, lavitor4],
-//                         address: " Doroga Do Zapovednika \"Sary-Chelek\", 720604 Arkit, Киргизия",
-//                         star: 0
-//                     },
-//                     {
-//                         id: 512,
-//                         title: "Everest2",
-//                         description1: "Featuring a garden, Эверест2 is located in Arkit. There is a terrace and guests can make use of free WiFi and free private parking.\n",
-//                         description: "The air-conditioned rooms are equipped with a flat-screen TV with cable channels. They include a seating area, a safety deposit box and a private bathroom with a shower, a hairdryer and free toiletries. A kettle is provided. Some rooms have a balcony, while others offer mountain views. Rooms at Lavitor Hotel are stocked with bed linen and towels.\n" +
-//                             "\n" +
-//                             "An à la carte, continental and vegetarian breakfast is served each morning.\n" +
-//                             "\n" +
-//                             "The area is popular for cycling and skiing. Car rental is available for guests.\n" +
-//                             "\n" +
-//                             "The property offers ironing facilities, free private parking, a business center and a 24-hour front desk.",
-//                         img: eve,
-//                         img1: eve,
-//                         img2: [eve1, sary3],
-//                         img3: [sary4, lavitor5, lavitor6, lavitor4],
-//                         address: " с.Аркит., 720604 Arkit, Киргизия",
-//                         star: 0
-//                     },
-//
-//                 ]
-//             },
-//             {
-//                 id: 52,
-//                 name: "Bazaar Korgon  district",
-//                 hotels: [
-//                     {
-//                         id: 521,
-//                         title: "Happy Family Guesthouse",
-//                         description1: "Happy Family Guesthouse is offering accommodation in Arslanbob. Guests can enjoy garden views.",
-//                         description: "Featuring a garden and a bar, Golden Dragon Villa is a 3-star hotel located in Bishkek. This 3-star hotel offers a concierge service and luggage storage space. There is a 24-hour front desk. Airport transfers and room service are available. Free Wi-Fi is provided.\n" +
-//                             "\n" +
-//                             "All rooms at the hotel are equipped with a kettle. Other amenities include air conditioning, a wardrobe and a flat-screen TV. Some rooms at Golden Dragon Villa have a balcony. All rooms are stocked with towels and bed linen.\n" +
-//                             "\n" +
-//                             "Guests at the Golden Dragon Villa can enjoy a continental breakfast.",
-//                         img: bob,
-//                         img1: bob1,
-//                         img2: [supra3, supra2],
-//                         img3: [artek4, artek5, artek6, artek7],
-//                         address: " asanov 3, 720801 Arslanbob, Киргизия ",
-//                         star: 0
-//                     },
-//                     {
-//                         id: 522,
-//                         title: "Friendship (guest house)*",
-//                         description1: "Located in Arslob (guest house), Friendship Guesthouse provides accommodation with free WiFi, air conditioning and access to a garden with a terrace.",
-//                         description: "Featuring a garden and a bar, Golden Dragon Villa is a 3-star hotel located in Bishkek. This 3-star hotel offers a concierge service and luggage storage space. There is a 24-hour front desk. Airport transfers and room service are available. Free Wi-Fi is provided.\n" +
-//                             "\n" +
-//                             "All rooms at the hotel are equipped with a kettle. Other amenities include air conditioning, a wardrobe and a flat-screen TV. Some rooms at Golden Dragon Villa have a balcony. All rooms are stocked with towels and bed linen.\n" +
-//                             "\n" +
-//                             "Guests at the Golden Dragon Villa can enjoy a continental breakfast.",
-//                         img: friend,
-//                         img1: friend,
-//                         img2: [friend1, supra2],
-//                         img3: [artek4, artek5, artek6, artek7],
-//                         address: " Arslanbob 37 Ул Арслонбоб 37, 720801 Arslanbob, Киргизия",
-//                         star: 0
-//                     },
-//                     {
-//                         id: 523,
-//                         title: "Guest House EtnoDom",
-//                         description1: "Located in Arslob (guest house), Friendship Guesthouse provides accommodation with free WiFi, air conditioning and access to a garden with a terrace.",
-//                         description: "Featuring a garden and a bar, Golden Dragon Villa is a 3-star hotel located in Bishkek. This 3-star hotel offers a concierge service and luggage storage space. There is a 24-hour front desk. Airport transfers and room service are available. Free Wi-Fi is provided.\n" +
-//                             "\n" +
-//                             "All rooms at the hotel are equipped with a kettle. Other amenities include air conditioning, a wardrobe and a flat-screen TV. Some rooms at Golden Dragon Villa have a balcony. All rooms are stocked with towels and bed linen.\n" +
-//                             "\n" +
-//                             "Guests at the Golden Dragon Villa can enjoy a continental breakfast.",
-//                         img: dom,
-//                         img1: dom,
-//                         img2: [dom1, supra2],
-//                         img3: [artek4, artek5, artek6, artek7],
-//                         address: " Ulitsa Reka Azimova 1/A, 720904 Джалал-Абад, Киргизия ",
-//                         star: 0
-//                     },
-//
-//                 ]
-//             },
-//         ]
-//     },
- //
- // ]
- **/
+
 export const hotels = [
     {
         name: "Pervomaisky district",
@@ -1239,9 +538,18 @@ export const hotels = [
         img: sheraton,
         img1: sheraton1,
         img2: [sheraton2, sheraton3],
-        img3: [sheraton4, sheraton5, sheraton6, sheraton7],
-        address: "https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A8029f2783553ef79e2067e2b480b882a0e81efc7912f99609836b2041f5cb309&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/place/Sheraton+Bishkek/@42.8747132,74.5888088,17.15z/data=!4m9!3m8!1s0x389ec9aaf5aeac87:0xd6524e116267d54a!5m2!4m1!1i2!8m2!3d42.874726!4d74.5907716!16s%2Fg%2F11h7jt_bny?entry=ttu",
+        img3: [
+            {id:"bfsdjsjkas",
+                one: sheraton4,},
+            {id:"lkaejknajk",
+                one: sheraton5,},
+            {id:"bbcnxmzas",
+                one: sheraton6,},
+            {id:"bfsksdnfkas",
+                one: sheraton7,}
+
+        ],
+        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor",
         star: 5
     },
     {
@@ -1257,9 +565,23 @@ export const hotels = [
         img: supra,
         img1: supra1,
         img2: [supra3, supra2],
-        img3: [artek4, artek5, artek6, artek7],
-        address: " https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3Afe50fb9e442b56e3325c9aae9e768eb43cf8b7d628914a4766d630d71da16c46&amp;width=455&amp;height=344&amp;lang=ru_RU ",
-        address2: "https://www.google.com/maps/place/Supara+Chunkurchak/@42.6303679,74.6187091,15.41z/data=!4m9!3m8!1s0x389949afb49ae1cb:0x901c9ddeac25168b!5m",
+        img3: [{
+            id:"bvjkks",
+            one:artek4
+        },
+            {
+                id:"bvsejkks",
+                one:artek5,
+            },
+            {
+                id:"wbvjkks",
+                one:artek6,
+            },
+            {
+                id:"bvjsekks",
+                one:artek7,
+            }],
+        address: "https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor",
         star: 0
     },
     {
@@ -1276,9 +598,23 @@ export const hotels = [
         img: khan,
         img1: khan1,
         img2: [khan2, supra2],
-        img3: [artek4, artek5, artek6, artek7],
-        address: "https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3Aaefdca0d3a590b71fa737f14e550a262357e481fdbf060afccee7946297b30d7&amp;width=455&amp;height=344&amp;lang=ru_RU ",
-        address2: "https://www.google.com/maps/place/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B8%D1%86%D0%B0+%22%D0%A5%D0%B0%D0%BD+%D0%A2%D0%B5%D0%BD%D0%B3%D1%80%D0%B8%22/@41.4223738,76.0238343,16.97z/data=!4m10!3m9!1s0x38906bb2899a27a5:0x1f0ffad3f11501e8!5m3!1s2023-08-01!4m1!1i2!8m2!3d41.4223438!4d76.025894!16s%2Fg%2F1pt_yllmh?entry=ttu",
+        img3: [{
+            id:"bvjsekks",
+            one:artek4
+        },
+            {
+                id:"bszdcvsejkks",
+                one:artek5,
+            },
+            {
+                id:"wbq2vjkks",
+                one:artek6,
+            },
+            {
+                id:"bvjf3sekks",
+                one:artek7,
+            }],
+        address: "https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor",
         star: 4
     },
     {
@@ -1298,9 +634,24 @@ export const hotels = [
         img: jannat0,
         img1: jannat,
         img2: [jannat1, jannat2],
-        img3: [jannat3, jannat4, jannat5, jannat6],
-        address: "  https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3Ad5097697425ab28ae098c51adc83066ff2c6e86aa9db62ab5f18e403b4ddbf62&amp;width=455&amp;height=344&amp;lang=ru_RU ",
-        address2: "https://www.google.com/maps/place/Jannat+Regency+Jalal+Abad/@40.9269314,72.9944982,17.3z/data=!4m10!3m9!1s0x38bd15cd5166d39b:0x9310807f5f0351ea!5m3!1s2023-08-01!4m1!1i2!8m2!3d40.9268302!4d72.9960403!16s%2Fg%2F11jn0fsktk?entry=ttu",
+        img3: [
+            {
+                id:"bvjkk42s",
+                one:jannat3
+            },
+            {
+                id:"bvsejf7kks",
+                one:jannat4,
+            },
+            {
+                id:"wbvj3rkks",
+                one:jannat5,
+            },
+            {
+                id:"bvjs56ekks",
+                one:jannat6,
+            }],
+        address: "https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
         star: 5
     },
     {
@@ -1316,9 +667,23 @@ export const hotels = [
         img: damas,
         img1: damas1,
         img2: [damas2, damas3],
-        img3: [damas4, damas5, damas6, damas7],
-        address: "https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3Aeedd1868c4e365d9c88db4f9fcca41c29163bf66bf83f21ad3a0e6b7a88a8cdb&amp;width=455&amp;height=344&amp;lang=ru_RU ",
-        address2: "",
+        img3: [{
+            id:"bvjkweks",
+            one:damas4
+        },
+            {
+                id:"bvse3rdjkks",
+                one:damas5,
+            },
+            {
+                id:"wenvbvjkks",
+                one:damas6,
+            },
+            {
+                id:"bvjsek75ks",
+                one:damas7,
+            }],
+        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
         star: 5
     },
     {
@@ -1335,9 +700,24 @@ export const hotels = [
         img: spa,
         img1: spa1,
         img2: [cafe2, cafe3],
-        img3: [cafe4, cafe5, cafe6, cafe7],
-        address: " https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A409235512f47a387b0582c4883cb0f0b912f1ef05d4f10a869c541149b850f52&amp;width=455&amp;height=344&amp;lang=ru_RU ",
-        address2: "https://www.google.com/maps/search/Garden+Hotel+%26+SPA/@42.8264776,74.5437255,14z/data=!4m4!2m3!5m2!5m1!1s2023-08-01?entry=ttu",
+        img3: [
+            {
+                id:"cs4bvjkks",
+                one:cafe4
+            },
+            {
+                id:"bvsejk53ks",
+                one:cafe5,
+            },
+            {
+                id:"wbvj3kks",
+                one:cafe6,
+            },
+            {
+                id:"bvjsekksfg",
+                one:cafe7,
+            }],
+        address: "https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor",
         star: 4
     },
     {
@@ -1357,9 +737,24 @@ export const hotels = [
         img: muras,
         img1: muras1,
         img2: [muras2, muras3],
-        img3: [muras4, muras5, muras6, muras7],
-        address: " https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A409235512f47a387b0582c4883cb0f0b912f1ef05d4f10a869c541149b850f52&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/place/Muras+Hotel+Karakol/@42.504272,78.3928871,17z/data=!4m9!3m8!1s0x38865c115e7fd741:0xe84eae5099ea994d!5m2!4m1!1i2!8m2!3d42.5042641!4d78.3945072!16s%2Fg%2F11plqg7jmx?entry=ttu",
+        img3: [{
+            id:"bvjkks",
+            one:muras4
+        },
+            {
+                id:"bvsejkks",
+                one:muras5,
+            },
+            {
+                id:"wbvjkks",
+                one:muras6,
+            },
+            {
+                id:"bvjsekks",
+                one:muras7,
+            }
+        ],
+        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor",
         star: 0
     },
     {
@@ -1378,9 +773,24 @@ export const hotels = [
         img: sary,
         img1: sary1,
         img2: [sary2, sary3],
-        img3: [sary4, lavitor5, lavitor6, lavitor4],
-        address: " https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A409235512f47a387b0582c4883cb0f0b912f1ef05d4f10a869c541149b850f52&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/search/Guest+House+Sary-Chelek/@41.8637931,71.9677203,14.43z?entry=ttu",
+        img3: [
+            {
+                id:"bvjkks",
+                one:sary4
+            },
+            {
+                id:"bvsejkks",
+                one:lavitor5,
+            },
+            {
+                id:"wbvjkks",
+                one:lavitor6,
+            },
+            {
+                id:"bvjsekks",
+                one:lavitor3,
+            }],
+        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
         star: 0
     },
     {
@@ -1399,9 +809,24 @@ export const hotels = [
         img: eve,
         img1: eve,
         img2: [eve1, sary3],
-        img3: [sary4, lavitor5, lavitor6, lavitor4],
-        address: " https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A409235512f47a387b0582c4883cb0f0b912f1ef05d4f10a869c541149b850f52&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/search/Guest+House+Sary-Chelek/@41.8637931,71.9677203,14.43z?entry=ttu",
+        img3: [
+            {
+                id:"bvjkks",
+                one:sary4
+            },
+            {
+                id:"bvsejkks",
+                one:lavitor5,
+            },
+            {
+                id:"wbvjkks",
+                one:lavitor6,
+            },
+            {
+                id:"bvjsekks",
+                one:lavitor3,
+            }],
+        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor",
         star: 0
     },
     {
@@ -1418,15 +843,29 @@ export const hotels = [
         img: zhen,
         img1: zhen,
         img2: [zhen1, supra2],
-        img3: [artek4, artek5, artek6, artek7],
-        address: " https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A409235512f47a387b0582c4883cb0f0b912f1ef05d4f10a869c541149b850f52&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/place/Zheenkan+1/@41.4279806,75.9913941,18.07z/data=!4m9!3m8!1s0x38906962841abed1:0x6606f52e415424af!5m2!4m1!1i2!8m2!3d41.4281159!4d75.9923458!16s%2Fg%2F11gfny6j13?entry=ttu",
+        img3: [{
+            id:"bvjsekks",
+            one:artek4
+        },
+            {
+                id:"bszdcvsejkks",
+                one:artek5,
+            },
+            {
+                id:"wbq2vjkks",
+                one:artek6,
+            },
+            {
+                id:"bvjf3sekks",
+                one:artek7,
+            }],
+        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor"  ,
         star: 0
     },
     {
         name: "Naryn  district",
 
-        id: 433,
+        id: 437,
         title: "Aska Hotel",
         description1: "Aska Hotel is located in Naryn. It features a bar, garden, terrace and free Wi-Fi. The hotel has family rooms.",
         description: "Featuring a garden and a bar, Golden Dragon Villa is a 3-star hotel located in Bishkek. This 3-star hotel offers a concierge service and luggage storage space. There is a 24-hour front desk. Airport transfers and room service are available. Free Wi-Fi is provided.\n" +
@@ -1437,9 +876,23 @@ export const hotels = [
         img: aska,
         img1: aska1,
         img2: [khan2, supra2],
-        img3: [artek4, artek5, artek6, artek7],
-        address: "https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A8029f2783553ef79e2067e2b480b882a0e81efc7912f99609836b2041f5cb309&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/place/Sheraton+Bishkek/@42.8747132,74.5888088,17.15z/data=!4m9!3m8!1s0x389ec9aaf5aeac87:0xd6524e116267d54a!5m2!4m1!1i2!8m2!3d42.874726!4d74.5907716!16s%2Fg%2F11h7jt_bny?entry=ttu",
+        img3: [{
+            id:"bvjsekks",
+            one:artek4
+        },
+            {
+                id:"bszdcvsejkks",
+                one:artek5,
+            },
+            {
+                id:"wbq2vjkks",
+                one:artek6,
+            },
+            {
+                id:"bvjf3sekks",
+                one:artek7,
+            }],
+        address: "https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
         star: 0
     },
     {
@@ -1455,9 +908,23 @@ export const hotels = [
         img: kochkor,
         img1: kochkor1,
         img2: [supra3, supra2],
-        img3: [artek4, artek5, artek6, artek7],
-        address: "https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A8029f2783553ef79e2067e2b480b882a0e81efc7912f99609836b2041f5cb309&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/place/Sheraton+Bishkek/@42.8747132,74.5888088,17.15z/data=!4m9!3m8!1s0x389ec9aaf5aeac87:0xd6524e116267d54a!5m2!4m1!1i2!8m2!3d42.874726!4d74.5907716!16s%2Fg%2F11h7jt_bny?entry=ttu",
+        img3: [{
+            id:"bvjsekks",
+            one:artek4
+        },
+            {
+                id:"bszdcvsejkks",
+                one:artek5,
+            },
+            {
+                id:"wbq2vjkks",
+                one:artek6,
+            },
+            {
+                id:"bvjf3sekks",
+                one:artek7,
+            }],
+        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor"  ,
         star: 3
     },
     {
@@ -1475,9 +942,24 @@ export const hotels = [
         img: nar,
         img1: nar1,
         img2: [lavitor1, lavitor2],
-        img3: [lavitor3, lavitor5, lavitor6, lavitor4],
-        address: "https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A8029f2783553ef79e2067e2b480b882a0e81efc7912f99609836b2041f5cb309&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/place/Sheraton+Bishkek/@42.8747132,74.5888088,17.15z/data=!4m9!3m8!1s0x389ec9aaf5aeac87:0xd6524e116267d54a!5m2!4m1!1i2!8m2!3d42.874726!4d74.5907716!16s%2Fg%2F11h7jt_bny?entry=ttu",
+        img3: [
+            {
+                id:"bvjsdfekks",
+                one:lavitor3
+            },
+            {
+                id:"bszdkks",
+                one:lavitor5,
+            },
+            {
+                id:"wbq2vdsfgs",
+                one:lavitor6,
+            },
+            {
+                id:"bvjssekks",
+                one:lavitor4,
+            }],
+        address: "https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
         star: 5
     },
     {
@@ -1495,9 +977,23 @@ export const hotels = [
         img: eco,
         img1: eco1,
         img2: [zaton1, zaton2],
-        img3: [zaton3, zaton4, zaton5, zaton6],
-        address: "https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A8029f2783553ef79e2067e2b480b882a0e81efc7912f99609836b2041f5cb309&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/place/Sheraton+Bishkek/@42.8747132,74.5888088,17.15z/data=!4m9!3m8!1s0x389ec9aaf5aeac87:0xd6524e116267d54a!5m2!4m1!1i2!8m2!3d42.874726!4d74.5907716!16s%2Fg%2F11h7jt_bny?entry=ttu",
+        img3: [{
+            id:"bvjssdfekks",
+            one:zaton3
+        },
+            {
+                id:"bdcvsejkks",
+                one:zaton4,
+            },
+            {
+                id:"wbd2vjkks",
+                one:zaton5,
+            },
+            {
+                id:"bdff3sekks",
+                one:zaton6,
+            }],
+        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor"  ,
         star: 0
     },
     {
@@ -1516,9 +1012,24 @@ export const hotels = [
         img: olive,
         img1: olive1,
         img2: [lavitor1, lavitor2],
-        img3: [lavitor3, lavitor5, lavitor6, lavitor4],
-        address: "https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A8029f2783553ef79e2067e2b480b882a0e81efc7912f99609836b2041f5cb309&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/place/Sheraton+Bishkek/@42.8747132,74.5888088,17.15z/data=!4m9!3m8!1s0x389ec9aaf5aeac87:0xd6524e116267d54a!5m2!4m1!1i2!8m2!3d42.874726!4d74.5907716!16s%2Fg%2F11h7jt_bny?entry=ttu",
+        img3: [
+            {
+                id:"bvjsdfekks",
+                one:lavitor3
+            },
+            {
+                id:"bszdkks",
+                one:lavitor5,
+            },
+            {
+                id:"wbq2vdsfgs",
+                one:lavitor6,
+            },
+            {
+                id:"bvjssekks",
+                one:lavitor4,
+            }],
+        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor"  ,
         star: 3
     },
     {
@@ -1539,9 +1050,24 @@ export const hotels = [
         img: res,
         img1: res1,
         img2: [res2, myHotel3],
-        img3: [myHotel4, myHotel5, myHotel6, myHotel7],
-        address: "https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A8029f2783553ef79e2067e2b480b882a0e81efc7912f99609836b2041f5cb309&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/place/Sheraton+Bishkek/@42.8747132,74.5888088,17.15z/data=!4m9!3m8!1s0x389ec9aaf5aeac87:0xd6524e116267d54a!5m2!4m1!1i2!8m2!3d42.874726!4d74.5907716!16s%2Fg%2F11h7jt_bny?entry=ttu",
+        img3: [
+            {
+                id:"bvjsdsfekks",
+                one:myHotel4
+            },
+            {
+                id:"bszdwekks",
+                one:myHotel5,
+            },
+            {
+                id:"wbq2vfgs",
+                one:myHotel6,
+            },
+            {
+                id:"bvjsmerks",
+                one:myHotel7,
+            }],
+        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
         star: 4
     },
     {
@@ -1558,9 +1084,24 @@ export const hotels = [
         img: gra,
         img1: gra,
         img2: [cafe2, cafe3],
-        img3: [cafe4, cafe5, cafe6, cafe7],
-        address: "https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A8029f2783553ef79e2067e2b480b882a0e81efc7912f99609836b2041f5cb309&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/place/Sheraton+Bishkek/@42.8747132,74.5888088,17.15z/data=!4m9!3m8!1s0x389ec9aaf5aeac87:0xd6524e116267d54a!5m2!4m1!1i2!8m2!3d42.874726!4d74.5907716!16s%2Fg%2F11h7jt_bny?entry=ttu",
+        img3: [
+            {
+                id:"bvjsdsfekks",
+                one:myHotel4
+            },
+            {
+                id:"bszdwekks",
+                one:myHotel5,
+            },
+            {
+                id:"wbq2vfgs",
+                one:myHotel6,
+            },
+            {
+                id:"bvjsmerks",
+                one:myHotel7,
+            }],
+        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
         star: 0
 
     },
@@ -1582,9 +1123,24 @@ export const hotels = [
         img: io,
         img1: eva1,
         img2: [eva2, muras3],
-        img3: [muras4, muras5, muras6, muras7],
-        address: "https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A8029f2783553ef79e2067e2b480b882a0e81efc7912f99609836b2041f5cb309&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/place/Sheraton+Bishkek/@42.8747132,74.5888088,17.15z/data=!4m9!3m8!1s0x389ec9aaf5aeac87:0xd6524e116267d54a!5m2!4m1!1i2!8m2!3d42.874726!4d74.5907716!16s%2Fg%2F11h7jt_bny?entry=ttu",
+        img3: [
+            {
+                id:"bvjsdsfekks",
+                one:myHotel4
+            },
+            {
+                id:"bszdwekks",
+                one:myHotel5,
+            },
+            {
+                id:"wbq2vfgs",
+                one:myHotel6,
+            },
+            {
+                id:"bvjsmerks",
+                one:myHotel7,
+            }],
+        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor",
         star: 0
     },
     {
@@ -1605,9 +1161,24 @@ export const hotels = [
         img: touristan,
         img1: touristan1,
         img2: [myHotel2, myHotel3],
-        img3: [myHotel4, myHotel5, myHotel6, myHotel7],
-        address: "https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A8029f2783553ef79e2067e2b480b882a0e81efc7912f99609836b2041f5cb309&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/place/Sheraton+Bishkek/@42.8747132,74.5888088,17.15z/data=!4m9!3m8!1s0x389ec9aaf5aeac87:0xd6524e116267d54a!5m2!4m1!1i2!8m2!3d42.874726!4d74.5907716!16s%2Fg%2F11h7jt_bny?entry=ttu",
+        img3: [
+            {
+                id:"bvjsdsfekks",
+                one:myHotel4
+            },
+            {
+                id:"bszdwekks",
+                one:myHotel5,
+            },
+            {
+                id:"wbq2vfgs",
+                one:myHotel6,
+            },
+            {
+                id:"bvjsmerks",
+                one:myHotel7,
+            }],
+        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor",
         star: 3
     },
 
@@ -1629,9 +1200,24 @@ export const hotels = [
         img: eva,
         img1: eva1,
         img2: [eva2, muras3],
-        img3: [muras4, muras5, muras6, muras7],
-        address: "https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A8029f2783553ef79e2067e2b480b882a0e81efc7912f99609836b2041f5cb309&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/place/Sheraton+Bishkek/@42.8747132,74.5888088,17.15z/data=!4m9!3m8!1s0x389ec9aaf5aeac87:0xd6524e116267d54a!5m2!4m1!1i2!8m2!3d42.874726!4d74.5907716!16s%2Fg%2F11h7jt_bny?entry=ttu",
+        img3: [
+            {
+                id:"bvjsdsfekks",
+                one:myHotel4
+            },
+            {
+                id:"bszdwekks",
+                one:myHotel5,
+            },
+            {
+                id:"wbq2vfgs",
+                one:myHotel6,
+            },
+            {
+                id:"bvjsmerks",
+                one:myHotel7,
+            }],
+        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor",
         star: 0
     },
     {
@@ -1645,9 +1231,24 @@ export const hotels = [
         img: royal1,
         img1: royal,
         img2: [royal2, royal3],
-        img3: [royal4, royal5, royal6, royal7],
-        address: "https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A8029f2783553ef79e2067e2b480b882a0e81efc7912f99609836b2041f5cb309&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/place/Sheraton+Bishkek/@42.8747132,74.5888088,17.15z/data=!4m9!3m8!1s0x389ec9aaf5aeac87:0xd6524e116267d54a!5m2!4m1!1i2!8m2!3d42.874726!4d74.5907716!16s%2Fg%2F11h7jt_bny?entry=ttu",
+        img3: [
+            {
+                id:"bvjsfekks",
+                one:royal4
+            },
+            {
+                id:"bszdskks",
+                one:royal5,
+            },
+            {
+                id:"wbq2vfwegs",
+                one:royal6,
+            },
+            {
+                id:"bsgrsmerks",
+                one:royal7,
+            }],
+        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor",
         star: 0
     },
     {
@@ -1659,9 +1260,23 @@ export const hotels = [
         img: artek,
         img1: artek1,
         img2: [artek2, artek3],
-        img3: [artek4, artek5, artek6, artek7],
-        address: "https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A8029f2783553ef79e2067e2b480b882a0e81efc7912f99609836b2041f5cb309&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/place/Sheraton+Bishkek/@42.8747132,74.5888088,17.15z/data=!4m9!3m8!1s0x389ec9aaf5aeac87:0xd6524e116267d54a!5m2!4m1!1i2!8m2!3d42.874726!4d74.5907716!16s%2Fg%2F11h7jt_bny?entry=ttu",
+        img3: [{
+            id:"bvjkks",
+            one:artek4
+        },
+            {
+                id:"bvsejkks",
+                one:artek5,
+            },
+            {
+                id:"wbvjkks",
+                one:artek6,
+            },
+            {
+                id:"bvjsekks",
+                one:artek7,
+            }],
+        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor",
         star: 0
     },
     {
@@ -1675,9 +1290,23 @@ export const hotels = [
         img: hotel,
         img1: hotel,
         img2: [hotel1, hotel2],
-        img3: [hotel3, hotel4, hotel5, hotel6],
-        address: "https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A8029f2783553ef79e2067e2b480b882a0e81efc7912f99609836b2041f5cb309&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/place/Sheraton+Bishkek/@42.8747132,74.5888088,17.15z/data=!4m9!3m8!1s0x389ec9aaf5aeac87:0xd6524e116267d54a!5m2!4m1!1i2!8m2!3d42.874726!4d74.5907716!16s%2Fg%2F11h7jt_bny?entry=ttu",
+        img3: [{
+            id:"eajkks",
+            one:hotel3
+        },
+            {
+                id:"bvsejkdf",
+                one:hotel5,
+            },
+            {
+                id:"wbvjawekks",
+                one:hotel6,
+            },
+            {
+                id:"bvjsekks",
+                one:hotel4,
+            }],
+        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor",
         star: 0
     },
     {
@@ -1697,9 +1326,23 @@ export const hotels = [
         img: olimp,
         img1: olimp,
         img2: [olimp1, olimp2],
-        img3: [olimp3, olimp4, olimp5, olimp6],
-        address: "https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A8029f2783553ef79e2067e2b480b882a0e81efc7912f99609836b2041f5cb309&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/place/Sheraton+Bishkek/@42.8747132,74.5888088,17.15z/data=!4m9!3m8!1s0x389ec9aaf5aeac87:0xd6524e116267d54a!5m2!4m1!1i2!8m2!3d42.874726!4d74.5907716!16s%2Fg%2F11h7jt_bny?entry=ttu",
+        img3: [{
+            id:"bvjkks",
+            one:olimp3
+        },
+            {
+                id:"bvsqejkks",
+                one:olimp4,
+            },
+            {
+                id:"wbvejkks",
+                one:olimp5,
+            },
+            {
+                id:"bvjseskks",
+                one:olimp6,
+            }],
+        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
         star: 3
     },
     {
@@ -1717,9 +1360,23 @@ export const hotels = [
         img: zaton,
         img1: zaton,
         img2: [zaton1, zaton2],
-        img3: [zaton3, zaton4, zaton5, zaton6],
-        address: "https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A8029f2783553ef79e2067e2b480b882a0e81efc7912f99609836b2041f5cb309&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/place/Sheraton+Bishkek/@42.8747132,74.5888088,17.15z/data=!4m9!3m8!1s0x389ec9aaf5aeac87:0xd6524e116267d54a!5m2!4m1!1i2!8m2!3d42.874726!4d74.5907716!16s%2Fg%2F11h7jt_bny?entry=ttu",
+        img3: [{
+            id:"bvjkaks",
+            one:zaton3
+        },
+            {
+                id:"wvsejkks",
+                one:zaton4,
+            },
+            {
+                id:"wbvjekks",
+                one:zaton5,
+            },
+            {
+                id:"bvjswekks",
+                one:zaton6,
+            }],
+        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
         star: 0
     },
     {
@@ -1735,9 +1392,23 @@ export const hotels = [
         img: zeto,
         img1: zeto1,
         img2: [zeto2, zeto3],
-        img3: [zeto4, zeto5, zeto6, zeto7],
-        address: "https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A8029f2783553ef79e2067e2b480b882a0e81efc7912f99609836b2041f5cb309&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/place/Sheraton+Bishkek/@42.8747132,74.5888088,17.15z/data=!4m9!3m8!1s0x389ec9aaf5aeac87:0xd6524e116267d54a!5m2!4m1!1i2!8m2!3d42.874726!4d74.5907716!16s%2Fg%2F11h7jt_bny?entry=ttu",
+        img3: [{
+            id:"bvjkks",
+            one:zeto4
+        },
+            {
+                id:"bvsejkks",
+                one:zeto5,
+            },
+            {
+                id:"wbvjkks",
+                one:zeto6,
+            },
+            {
+                id:"bvjsekks",
+                one:zeto7,
+            }],
+        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
         star: 0
 
     },
@@ -1758,9 +1429,23 @@ export const hotels = [
         img: myHotel,
         img1: myHotel1,
         img2: [myHotel2, myHotel3],
-        img3: [myHotel4, myHotel5, myHotel6, myHotel7],
-        address: "https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A8029f2783553ef79e2067e2b480b882a0e81efc7912f99609836b2041f5cb309&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/place/Sheraton+Bishkek/@42.8747132,74.5888088,17.15z/data=!4m9!3m8!1s0x389ec9aaf5aeac87:0xd6524e116267d54a!5m2!4m1!1i2!8m2!3d42.874726!4d74.5907716!16s%2Fg%2F11h7jt_bny?entry=ttu",
+        img3: [{
+            id:"bvjkks",
+            one:myHotel4
+        },
+            {
+                id:"bvsejkks",
+                one:myHotel5,
+            },
+            {
+                id:"wbvjkks",
+                one:myHotel6,
+            },
+            {
+                id:"bvjsekks",
+                one:myHotel7,
+            }],
+        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
         star: 3
     },
     {
@@ -1776,31 +1461,23 @@ export const hotels = [
         img: cafe,
         img1: cafe1,
         img2: [cafe2, cafe3],
-        img3: [cafe4, cafe5, cafe6, cafe7],
-        address: "https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A8029f2783553ef79e2067e2b480b882a0e81efc7912f99609836b2041f5cb309&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/place/Sheraton+Bishkek/@42.8747132,74.5888088,17.15z/data=!4m9!3m8!1s0x389ec9aaf5aeac87:0xd6524e116267d54a!5m2!4m1!1i2!8m2!3d42.874726!4d74.5907716!16s%2Fg%2F11h7jt_bny?entry=ttu",
-        star: 0
-    },
-    {
-        name: "Kara-Kol city",
-        id: 133,
-        title: "Muras Hotel Karakol",
-        description1: "Located in Karakol, Muras Karakol Hotel features a shared lounge. At the property you will find a shared kitchen and a terrace. Free private parking is available on site. An airport shuttle service can be arranged for an extra charge",
-        description: "Each room at the hotel has a desk.\n" +
-            "\n" +
-            "A continental breakfast is served each morning at Muras Karakol Hotel.\n" +
-            "\n" +
-            "In Karakol and its surroundings, you can actively spend your leisure time, including skiing.\n" +
-            "\n" +
-            "The reception staff speaks English and Russian and is always happy to provide guests with useful tourist information.\n" +
-            "\n" +
-            "The nearest airport is Issyk-Kul International Airport, 168 km from Muras Hotel.",
-        img: muras,
-        img1: muras1,
-        img2: [muras2, muras3],
-        img3: [muras4, muras5, muras6, muras7],
-        address: "https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A8029f2783553ef79e2067e2b480b882a0e81efc7912f99609836b2041f5cb309&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/place/Sheraton+Bishkek/@42.8747132,74.5888088,17.15z/data=!4m9!3m8!1s0x389ec9aaf5aeac87:0xd6524e116267d54a!5m2!4m1!1i2!8m2!3d42.874726!4d74.5907716!16s%2Fg%2F11h7jt_bny?entry=ttu",
+        img3: [{
+            id:"bvjkks",
+            one:cafe4
+        },
+            {
+                id:"bvsejkks",
+                one:cafe5,
+            },
+            {
+                id:"wbvjkks",
+                one:cafe6,
+            },
+            {
+                id:"bvjsekks",
+                one:cafe7,
+            }],
+        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
         star: 0
     },
     {
@@ -1818,9 +1495,23 @@ export const hotels = [
         img: lavitor,
         img1: lavitor,
         img2: [lavitor1, lavitor2],
-        img3: [lavitor3, lavitor5, lavitor6, lavitor4],
-        address: "https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A8029f2783553ef79e2067e2b480b882a0e81efc7912f99609836b2041f5cb309&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/place/Sheraton+Bishkek/@42.8747132,74.5888088,17.15z/data=!4m9!3m8!1s0x389ec9aaf5aeac87:0xd6524e116267d54a!5m2!4m1!1i2!8m2!3d42.874726!4d74.5907716!16s%2Fg%2F11h7jt_bny?entry=ttu",
+        img3: [{
+            id:"bvjkks",
+            one:lavitor3
+        },
+            {
+                id:"bvsejkks",
+                one:lavitor4,
+            },
+            {
+                id:"wbvjkks",
+                one:lavitor5,
+            },
+            {
+                id:"bvjsekks",
+                one:lavitor6,
+            }],
+        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
         star: 0
     },
     {
@@ -1836,9 +1527,23 @@ export const hotels = [
         img: golden,
         img1: golden,
         img2: [artek2, artek3],
-        img3: [artek4, artek5, artek6, artek7],
-        address: "https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A8029f2783553ef79e2067e2b480b882a0e81efc7912f99609836b2041f5cb309&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/place/Sheraton+Bishkek/@42.8747132,74.5888088,17.15z/data=!4m9!3m8!1s0x389ec9aaf5aeac87:0xd6524e116267d54a!5m2!4m1!1i2!8m2!3d42.874726!4d74.5907716!16s%2Fg%2F11h7jt_bny?entry=ttu",
+        img3: [{
+            id:"bvjkks",
+            one:artek4
+        },
+            {
+                id:"bvsejkks",
+                one:artek5,
+            },
+            {
+                id:"wbvjkks",
+                one:artek6,
+            },
+            {
+                id:"bvjsekks",
+                one:artek7,
+            }],
+        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
         star: 0
     },
     {
@@ -1855,9 +1560,23 @@ export const hotels = [
         img: bob,
         img1: bob1,
         img2: [supra3, supra2],
-        img3: [artek4, artek5, artek6, artek7],
-        address: "https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A8029f2783553ef79e2067e2b480b882a0e81efc7912f99609836b2041f5cb309&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/place/Sheraton+Bishkek/@42.8747132,74.5888088,17.15z/data=!4m9!3m8!1s0x389ec9aaf5aeac87:0xd6524e116267d54a!5m2!4m1!1i2!8m2!3d42.874726!4d74.5907716!16s%2Fg%2F11h7jt_bny?entry=ttu",
+        img3: [{
+            id:"bvjkks",
+            one:artek4
+        },
+            {
+                id:"bvsejkks",
+                one:artek5,
+            },
+            {
+                id:"wbvjkks",
+                one:artek6,
+            },
+            {
+                id:"bvjsekks",
+                one:artek7,
+            }],
+        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
         star: 0
     },
     {
@@ -1874,9 +1593,23 @@ export const hotels = [
         img: friend,
         img1: friend,
         img2: [friend1, supra2],
-        img3: [artek4, artek5, artek6, artek7],
-        address: "https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A8029f2783553ef79e2067e2b480b882a0e81efc7912f99609836b2041f5cb309&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/place/Sheraton+Bishkek/@42.8747132,74.5888088,17.15z/data=!4m9!3m8!1s0x389ec9aaf5aeac87:0xd6524e116267d54a!5m2!4m1!1i2!8m2!3d42.874726!4d74.5907716!16s%2Fg%2F11h7jt_bny?entry=ttu",
+        img3: [{
+            id:"bvjkks",
+            one:artek4
+        },
+            {
+                id:"bvsejkks",
+                one:artek5,
+            },
+            {
+                id:"wbvjkks",
+                one:artek6,
+            },
+            {
+                id:"bvjsekks",
+                one:artek7,
+            }],
+        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
         star: 0
     },
     {
@@ -1893,9 +1626,23 @@ export const hotels = [
         img: dom,
         img1: dom,
         img2: [dom1, supra2],
-        img3: [artek4, artek5, artek6, artek7],
-        address: "https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A8029f2783553ef79e2067e2b480b882a0e81efc7912f99609836b2041f5cb309&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/place/Sheraton+Bishkek/@42.8747132,74.5888088,17.15z/data=!4m9!3m8!1s0x389ec9aaf5aeac87:0xd6524e116267d54a!5m2!4m1!1i2!8m2!3d42.874726!4d74.5907716!16s%2Fg%2F11h7jt_bny?entry=ttu",
+        img3: [{
+            id:"bvjkks",
+            one:artek4
+        },
+            {
+                id:"bvsejkks",
+                one:artek5,
+            },
+            {
+                id:"wbvjkks",
+                one:artek6,
+            },
+            {
+                id:"bvjsekks",
+                one:artek7,
+            }],
+        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
         star: 0
     },
     {
@@ -1915,9 +1662,23 @@ export const hotels = [
         img: mar,
         img1: mar1,
         img2: [mar2, mar3],
-        img3: [mar4, mar5, mar6, mar7],
-        address: "https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A8029f2783553ef79e2067e2b480b882a0e81efc7912f99609836b2041f5cb309&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/place/Sheraton+Bishkek/@42.8747132,74.5888088,17.15z/data=!4m9!3m8!1s0x389ec9aaf5aeac87:0xd6524e116267d54a!5m2!4m1!1i2!8m2!3d42.874726!4d74.5907716!16s%2Fg%2F11h7jt_bny?entry=ttu",
+        img3: [{
+            id:"bvjkks",
+            one:mar4
+        },
+            {
+                id:"bvsejkks",
+                one:mar5,
+            },
+            {
+                id:"wbvjkks",
+                one:mar6,
+            },
+            {
+                id:"bvjsekks",
+                one:mar7,
+            }],
+        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
         star: 4
     },
     {
@@ -1935,9 +1696,23 @@ export const hotels = [
         img: lamrc,
         img1: lamrc,
         img2: [zaton1, zaton2],
-        img3: [zaton3, zaton4, zaton5, zaton6],
-        address: "https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A8029f2783553ef79e2067e2b480b882a0e81efc7912f99609836b2041f5cb309&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/place/Sheraton+Bishkek/@42.8747132,74.5888088,17.15z/data=!4m9!3m8!1s0x389ec9aaf5aeac87:0xd6524e116267d54a!5m2!4m1!1i2!8m2!3d42.874726!4d74.5907716!16s%2Fg%2F11h7jt_bny?entry=ttu",
+        img3: [{
+            id:"bvjkks",
+            one:artek4
+        },
+            {
+                id:"bvsejkks",
+                one:artek5,
+            },
+            {
+                id:"wbvjkks",
+                one:artek6,
+            },
+            {
+                id:"bvjsekks",
+                one:artek7,
+            }],
+        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
         star: 0
     },
     {
@@ -1953,9 +1728,62 @@ export const hotels = [
         img: futuro,
         img1: futuro1,
         img2: [futuro2, futuro3],
-        img3: [zeto4, zeto5, zeto6, zeto7],
-        address: "https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A8029f2783553ef79e2067e2b480b882a0e81efc7912f99609836b2041f5cb309&amp;width=455&amp;height=344&amp;lang=ru_RU",
-        address2: "https://www.google.com/maps/place/Sheraton+Bishkek/@42.8747132,74.5888088,17.15z/data=!4m9!3m8!1s0x389ec9aaf5aeac87:0xd6524e116267d54a!5m2!4m1!1i2!8m2!3d42.874726!4d74.5907716!16s%2Fg%2F11h7jt_bny?entry=ttu",
+        img3: [{
+            id:"bvjkks",
+            one:artek4
+        },
+            {
+                id:"bvsejkks",
+                one:artek5,
+            },
+            {
+                id:"wbvjkks",
+                one:artek6,
+            },
+            {
+                id:"bvjsekks",
+                one:zeto7,
+            }],
+        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
         star: 0
     },
 ]
+export const translations = {
+    en: {
+        language: 'Language',
+        main: 'Main',
+        hotels: 'Hotels',
+        routes: 'Routes',
+        map: 'Map',
+        contacts: 'Contacts',
+        account: 'Account'
+    },
+    ru: {
+        language: 'Язык',
+        main: 'Главная',
+        hotels: 'Отели',
+        routes: 'Маршруты',
+        map: 'Карта',
+        contacts: 'Контакты',
+        account: 'Аккаунт'
+    },
+    cn: {
+        language: '语言',
+        main: '主页',
+        hotels: '酒店',
+        routes: '路线',
+        map: '地图',
+        contacts: '联系人',
+        account: '账户'
+    },
+    arab: {
+        language: 'اللغة',
+        main: 'الرئيسية',
+        hotels: 'الفنادق',
+        routes: 'المسارات',
+        map: 'الخريطة',
+        contacts: 'جهات الاتصال',
+        account: 'الحساب'
+    }
+};
+
