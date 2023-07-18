@@ -17,7 +17,7 @@ const Footer = () => {
                     </div>
                     <div className="footer--center">
                         <ul>
-                        <li>Our mission/Stability</li>
+                        <NavLink to="/mission"><li>Our mission/Stability</li></NavLink>
                             <li>Terms of use</li>
                             <li>Feedback</li>
                             <li>Privacy policy</li>
@@ -25,6 +25,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="footer--icons">
+
                         <a href="./footer#"><img src={logo1} alt=""/></a>
                         <a href="./footer#"><img src={logo} alt=""/></a>
                         <a href="./footer#"><img src={logo2} alt=""/></a>
