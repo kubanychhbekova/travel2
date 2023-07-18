@@ -6,21 +6,22 @@ import Pages from "../../travel2/src/components/pages/pages";
 import Hotels from "../../travel2/src/components/hotels/hotels";
 import Detail from "../../travel2/src/components/popular/popularDetails/detail";
 import HotelDetail from "../../travel2/src/components/hotels/hotelDetail/hotelDetail";
-
+import Map from "../../travel2/src/components/map/map"
 
 function App() {
-  return (
-      <div className="App">
-        <Header/>
-        <Routes>
-          <Route path={"/"} element={<Pages/>}/>
-          <Route path={"/hotels"} element={<Hotels/>}/>
-          <Route path={"/popular/:id"} element={<Detail/>}/>
-          <Route path={"/hotels/:id"} element={<HotelDetail/>}/>
-        </Routes>
-        <Footer/>
-      </div>
-  );
+    return (
+        <div className="App">
+            <Header/>
+            <Routes>
+                <Route path={"/"} element={<Pages/>}/>
+                <Route path={"/hotels"} element={<Hotels/>}/>
+                <Route path={"/popular/:id"} element={<Detail/>}/>
+                <Route path={"/hotels/:id"} element={<HotelDetail/>}/>
+                <Route path={"/map"} element={<Map/>}/>
+            </Routes>
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;

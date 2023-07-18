@@ -1,47 +1,53 @@
 #popularDetail {
-  p{
+  p {
     white-space: pre-wrap
   }
+
   .popularDetail {
-    &--first{
+    &--first {
       margin: 112px 0 30px 0;
     }
-    &--second{
+
+    &--second {
       margin: 50px 0 30px 0;
     }
-    &--third{
-      h2{
+
+    &--third {
+      h2 {
         margin: 50px 0 30px 0;
       }
-      p{
+
+      p {
         margin: 0 0 30px 0;
       }
     }
 
-    &--text{
+    &--text {
       margin: 30px 0 0 0;
-    h2{
-      margin: 50px 0 10px 0;
+
+      h2 {
+        margin: 50px 0 10px 0;
+      }
     }
-    }
+
     p {
-      width: 80%;
+      width: 100%;
       color: #000;
       font-family: Poppins;
       font-size: 22px;
       font-style: normal;
       font-weight: 500;
       line-height: normal;
-      margin-left: 9%;
+      //margin-left: 9%;
     }
 
     img {
       border-radius: 16px;
       //background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-      width: 80%;
+      width: 100%;
       height: 560px;
       flex-shrink: 0;
-      margin-left: 9%;
+      //margin-left: 9%;
     }
 
     h2 {
@@ -51,7 +57,7 @@
       font-style: normal;
       font-weight: 700;
       line-height: normal;
-      margin-left: 9%;
+      //margin-left: 9%;
     }
 
     &--fourth {
@@ -59,27 +65,33 @@
         width: 964px;
         height: 560px;
         flex-shrink: 0;
-        margin-left: 16%;
+        margin-left: 10%;
       }
 
       h2 {
 
-            margin: 20px 80px 30px 0;
+        margin: 20px 0 30px 0;
       }
     }
-    }
-  .popularDetail--photos{
+  }
+
+  .popularDetail--photos {
     display: flex;
-    overflow: scroll;
-    ::-webkit-scrollbar {
-      width: 0;}
-    margin-left: 16%;
+    overflow-y: scroll;
+
+    justify-content: center;
+
+    margin-left: 18%;
     gap: 10px;
-    img{
+
+    img {
       width: 286px;
       height: 226px;
       border-radius: 16px;
 
     }
+    ::-webkit-scrollbar {
+      width: 0 !important;
+    }
   }
-  }
+}
