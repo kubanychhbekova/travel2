@@ -1,16 +1,16 @@
 #map {
+.mainImg{
 
-  img {
     width: 100%;
     height: 777px;
-  }
 
-  .mainBlock {
-    display: flex;
-    justify-content: start;
-  }
-
-  .mapImg {
+}
+.mainBlock{
+  display: flex;
+  justify-content: center;
+}
+  
+  .mapImg{
     display: flex;
     align-items: center;
     justify-content: center;

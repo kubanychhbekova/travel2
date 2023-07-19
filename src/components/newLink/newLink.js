@@ -5,7 +5,7 @@ import twit from "../../assets/img/twit.svg"
 import tel from "../../assets/img/tel.svg"
 import wts from "../../assets/img/wts.svg"
 
-const Ourlink = () => {
+const Newlink = () => {
     return (
         <div className="link">
             <h2>Did you like the article? Share the page!</h2>
@@ -21,4 +21,4 @@ const Ourlink = () => {
     );
 };
 
-export default Ourlink;
+export default Newlink;

@@ -3,7 +3,8 @@ import {Link, useParams} from "react-router-dom";
 import {useDispatch, useSelector} from "react-redux";
 import {Places} from "../../../../back-end/backend";
 import sonKulBg4 from "../../../../assets/img/sonKul4.png";
-import Ourlink from "../../../link/Ourlink";
+import Newlink from "../../../newLink/newLink";
+
 
 const PopularDetails = ({cards}) => {
 
@@ -60,12 +61,12 @@ const PopularDetails = ({cards}) => {
                                     })
                                 }
                             </div>
-                            <Ourlink/>
+
 
                         </div>
                     )
                 })}
-
+<Newlink/>
             </div>
         );
     }
