@@ -152,8 +152,8 @@ const HotelSearch = () => {
                         })}
                     </div>
                 </div>
-            </div>
            <Newlink/>
+            </div>
         </div>
     );
 };
