@@ -1,0 +1,25 @@
+#trad-section2{
+    .container{
+        .trad-section2{
+            .weddings{
+                display: flex;
+                margin: 70px 0;
+                justify-content: space-between;
+                p{
+                    font-family: Poppins;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 21px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    width: 570px;
+                    margin: 0;
+                }
+                img{
+                    margin: 0;
+                    height: 420px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+#kg-section3{
+    padding-top: 40px;
+    .container{
+        .kg-section3{
+            .generalInfo{
+                display: flex;
+                flex-direction: column;
+                h1{
+                    font-family: Poppins;
+                    font-size: 22px;
+                    font-weight: 700;
+                    line-height: 33px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    margin-bottom: 30px;
+                }
+                .location-picture{
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 0;
+                    p{
+                        font-family: Poppins;
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 21px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                        margin: 0;
+                    }
+                    img{
+                        margin: 0;
+                    }
+                }
+                p{
+                    font-family: Poppins;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 21px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    margin: 30px 0 20px 0;
+                }
+            }
+        }
+    }
+}

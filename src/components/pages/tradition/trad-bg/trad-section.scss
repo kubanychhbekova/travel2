@@ -1,0 +1,23 @@
+#trad-bg{
+    background: url(../../../../assets/img/trad-bg.png)no-repeat center/cover;
+    height: 779px;
+    .container{
+        .trad-bg{
+            height: 779px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            h1{
+                font-family: Poppins;
+                font-size: 48px;
+                font-weight: 700;
+                line-height: 72px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: white;
+
+            }
+
+        }
+    }
+}

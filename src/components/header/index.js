@@ -19,7 +19,8 @@ const Header = () => {
                             <NavLink to="/hotels"> <h1>Hotels</h1></NavLink>
                       <h1>Routes</h1>
                             <h1>Map</h1>
-                            <h1>Contacts</h1>
+                            <NavLink to="/contacts"> <h1>Contacts</h1></NavLink>
+                            
                             <div className="header--logo__pages--select">
                                 <select name="language"  id="1">
                                     <option value="language" >language</option>

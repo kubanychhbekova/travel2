@@ -1,0 +1,25 @@
+#cult-section4{
+    .container{
+        .cult-section4{
+            .cult-section{
+                display: flex;
+                justify-content: space-between;
+                margin: 50px 0;
+                p{
+                    font-family: Poppins;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 21px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    width: 570px;
+                    margin: 0;
+                }
+                img{
+                    margin: 0;
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+#kyrgyzstan{
+    background: url(../../../../assets/img/kyrggg.jpg)no-repeat center/cover;
+    height: 809px;
+    .container{
+        .kyrgyzstan{
+            height: 809px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            h1{
+                font-family: Poppins;
+                font-size: 56px;
+                font-weight: 700;
+                line-height: 72px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: white;
+            }
+            margin: 0;
+        }
+    }
+}

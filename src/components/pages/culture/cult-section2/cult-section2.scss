@@ -1,0 +1,24 @@
+#cult-section2{
+    padding-top: 50px;
+    .container{
+        .cult-section2{
+            p{
+                font-family: Poppins;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 21px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+            .cult-section2-pictures{
+                img{
+                    margin: 0 20px 0 0;
+                }
+                overflow-y: scroll;
+                display: flex;
+                width: 1370px;
+                margin: 20px 0;}
+            ::-webkit-scrollbar{width: 0;}
+        }
+    }
+}
