@@ -30,9 +30,11 @@ const Footer = () => {
                     </div>
                     <div className="footer--icons">
 
-                        <a href="./footer#"><img src={logo1} alt=""/></a>
-                        <a href="./footer#"><img src={logo} alt=""/></a>
-                        <a href="./footer#"><img src={logo2} alt=""/></a>
+                        <a href="#"><img src={logo1} alt=""/></a>
+                        <a href="#"><img src={logo} alt=""/></a>
+                        <a href="#"><img src={logo2} alt=""/></a>
+
+
 
                     </div>
                 </div>

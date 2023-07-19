@@ -1,8 +1,11 @@
+import review from "../../components/reviews/review";
+
 const initialState = {
     popular:[],
     product: [],
     cards:[],
     hotelsCard: JSON.parse(localStorage.getItem("hotelsCard")) || [],
+    review: JSON.parse(localStorage.getItem("review")) || [],
 };
 
 export const Reducer = (state = initialState, action) => {
@@ -17,6 +20,8 @@ export const Reducer = (state = initialState, action) => {
         case "GET_HOTELS":
             const foundHotel = state.product.find((el) => el.id === action.payload);
             return { ...state, hotelsCard: [{ ...foundHotel}] };
+        case "ADD__REVIEW":
+            return {...state,review: [...review,action.payload]}
         default:
             return state;
     }

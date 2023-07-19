@@ -4,8 +4,9 @@ import {useDispatch, useSelector} from "react-redux";
 import {hotels} from "../../../back-end/backend";
 import Hotel from "../hotel/hotel";
 import HotelDetailPage from "./hotelDetailPage";
-import Link from "../../link/Ourlink";
+
 import Ourlink from "../../link/Ourlink";
+
 
 const HotelDetail = () => {
     const dispatch=useDispatch()

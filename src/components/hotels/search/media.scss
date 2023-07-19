@@ -1,0 +1,300 @@
+@media (max-width: 1400px) {
+  #hotelSearch {
+    margin-top: -105px;
+
+    .hotelSearch {
+      &--top {
+        &__region {
+          &--first {
+            width: 420px;
+          }
+
+        }
+
+        &__district {
+          &--first {
+            width: 420px;
+          }
+
+        }
+
+        &__btn {
+          button {
+            padding: 18px 35px;
+          }
+        }
+      }
+
+      &--bottom {
+        &__cards {
+          &--card {
+            img {
+              width: 340px;
+              height: 540px;
+              gap: 20px;
+            }
+          }
+
+          &--modal {
+            &__top {
+              margin-bottom: 1px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 1200px) {
+  #hotelSearch {
+    margin-top: -80px;
+
+    .hotelSearch {
+      &--top {
+        padding: 15px 15px;
+        height: 60px;
+
+        &__region {
+          &--first {
+
+            width: 355px;
+            height: 30px;
+
+            h6 {
+              margin-top: 6px !important;
+
+            }
+          }
+
+        }
+
+        &__district {
+          &--first {
+
+            width: 355px;
+            height: 23px;
+            padding: 15px;
+
+            h6 {
+
+
+            }
+          }
+
+        }
+
+        &__btn {
+          button {
+            padding: 13px 32px;
+          }
+        }
+      }
+
+      &--bottom {
+        gap: 20px;
+
+        &__cards {
+          &--card {
+            img {
+              width: 300px;
+              height: 480px;
+              gap: 2px;
+            }
+          }
+
+          &--modal {
+            &__top {
+              h2 {
+                font-size: 20px;
+                margin-bottom: 8px;
+              }
+            }
+
+            p {
+              line-height: 115%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 1024px) {
+  #hotelSearch {
+    margin-top: -3px;
+
+    .hotelSearch {
+      gap: 25px;
+
+      &--top {
+        padding: 10px 10px;
+        height: 60px;
+        gap: 8px;
+
+        &__region {
+          &--first {
+
+            width: 300px;
+            height: 30px;
+
+            h6 {
+              margin-top: 9px !important;
+
+            }
+
+            p {
+              display: none;
+            }
+          }
+
+        }
+
+        &__district {
+          &--first {
+
+            width: 300px;
+            height: 13px;
+            padding: 20px;
+          }
+
+        }
+
+        &__btn {
+          button {
+            padding: 13.8px 25px;
+            font-size: 20px;
+          }
+        }
+      }
+
+      &--bottom {
+        gap: 20px;
+
+        &__cards {
+          &--card {
+            img {
+              width: 255px;
+              height: 400px;
+              gap: 2px;
+            }
+          }
+
+          &--modal {
+            padding: 10px;
+
+            &__top {
+              h2 {
+                font-size: 18px;
+                margin-bottom: 4px;
+              }
+            }
+
+            p {
+              line-height: 115%;
+              overflow: hidden;
+              font-size: 13px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 992px) {
+  #hotelSearch {
+    margin-top: -3px;
+
+    .hotelSearch {
+      gap: 22px;
+
+      &--top {
+        padding: 10px 10px;
+        height: 60px;
+        gap: 8px;
+
+        &__region {
+          &--first {
+
+            width: 285px;
+            height: 30px;
+
+            h6 {
+              margin-top: 9px !important;
+
+            }
+
+            p {
+              display: none;
+            }
+          }
+
+          &--second {
+            padding: 10px 8px;
+            width: 250px;
+          }
+        }
+
+        &__district {
+          &--first {
+
+            width: 285px;
+            height: 13px;
+            padding: 20px;
+          }
+          &--second {
+            padding: 10px 8px;
+            width: 250px;
+          }
+        }
+
+        &__btn {
+          button {
+            padding: 13.8px 25px;
+            font-size: 20px;
+          }
+        }
+      }
+
+      &--bottom {
+        gap: 20px;
+
+        &__cards {
+          &--card {
+            img {
+              width: 248px;
+              height: 350px;
+
+            }
+          }
+
+          &--modal {
+            padding: 10px;
+
+            &__top {
+              h2 {
+                font-size: 17px;
+                margin-bottom: 4px;
+              }
+            }
+
+            p {
+
+              line-height: 115%;
+              overflow: hidden;
+         text-overflow: ellipsis;
+
+              font-size: 13px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

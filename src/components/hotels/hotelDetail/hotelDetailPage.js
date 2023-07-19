@@ -1,6 +1,7 @@
 import React from 'react';
 
 import {ImStarFull} from "react-icons/im";
+import Ourlink from "../../link/Ourlink";
 
 const HotelDetailPage = ({cards}) => {
     const renderStars = (starCount) => {
@@ -56,16 +57,14 @@ const HotelDetailPage = ({cards}) => {
 
                                         </div>
                                         <div className="hotelPage--bottom__map">
-                                            {/*<img src={el.address} alt="" useMap="#Navigation"/>*/}
-                                            {/*<map name="Navigation">*/}
-                                            {/*    <area shape="default" coords="" href={el.address2} alt=""/>*/}
-                                            {/*</map>*/}
+
                                             <iframe
                                                 src={el.address}
                                                 width="455" height="344" frameBorder="0"></iframe>
                                         </div>
                                     </div>
                                 </div>
+                                <Ourlink/>
                             </div>
 
                         </div>

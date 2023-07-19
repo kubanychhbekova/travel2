@@ -1,0 +1,30 @@
+@media (max-width: 1200px) {
+  #footer{
+    padding: 90px 0;
+    .footer{
+gap: 8%;
+      &--logo{
+        gap: 8px;
+        img{
+          width: 60px;
+          height: 60px;
+        }
+        h4{
+          font-size: 20px;
+        }
+      }
+      &--center{
+        ul{
+          gap: 12px;
+          li{
+            font-size: 20px;
+            width: 410px;
+          }
+        }
+      }
+      &--icons{
+        gap: 13px;
+      }
+    }
+  }
+}

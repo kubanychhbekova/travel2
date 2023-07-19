@@ -187,6 +187,7 @@ import damas4 from "../assets/img/damas4.jpg"
 import damas5 from "../assets/img/damas5.jpg"
 import damas6 from "../assets/img/damas6.jpg"
 import damas7 from "../assets/img/damas7.jpg"
+import man from "../assets/img/man.png"
 
 
 export const Places = [
@@ -556,7 +557,7 @@ export const hotels = [
         name: "Sverdlovsk district",
         id: 321,
         title: "GSupara Chunkurchak",
-        description1: "Supara Chunkurchak is located in Alamedin. It features a fitness centre, a garden, a terrace and a restaurant. Concierge services are offered to guests. There is a playground for children.",
+        description1: "Supara Chunkurchak is located in Alamedin. It features a fitness centre, a garden, a terrace and a restaurant. Concierge services are offered to guests. ",
         description: "Featuring a garden and a bar, Golden Dragon Villa is a 3-star hotel located in Bishkek. This 3-star hotel offers a concierge service and luggage storage space. There is a 24-hour front desk. Airport transfers and room service are available. Free Wi-Fi is provided.\n" +
             "\n" +
             "All rooms at the hotel are equipped with a kettle. Other amenities include air conditioning, a wardrobe and a flat-screen TV. Some rooms at Golden Dragon Villa have a balcony. All rooms are stocked with towels and bed linen.\n" +
@@ -622,7 +623,7 @@ export const hotels = [
 
         id: 527,
         title: "Jannat Regency Jalal-Abad",
-        description1: "Jannat Regency Jalal-Abad is a 5-star property located in Jalal-Abad. Each accommodation at the 5-star hotel has city views, and guests can enjoy access to a bar and to a spa and wellness centre.",
+        description1: " Each accommodation at the 5-star hotel has city views, and guests can enjoy access to a bar and to a spa and wellness centre.",
         description: "All units are equipped with air conditioning, a flat-screen TV with satellite channels, a kettle, a shower, free toiletries and a wardrobe. Selected rooms include a kitchen with a stovetop. At the hotel every room is equipped with bed linen and towels.\n" +
             "\n" +
             "Guests at Jannat Regency Jalal-Abad can enjoy a continental breakfast. At the accommodation you will find a restaurant serving European cuisine. Vegetarian, dairy-free and halal options can also be requested.\n" +
@@ -1001,7 +1002,7 @@ export const hotels = [
 
         id: 311,
         title: "Olive Ala Archa hotel",
-        description1: "Featuring a bar, restaurant, terrace, free WiFi and a children's playground, Olive Ala Archa is a 3-star hotel located in Verkhnyaya Ala-Archa. All rooms offer river views. ",
+        description1: "Featuring a bar, restaurant, terrace, free WiFi and a children's playground, Olive Ala Archa is a 3-star hotel located in Verkhnyaya Ala-Archa.  ",
         description: "The air-conditioned rooms are equipped with a flat-screen TV with cable channels. They include a seating area, a safety deposit box and a private bathroom with a shower, a hairdryer and free toiletries. A kettle is provided. Some rooms have a balcony, while others offer mountain views. Rooms at Lavitor Hotel are stocked with bed linen and towels.\n" +
             "\n" +
             "An à la carte, continental and vegetarian breakfast is served each morning.\n" +
@@ -1748,42 +1749,15 @@ export const hotels = [
         star: 0
     },
 ]
-export const translations = {
-    en: {
-        language: 'Language',
-        main: 'Main',
-        hotels: 'Hotels',
-        routes: 'Routes',
-        map: 'Map',
-        contacts: 'Contacts',
-        account: 'Account'
+export const review=[
+    {
+        id:1,
+        star:5,
+        name:"Cody Fisher",
+        title: "Delight! wow! Pleasure!\n" +
+            "I haven't received such emotions from excursions for a long time",
+        img:man,
     },
-    ru: {
-        language: 'Язык',
-        main: 'Главная',
-        hotels: 'Отели',
-        routes: 'Маршруты',
-        map: 'Карта',
-        contacts: 'Контакты',
-        account: 'Аккаунт'
-    },
-    cn: {
-        language: '语言',
-        main: '主页',
-        hotels: '酒店',
-        routes: '路线',
-        map: '地图',
-        contacts: '联系人',
-        account: '账户'
-    },
-    arab: {
-        language: 'اللغة',
-        main: 'الرئيسية',
-        hotels: 'الفنادق',
-        routes: 'المسارات',
-        map: 'الخريطة',
-        contacts: 'جهات الاتصال',
-        account: 'الحساب'
-    }
-};
+]
+
 
