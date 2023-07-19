@@ -2,8 +2,11 @@ import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { hotels } from "../../../back-end/backend";
 import { regions } from "../../../back-end/backend";
-import { NavLink } from "react-router-dom";
-import Link from "../../link/link";
+import { NavLink} from "react-router-dom";
+import Ourlink from "../../link/Ourlink";
+
+
+
 
 const HotelSearch = () => {
     const  product  = useSelector(s => s.product);
@@ -143,7 +146,7 @@ const HotelSearch = () => {
                                          }}>
                                         <div className="hotelSearch--bottom__cards--modal__top">
                                             <h2>{el.title}</h2>
-                                            <p>⭐⭐⭐⭐⭐</p>
+
                                         </div>
                                         <p>{el.description1}</p>
                                     </div>
@@ -152,6 +155,7 @@ const HotelSearch = () => {
                         })}
                     </div>
                 </div>
+                <Ourlink />
             </div>
         </div>
     );
