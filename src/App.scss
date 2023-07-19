@@ -17,21 +17,23 @@
 @import "../../travel2/src/components/hotels/hotel/style";
 @import "../../travel2/src/components/hotels/search/style";
 @import "../../travel2/src/components/hotels/hotelDetail/style";
-
+@import "components/aboutRoutes/content/style.scss";
 @import "../../travel2/src/components/popular/popularDetails/popularDetailsFirst/style";
 @import "../../travel2/src/components/popular/popularDetails/popularDetailsSecond/secondPolularDetailse";
+@import "components/aboutRoutes/bus/style.scss";
+@import "components/aboutRoutes/zagalovok/style.scss";
+@import "components/aboutRoutes/plane/style.scss";
+@import "components/aboutRoutes/train/style.scss";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700&family=Syne:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
 
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700&family=Syne:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
-
-*{
-  margin:0 auto;
-  padding:0;
+* {
+  margin: 0 auto;
+  padding: 0;
 }
-.container{
+.container {
   width: 80%;
-a{
-  text-decoration: none;
-}
+  a {
+    text-decoration: none;
+  }
 }
