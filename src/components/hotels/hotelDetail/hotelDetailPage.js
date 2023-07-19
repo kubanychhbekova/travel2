@@ -1,6 +1,17 @@
 import React from 'react';
 
+import {ImStarFull} from "react-icons/im";
+import Newlink from "../../newLink/newLink";
+
 const HotelDetailPage = ({cards}) => {
+    const renderStars = (starCount) => {
+        const stars = [];
+        for (let i = 0; i < starCount; i++) {
+            stars.push(<ImStarFull key={i} />);
+
+        }
+  return stars
+    };
     return (
         <>
             {
@@ -10,6 +21,7 @@ const HotelDetailPage = ({cards}) => {
                             <div className="container">
                                 <div className="hotelPage">
                                   <div className="hotelPage--title">
+                                    <p> {renderStars(el.star)}</p>
                                       <h1>{el.title}</h1>
                                   </div>
                                     <div className="hotelPage--photos">
@@ -32,7 +44,7 @@ const HotelDetailPage = ({cards}) => {
                                                 el.img3.map((el)=>{
                                                     return(
                                                         <div key={el.id}>
-                                                            <img src={el} alt=""/>
+                                                            <img src={el.one} alt=""/>
                                                         </div>
                                                     )
                                                 })
@@ -45,14 +57,16 @@ const HotelDetailPage = ({cards}) => {
 
                                         </div>
                                         <div className="hotelPage--bottom__map">
-                                            <img src={el.address} alt="" useMap="./hotelDetailPage#Navigation"/>
-                                            <map name="Navigation">
-                                                <area shape="default" coords="" href={el.address2} alt=""/>
-                                            </map>
+
+                                            <iframe
+                                                src={el.address}
+                                                width="455" height="344" frameBorder="0"></iframe>
                                         </div>
                                     </div>
                                 </div>
+                                <Newlink/>
                             </div>
+
                         </div>
                     )
                 })

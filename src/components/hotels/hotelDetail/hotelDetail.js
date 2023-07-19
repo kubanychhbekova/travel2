@@ -5,10 +5,11 @@ import {hotels} from "../../../back-end/backend";
 import Hotel from "../hotel/hotel";
 import HotelDetailPage from "./hotelDetailPage";
 
+
 const HotelDetail = () => {
     const dispatch=useDispatch()
-    const {hotelsCard}=useSelector(s=>s)
-    const {product}=useSelector(s=>s)
+    const hotelsCard=useSelector(s=>s.hotelsCard)
+    const product=useSelector(s=>s.product)
 
     const {id} = useParams();
     useEffect(() => {

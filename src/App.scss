@@ -12,6 +12,8 @@
 @import "../../travel2/src/components/pages/welcom/media";
 @import "../../travel2/src/components/hotels/hotel/style";
 @import "../../travel2/src/components/hotels/search/style";
+@import "../../travel2/src/components/hotels/search/media";
+@import "../../travel2/src/components/hotels/hotel/media";
 @import "../../travel2/src/components/hotels/hotelDetail/style";
 @import "../../travel2/src/components/detailed/detail/detail.scss";
 @import "../../travel2/src/components/detailed/about-kg/about-kg.scss";
@@ -19,7 +21,11 @@
 @import "../../travel2/src/components/detailed/about-map/about-map.scss";
 @import "../../travel2/src/components/pages/kyrgyzstan/kg-bg/kg-bg.scss";
 @import "../../travel2/src/components/pages/kyrgyzstan/kg-section1/kg-section1.scss";
+@import "../../travel2/src/components/newLink/newLink";
+@import "../../travel2/src/components/use/useStyle";
+@import "../../travel2/src/components/map/map";
 @import "../../travel2/src/components/popular/popularDetails/popularDetailsFirst/style";
+
 @import "../../travel2/src/components/popular/popularDetails/popularDetailsSecond/secondPolularDetailse";
 @import "../../travel2/src/components/pages/kyrgyzstan/kg-section2/kg-section2.scss";
 @import "../../travel2/src/components/pages/kyrgyzstan/kg-section3/kg-section3.scss";
@@ -38,6 +44,7 @@
 @import "../../travel2/src/components/contacts/contacts-bg/contacts-bg.scss";
 @import "../../travel2/src/components/contacts/contacts-section1/contacts-section1.scss";
 
+@import "../../travel2/src/components/mission/mission";
 
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700&family=Syne:wght@400;500;600;700&display=swap');

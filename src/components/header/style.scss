@@ -12,12 +12,13 @@
   .header {
   display: flex;
 justify-content: space-between;
-gap: 144px;
+gap: 177px;
+    margin: 0;
     &--logo {
       display: flex;
       align-items: center;
       justify-content: space-between;
-gap: 84px;
+gap: 88px;
       &__icon {
         display: flex;
         align-items: center;
@@ -40,7 +41,8 @@ gap: 84px;
       &__pages {
         display: flex;
         align-items: center;
-        gap: 46px;
+        gap: 39px;
+
         h1 {
           color: #FFF;
           font-family: Inter;
@@ -49,11 +51,13 @@ gap: 84px;
           cursor: pointer;
           padding: 10px;
           letter-spacing: .5px;
+          &:hover {
+            color: #0992D5;
+          }
+
         }
 
-        h1:hover {
-          color: #0992D5;
-        }
+
 
         &--select {
 
