@@ -17,8 +17,12 @@ const Footer = () => {
                     </div>
                     <div className="footer--center">
                         <ul>
-                        <NavLink to="/mission"><li>Our mission/Stability</li></NavLink>
-                            <li>Terms of use</li>
+                            <NavLink to="/mission">
+                                <li>Our mission/Stability</li>
+                            </NavLink>
+                            <NavLink to="/use">
+                                <li>Terms of use</li>
+                            </NavLink>
                             <li>Feedback</li>
                             <li>Privacy policy</li>
 
