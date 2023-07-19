@@ -5,6 +5,8 @@ import {hotels} from "../../../back-end/backend";
 import Hotel from "../hotel/hotel";
 import HotelDetailPage from "./hotelDetailPage";
 
+import Ourlink from "../../link/Ourlink";
+
 
 const HotelDetail = () => {
     const dispatch=useDispatch()
@@ -23,7 +25,7 @@ const HotelDetail = () => {
         <div>
            <Hotel/>
             <HotelDetailPage cards={hotelsCard}/>
-
+<Ourlink/>
         </div>
     );
 };

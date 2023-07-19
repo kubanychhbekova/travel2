@@ -17,17 +17,24 @@ const Footer = () => {
                     </div>
                     <div className="footer--center">
                         <ul>
-                        <li>Our mission/Stability</li>
-                            <li>Terms of use</li>
+                            <NavLink to="/mission">
+                                <li>Our mission/Stability</li>
+                            </NavLink>
+                            <NavLink to="/use">
+                                <li>Terms of use</li>
+                            </NavLink>
                             <li>Feedback</li>
                             <li>Privacy policy</li>
 
                         </ul>
                     </div>
                     <div className="footer--icons">
+
                         <a href="#"><img src={logo1} alt=""/></a>
                         <a href="#"><img src={logo} alt=""/></a>
                         <a href="#"><img src={logo2} alt=""/></a>
+
+
 
                     </div>
                 </div>

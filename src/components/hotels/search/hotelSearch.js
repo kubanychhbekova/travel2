@@ -7,7 +7,6 @@ import Ourlink from "../../link/Ourlink";
 
 
 
-
 const HotelSearch = () => {
     const  product  = useSelector(s => s.product);
     const dispatch = useDispatch();
@@ -157,6 +156,7 @@ const HotelSearch = () => {
                 </div>
                 <Ourlink />
             </div>
+     
         </div>
     );
 };
