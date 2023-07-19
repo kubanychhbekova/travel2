@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {ImStarFull} from "react-icons/im";
-import Ourlink from "../../link/Ourlink";
+import Newlink from "../../newLink/newLink";
 
 const HotelDetailPage = ({cards}) => {
     const renderStars = (starCount) => {
@@ -64,7 +64,7 @@ const HotelDetailPage = ({cards}) => {
                                         </div>
                                     </div>
                                 </div>
-                                <Ourlink/>
+                                <Newlink/>
                             </div>
 
                         </div>
