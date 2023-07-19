@@ -25,8 +25,6 @@ const Map = () => {
                 </div>
 
             </div>
-            <span className="link"><Ourlink/></span>
-
 
         </div>
     );
