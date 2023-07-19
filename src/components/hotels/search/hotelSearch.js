@@ -144,7 +144,6 @@ const HotelSearch = () => {
                                          }}>
                                         <div className="hotelSearch--bottom__cards--modal__top">
                                             <h2>{el.title}</h2>
-                                            <p>⭐⭐⭐⭐⭐</p>
                                         </div>
                                         <p>{el.description1}</p>
                                     </div>

@@ -4,8 +4,6 @@ import {useDispatch, useSelector} from "react-redux";
 import {hotels} from "../../../back-end/backend";
 import Hotel from "../hotel/hotel";
 import HotelDetailPage from "./hotelDetailPage";
-import Newlink from "../../newLink/newLink";
-
 
 
 const HotelDetail = () => {
@@ -25,7 +23,6 @@ const HotelDetail = () => {
         <div>
            <Hotel/>
             <HotelDetailPage cards={hotelsCard}/>
-<Newlink/>
         </div>
     );
 };
