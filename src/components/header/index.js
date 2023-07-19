@@ -21,8 +21,9 @@ const Header = () => {
 
                             <h1>Routes</h1>
                             <NavLink to="/map"><h1>Map</h1></NavLink>
+                            <NavLink to="/contacts"><h1>Contacts</h1></NavLink>
 
-                            <h1>Contacts</h1>
+                            
                             <div className="header--logo__pages--select">
                                 <select name="language" id="1">
                                     <option value="language">language</option>
