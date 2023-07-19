@@ -1,0 +1,27 @@
+#kg-section2{
+    .container{
+        .kg-section2{
+            display: flex;
+            justify-content: space-evenly;
+            .kg-section2-pictures{
+                width: 600px;
+                margin: 0;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                img{
+                    margin: 0 15px 15px 0;
+                }
+            }
+            p{
+            text-align: left;
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 21px;
+            letter-spacing: 0em;
+            text-align: left;
+            }
+        }
+    }
+}

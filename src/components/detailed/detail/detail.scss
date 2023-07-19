@@ -1,0 +1,22 @@
+#detailed{
+    background: url(../../../assets/img/detail-bg.png) no-repeat center/cover;
+    // padding: 80px 0 0 0;
+    // width: 1440px;
+    height: 779px;
+    // margin: 0;
+    .detailed{
+        display:flex ;
+        justify-content: center;
+        align-items: center;
+        height: 779px;
+        h1{
+            font-family: Poppins;
+            font-size: 48px;
+            font-weight: 900;
+            line-height: 72px;
+            letter-spacing: 0em;
+            // text-align: left;
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+#contacts-bg{
+    background: url(../../../assets/img/contacts-bg.png)no-repeat center/cover;
+    height: 779px;
+    .container{
+        height: 779px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .contacts-bg{
+            h1{
+                font-family: Poppins;
+                font-size: 48px;
+                font-weight: 700;
+                line-height: 72px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: white;
+            }
+        }
+    }
+}

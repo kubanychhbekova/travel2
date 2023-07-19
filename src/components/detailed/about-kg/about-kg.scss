@@ -1,0 +1,33 @@
+#aboutKg{
+    padding: 150px 0 0 0;
+    .container{
+        .aboutKg{
+            display: flex;
+            img{
+                height: 409px;
+            }
+            .aboutKg-texts{
+                h4{
+                    font-family: Poppins;
+                    font-size: 22px;
+                    font-weight: 600;
+                    line-height: 33px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    margin-bottom: 30px;
+                }
+                p{
+                font-family: Poppins;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 21px;
+                letter-spacing: 0em;
+                text-align: left;
+                }
+                .aboutKg--texts__p{
+                    margin-top: 60px;
+                }
+            }
+        }
+    }
+}

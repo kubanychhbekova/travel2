@@ -9,6 +9,7 @@ const Pages = () => {
             <Hero/>
             <Popular/>
             <Review/>
+        
         </div>
     );
 };

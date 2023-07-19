@@ -1,0 +1,22 @@
+#culture-bg{
+    background: url(../../../../assets/img/culture-bg.png) no-repeat center/cover;
+    height: 800px;
+    .container{
+        .culture-bg{
+            height: 800px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            h1{
+                font-family: Poppins;
+                font-size: 48px;
+                font-weight: 700;
+                line-height: 72px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: white;
+            }
+        }
+    }
+}
