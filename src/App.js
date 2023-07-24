@@ -18,6 +18,7 @@ import LoginPage from "./components/signUp/loginPage";
 import HomePage from "./components/signUp/homePage";
 import RegisterPage from "./components/signUp/registerPage";
 import Account from "./components/accaunt/account";
+import AboutRoutes from "./components/aboutRoutes/aboutRoutes";
 
 function App() {
     return (
@@ -27,6 +28,7 @@ function App() {
                 <Route path={"/"} element={<Pages/>}/>
                 <Route path={"/hotels"} element={<Hotels/>}/>
                 <Route path={"/popular/:id"} element={<Detail/>}/>
+                <Route path={"/routes"} element={<AboutRoutes/>}/>
                 <Route path={"/hotels/:id"} element={<HotelDetail/>}/>
                 <Route path='/detailed' element={<Details/>}/>
                 <Route path='/pages' element={<KyrgyzstanPage/>}/>
