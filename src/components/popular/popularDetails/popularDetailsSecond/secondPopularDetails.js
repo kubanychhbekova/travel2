@@ -6,7 +6,7 @@ const SecondPopularDetails = ({cards}) => {
             {
                 cards.map((el)=>{
                     return(
-                        <div id='secondPopularDetails'>
+                        <div key={el.id} id='secondPopularDetails'>
                             <img src={el.bgImg} alt=""/>
                             <div className='secondPopularDetails'>
                                 <h1>{el.title}</h1>

@@ -1,5 +1,4 @@
 import React from 'react';
-import heroBg from '../../assets/img/hero-bg.png';
 import {NavLink}   from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 const Hero = () => {

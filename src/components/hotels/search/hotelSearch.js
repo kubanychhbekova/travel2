@@ -1,13 +1,14 @@
-import React, { useEffect, useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { hotels } from "../../../back-end/backend";
-import { regions } from "../../../back-end/backend";
-import { NavLink } from "react-router-dom";
+import React, {useEffect, useState} from 'react';
+import {useDispatch, useSelector} from 'react-redux';
+import {hotels} from "../../../back-end/backend";
+import {regions} from "../../../back-end/backend";
+import {NavLink} from "react-router-dom";
 import Newlink from "../../newLink/newLink";
+import {getProduct} from "../../../store/reducer/reducer";
 
 
 const HotelSearch = () => {
-    const  product  = useSelector(s => s.product);
+    const product = useSelector(s => s.travel.product);
     const dispatch = useDispatch();
     const [modal, setModal] = useState(false);
     const [modal1, setModal1] = useState(false);
@@ -15,9 +16,9 @@ const HotelSearch = () => {
     const [city, setCity] = useState("Cities and Districts");
     const [activeElement, setActiveElement] = useState(null);
     const [handle, setHandle] = useState([]);
-
+    const Product = () => dispatch(getProduct(hotels))
     useEffect(() => {
-        dispatch({ type: "GET_PRODUCT", payload: hotels });
+        Product()
     }, []);
 
     useEffect(() => {
@@ -65,7 +66,7 @@ const HotelSearch = () => {
                             <div className="hotelSearch--top__region--first" onClick={() => {
                                 setModal(!modal);
                             }}
-                                 style={{ background: modal ? " #D9D9D9" : "" }}>
+                                 style={{background: modal ? " #D9D9D9" : ""}}>
                                 <h6 style={{
                                     marginTop: region !== "Where to?" ? "12px" : ""
                                 }}>{region}</h6>
@@ -93,7 +94,7 @@ const HotelSearch = () => {
                             <div className="hotelSearch--top__district--first" onClick={() => {
                                 setModal1(!modal1);
                             }}
-                                 style={{ background: modal1 ? " #D9D9D9" : "" }}>
+                                 style={{background: modal1 ? " #D9D9D9" : ""}}>
                                 <h6>{city}</h6>
                             </div>
                             <div className="hotelSearch--top__district--second" style={{
@@ -135,7 +136,7 @@ const HotelSearch = () => {
                                     onMouseOut={handleMouseOut}>
                                     <div className="hotelSearch--bottom__cards--card">
                                         <NavLink to={`/hotels/${el.id}`}>
-                                            <img src={el.img} alt="" />
+                                            <img src={el.img} alt=""/>
                                         </NavLink>
                                     </div>
                                     <div className="hotelSearch--bottom__cards--modal"
@@ -152,7 +153,7 @@ const HotelSearch = () => {
                         })}
                     </div>
                 </div>
-           <Newlink/>
+                <Newlink/>
             </div>
         </div>
     );
