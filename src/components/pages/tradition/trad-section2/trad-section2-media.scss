@@ -1,0 +1,154 @@
+@media(max-width:1400px){
+
+
+}
+@media(max-width:1200px){
+    
+}
+@media(max-width:1024px){
+    
+    
+}
+@media(max-width: 993px){
+    
+}
+@media(max-width: 768px){
+    .trad-section2{
+        .weddings{
+            display: flex;
+            margin: 70px 0;
+            justify-content: space-between;
+            flex-direction: column;
+            p{
+                font-family: Poppins;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 21px;
+                letter-spacing: 0em;
+                text-align: left;
+                width: 600px !important;
+                margin: 0;
+            }
+            img{
+                margin: 0;
+                height: 420px;
+                width: 90% !important;
+            }
+        }
+    }
+}
+@media(max-width: 575px){
+    .trad-section2{
+        .weddings{
+            display: flex;
+            margin: 70px 0;
+            justify-content: space-between;
+            p{
+                font-family: Poppins;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 21px;
+                letter-spacing: 0em;
+                text-align: left;
+                width: 450px !important;
+                margin: 0;
+            }
+            img{
+                margin: 0;
+                height: 420px;
+            }
+        }
+    }
+}
+@media(max-width: 480px){
+    .trad-section2{
+        .weddings{
+            display: flex;
+            margin: 70px 0;
+            justify-content: space-between;
+            p{
+                font-family: Poppins;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 21px;
+                letter-spacing: 0em;
+                text-align: left;
+                width: 380px !important;
+                margin: 0;
+            }
+            img{
+                margin: 0;
+                height: 420px;
+            }
+        }
+    }
+}
+@media(max-width:414px){
+    .trad-section2{
+        .weddings{
+            display: flex;
+            margin: 70px 0;
+            justify-content: space-between;
+            p{
+                font-family: Poppins;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 13px !important;
+                letter-spacing: 0em;
+                text-align: left;
+                width: 330px !important;
+                margin: 0;
+            }
+            img{
+                margin: 0;
+                height: 420px;
+            }
+        }
+    }
+}
+@media(max-width:375px){
+    .trad-section2{
+        .weddings{
+            display: flex;
+            margin: 70px 0;
+            justify-content: space-between;
+            p{
+                font-family: Poppins;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 21px;
+                letter-spacing: 0em;
+                text-align: left;
+                width: 280px !important;
+                margin: 0;
+            }
+            img{
+                margin: 0;
+                height: 420px;
+            }
+        }
+    }
+}
+@media(max-width:320px){
+    .trad-section2{
+        .weddings{
+            display: flex;
+            margin: 70px 0;
+            justify-content: space-between;
+            p{
+                font-family: Poppins;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 21px;
+                letter-spacing: 0em;
+                text-align: left;
+                width: 240px !important;
+                margin: 0;
+            }
+            img{
+                margin: 0;
+                height: 420px;
+            }
+        }
+    }
+}

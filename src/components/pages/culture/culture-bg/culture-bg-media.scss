@@ -1,0 +1,122 @@
+@media(max-width:1400px){
+    .culture-bg{
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        h1{
+            font-family: Poppins;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 72px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: white;
+        }
+    }
+
+}
+@media(max-width:1200px){
+    
+}
+@media(max-width:1024px){
+    
+    
+}
+@media(max-width: 993px){
+    
+}
+@media(max-width: 768px){
+    
+}
+@media(max-width: 575px){
+    .culture-bg{
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        h1{
+            font-family: Poppins;
+            font-size: 30px !important;
+            font-weight: 700;
+            line-height: 50px !important;
+            letter-spacing: 0em;
+            text-align: left;
+            color: white;
+        }
+    }
+}
+@media(max-width: 480px){
+    .culture-bg{
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        h1{
+            font-family: Poppins;
+            font-size: 28px !important;
+            font-weight: 700;
+            line-height: 45px !important;
+            letter-spacing: 0em;
+            text-align: left;
+            color: white;
+        }
+    }
+}
+@media(max-width:414px){
+    .culture-bg{
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        h1{
+            font-family: Poppins;
+            font-size: 24px !important;
+            font-weight: 700;
+            line-height: 40px !important;
+            letter-spacing: 0em;
+            text-align: left;
+            color: white;
+        }
+    }
+}
+@media(max-width:375px){
+    .culture-bg{
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        h1{
+            font-family: Poppins;
+            font-size: 24px !important;
+            font-weight: 700;
+            line-height: 35px !important;
+            letter-spacing: 0em;
+            text-align: left;
+            color: white;
+        }
+    }
+}
+@media(max-width:320px){
+    .culture-bg{
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        h1{
+            font-family: Poppins;
+            font-size: 22px !important;
+            font-weight: 700;
+            line-height: 30px !important;
+            letter-spacing: 0em;
+            text-align: left;
+            color: white;
+        }
+    }
+}

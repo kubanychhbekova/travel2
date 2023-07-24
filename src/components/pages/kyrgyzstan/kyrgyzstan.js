@@ -7,6 +7,7 @@ import KgSection3 from './kg-section3/kg-section3';
 import KgSection4 from './kg-section4/kg-section4';
 import KgSection5 from './kg-section5/kg-section5';
 import KgSection6 from './kg-section6/kg-section6';
+import Newlink from '../../newLink/newLink';
 
 
 const KyrgyzstanPage = () => {
@@ -19,7 +20,7 @@ const KyrgyzstanPage = () => {
 <KgSection4/>
 <KgSection5/>
 <KgSection6/>
-
+<Newlink/>
         </div>
     );
 };

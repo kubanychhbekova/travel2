@@ -23,7 +23,7 @@ const Hero = () => {
                         <div className='hero-block-container'>
                             <h4 className='hero-title'>Kyrgyzstan</h4>
                             <div className='hero--block__line'></div>
-                            <p className='hero-about'>Kyrgyzstan is a country in <br/> Central Asia, rich in incredible <br/>natural landscapes that form <br/>the peaks of the Pamir <br/> Mountains, Lake Issyk-Kul and <br/> the Tien Shan ridges.</p>
+                            <p className='hero-about'>Kyrgyzstan is a country in  Central Asia, rich in incredible natural landscapes that form the peaks of the Pamir  Mountains, Lake Issyk-Kul and the Tien Shan ridges.</p>
                             
                         </div>
                         <NavLink to={'/pages'} className='hero-block-read'><p>Read more</p></NavLink>

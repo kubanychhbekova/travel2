@@ -1,10 +1,10 @@
 #kyrgyzstan{
     background: url(../../../../assets/img/kyrggg.jpg)no-repeat center/cover;
-    height: 809px;
+    height: 809px !important;
     .container{
         .kyrgyzstan{
-            height: 809px;
             display: flex;
+            height: 809px !important;
             align-items: center;
             justify-content: center;
             h1{

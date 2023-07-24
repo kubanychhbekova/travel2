@@ -1,0 +1,171 @@
+@media(max-width:1400px){
+
+
+}
+@media(max-width:1200px){
+    
+}
+@media(max-width:1024px){
+    .cult-section2{
+        p{
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 21px;
+            letter-spacing: 0em;
+            text-align: left;
+            width: 800px !important;
+        }
+        .cult-section2-pictures{
+            img{
+                margin: 0 20px 0 0;
+            }
+            overflow-y: scroll;
+            display: flex;
+            width: 1370px;
+            margin: 20px 0;}
+        ::-webkit-scrollbar{width: 0;}
+    }
+    
+}
+@media(max-width: 993px){
+    
+}
+@media(max-width: 768px){
+    .cult-section2{
+        p{
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 21px;
+            letter-spacing: 0em;
+            text-align: left;
+            width: 550px !important;
+            margin:  0 !important;
+        }
+        .cult-section2-pictures{
+            img{
+                margin: 0 20px 0 0;
+            }
+            overflow-y: scroll;
+            display: flex;
+            width: 1370px;
+            margin: 20px 0;}
+        ::-webkit-scrollbar{width: 0;}
+    }
+}
+@media(max-width: 575px){
+    .cult-section2{
+        p{
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 21px;
+            letter-spacing: 0em;
+            text-align: left;
+            width: 400px !important;
+        }
+        .cult-section2-pictures{
+            img{
+                margin: 0 20px 0 0;
+                width: 200px !important;
+            }
+            overflow-y: scroll;
+            display: flex;
+            width: 1370px;
+            margin: 20px 0;}
+        ::-webkit-scrollbar{width: 0;}
+    }
+}
+@media(max-width: 480px){
+    .cult-section2{
+        p{
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 21px;
+            letter-spacing: 0em;
+            text-align: left;
+            width: 370px !important;
+        }
+        .cult-section2-pictures{
+            img{
+                margin: 0 20px 0 0;
+                width: 180px !important;
+            }
+            overflow-y: scroll;
+            display: flex;
+            width: 1370px;
+            margin: 20px 0;}
+        ::-webkit-scrollbar{width: 0;}
+    }
+}
+@media(max-width:414px){
+    .cult-section2{
+        p{
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 21px;
+            letter-spacing: 0em;
+            text-align: left;
+            width: 340px !important;
+        }
+        .cult-section2-pictures{
+            img{
+                margin: 0 20px 0 0;
+                width: 160px !important;
+            }
+            overflow-y: scroll;
+            display: flex;
+            width: 1370px;
+            margin: 20px 0;}
+        ::-webkit-scrollbar{width: 0;}
+    }
+}
+@media(max-width:375px){
+    .cult-section2{
+        p{
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 21px;
+            letter-spacing: 0em;
+            text-align: left;
+            width: 280px !important;
+        }
+        .cult-section2-pictures{
+            img{
+                margin: 0 20px 0 0;
+                width: 150px !important;
+            }
+            overflow-y: scroll;
+            display: flex;
+            width: 1370px;
+            margin: 20px 0;}
+        ::-webkit-scrollbar{width: 0;}
+    }
+}
+@media(max-width:320px){
+    .cult-section2{
+        p{
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 13px !important;
+            letter-spacing: 0em;
+            text-align: left;
+            width: 240px !important;
+        }
+        .cult-section2-pictures{
+            img{
+                margin: 0 10px 0 0 !important;
+                width: 140px !important;
+            }
+            overflow-y: scroll;
+            display: flex;
+            width: 1370px;
+            margin: 20px 0;}
+        ::-webkit-scrollbar{width: 0;}
+    }
+}
