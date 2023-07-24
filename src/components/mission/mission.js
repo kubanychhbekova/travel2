@@ -21,8 +21,9 @@ const Mission = () => {
                         Through the pages of our website, we also try to instill the right attitude to travel in Kyrgyzstan. We defend the values of minimal environmental impact on nature, and we believe that tourists should be responsible.
                         We believe that the proper development of tourism will help Kyrgyzstan preserve its amazing nature and cultural authenticity. We also believe that the appearance of such a guide will be the first step towards increasing the attendance of many beautiful, but hard-to-reach places in our country and will contribute to the emergence of tourist infrastructure there. And the development of tourist routes, in turn, will help the development of local communities: villages, villages, yurt camps, etc.</p>
                 </div>
-                <NewLink/>
+
             </div>
+            <NewLink/>
 
         </div>
     );

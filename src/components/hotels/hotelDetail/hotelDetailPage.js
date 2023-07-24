@@ -64,9 +64,9 @@ const HotelDetailPage = ({cards}) => {
                                         </div>
                                     </div>
                                 </div>
-                                <Newlink/>
-                            </div>
 
+                            </div>
+                            <Newlink/>
                         </div>
                     )
                 })

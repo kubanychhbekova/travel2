@@ -43,9 +43,9 @@ const UsePage = () => {
                             Kyrgyz Republic, and you unconditionally submit to the exclusive jurisdiction of the courts
                             in that State or place.</p>
                     </div>
-                    <NewLink/>
-                </div>
 
+                </div>
+                <NewLink/>
             </div>
 
         </div>
