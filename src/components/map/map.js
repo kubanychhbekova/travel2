@@ -28,9 +28,9 @@ const Map = () => {
         </div>
 
     </div>
-    <Newlink/>
-</div>
 
+</div>
+            <Newlink/>
         </div>
     );
 };
