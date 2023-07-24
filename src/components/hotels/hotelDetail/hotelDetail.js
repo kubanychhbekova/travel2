@@ -4,24 +4,24 @@ import {useDispatch, useSelector} from "react-redux";
 import {hotels} from "../../../back-end/backend";
 import Hotel from "../hotel/hotel";
 import HotelDetailPage from "./hotelDetailPage";
+import {getHotels, getProduct} from "../../../store/reducer/reducer";
 
 
 const HotelDetail = () => {
-    const dispatch=useDispatch()
-    const hotelsCard=useSelector(s=>s.hotelsCard)
-    const product=useSelector(s=>s.product)
-
+    const dispatch = useDispatch()
+    const hotelsCard = useSelector(s => s.travel.hotelsCard)
+    const product = useSelector(s => s.travel.product)
     const {id} = useParams();
+    const Product = () => dispatch(getProduct(hotels))
+    const Hotels = () => dispatch(getHotels(+id))
     useEffect(() => {
-        dispatch({type: "GET_PRODUCT", payload: hotels})
-
-        dispatch({type: "GET_HOTELS", payload:   +id})
-
+      Product()
+       Hotels()
     }, [id])
 
     return (
         <div>
-           <Hotel/>
+            <Hotel/>
             <HotelDetailPage cards={hotelsCard}/>
         </div>
     );

@@ -15,6 +15,10 @@ import Contacts from './components/contacts/contacts';
 import Map from "../../travel2/src/components/map/map"
 import Mission from "../../travel2/src/components/mission/mission"
 import Use from "../../travel2/src/components/use/usePage"
+import LoginPage from "./components/signUp/loginPage";
+import HomePage from "./components/signUp/homePage";
+import RegisterPage from "./components/signUp/registerPage";
+import Account from "./components/accaunt/account";
 
 function App() {
     return (
@@ -33,7 +37,10 @@ function App() {
                 <Route path={"/map"} element={<Map/>}/>
                 <Route path={"/mission"} element={<Mission/>}/>
                 <Route path={"/use"} element={<Use/>}/>
-
+                <Route path={"/login"} element={<LoginPage/>}/>
+                <Route path={"/homePage"} element={<HomePage/>}/>
+                <Route path={"/register"} element={<RegisterPage/>}/>
+                <Route path={"/account"} element={<Account/>}/>
 
             </Routes>
             <Footer/>

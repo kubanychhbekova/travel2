@@ -187,7 +187,6 @@ import damas4 from "../assets/img/damas4.jpg"
 import damas5 from "../assets/img/damas5.jpg"
 import damas6 from "../assets/img/damas6.jpg"
 import damas7 from "../assets/img/damas7.jpg"
-import man from "../assets/img/man.png"
 
 
 export const Places = [
@@ -550,7 +549,7 @@ export const hotels = [
                 one: sheraton7,}
 
         ],
-        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor",
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2923.911958684023!2d74.58958069588766!3d42.87470238348461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389ec9aaf5aeac87%3A0xd6524e116267d54a!2sSheraton%20Bishkek!5e0!3m2!1sru!2skg!4v1689839047862!5m2!1sru!2skg",
         star: 5
     },
     {
@@ -566,7 +565,8 @@ export const hotels = [
         img: supra,
         img1: supra1,
         img2: [supra3, supra2],
-        img3: [{
+        img3: [
+            {
             id:"bvjkks",
             one:artek4
         },
@@ -582,7 +582,7 @@ export const hotels = [
                 id:"bvjsekks",
                 one:artek7,
             }],
-        address: "https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor",
+        address: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2935.4887461047956!2d74.61944427602283!3d42.629797671169214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389949afb49ae1cb%3A0x901c9ddeac25168b!2sSupara%20Chunkurchak!5e0!3m2!1sru!2skg!4v1689839142055!5m2!1sru!2skg" ,
         star: 0
     },
     {
@@ -599,7 +599,8 @@ export const hotels = [
         img: khan,
         img1: khan1,
         img2: [khan2, supra2],
-        img3: [{
+        img3: [
+            {
             id:"bvjsekks",
             one:artek4
         },
@@ -615,7 +616,7 @@ export const hotels = [
                 id:"bvjf3sekks",
                 one:artek7,
             }],
-        address: "https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor",
+        address: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2991.777712708038!2d76.023319075959!3d41.42234377129553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38906bb2899a27a5%3A0x1f0ffad3f11501e8!2z0JPQvtGB0YLQuNC90LjRhtCwICLQpdCw0L0g0KLQtdC90LPRgNC4Ig!5e0!3m2!1sru!2skg!4v1689839254720!5m2!1sru!2skg" ,
         star: 4
     },
     {
@@ -652,7 +653,7 @@ export const hotels = [
                 id:"bvjs56ekks",
                 one:jannat6,
             }],
-        address: "https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
+        address: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3014.494415297843!2d72.99346537593333!3d40.92683017136197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bd15cd5166d39b%3A0x9310807f5f0351ea!2sJannat%20Regency%20Jalal%20Abad!5e0!3m2!1sru!2skg!4v1689839347528!5m2!1sru!2skg" ,
         star: 5
     },
     {
@@ -668,7 +669,8 @@ export const hotels = [
         img: damas,
         img1: damas1,
         img2: [damas2, damas3],
-        img3: [{
+        img3: [
+            {
             id:"bvjkweks",
             one:damas4
         },
@@ -684,7 +686,7 @@ export const hotels = [
                 id:"bvjsek75ks",
                 one:damas7,
             }],
-        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2923.5434455094237!2d74.61348647603636!3d42.882479671149085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb7eac8d8672d%3A0x8d3b03415fbd07ff!2sDAMAS%20International%20Hotel!5e0!3m2!1sru!2skg!4v1689839468400!5m2!1sru!2skg",
         star: 5
     },
     {
@@ -718,7 +720,7 @@ export const hotels = [
                 id:"bvjsekksfg",
                 one:cafe7,
             }],
-        address: "https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor",
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23408.189744318002!2d74.5247290791016!3d42.8301128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389ec9550b83c29b%3A0xa25b8203a0e0fec6!2sGarden%20Hotel%20%26%20SPA!5e0!3m2!1sru!2skg!4v1689839539925!5m2!1sru!2skg",
         star: 4
     },
     {
@@ -738,7 +740,8 @@ export const hotels = [
         img: muras,
         img1: muras1,
         img2: [muras2, muras3],
-        img3: [{
+        img3: [
+            {
             id:"bvjkks",
             one:muras4
         },
@@ -755,7 +758,7 @@ export const hotels = [
                 one:muras7,
             }
         ],
-        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor",
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2941.402761807828!2d78.39121342479119!3d42.504248177690755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38865c115e7fd741%3A0xe84eae5099ea994d!2sMuras%20Hotel%20Karakol!5e0!3m2!1sru!2skg!4v1689839646493!5m2!1sru!2skg",
         star: 0
     },
     {
@@ -791,7 +794,7 @@ export const hotels = [
                 id:"bvjsekks",
                 one:lavitor3,
             }],
-        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81329.20404226557!2d71.87664081284285!3d41.78742532925842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38a38162f156831f%3A0xeecbc1353da8343e!2sGuest%20house%20Kyzyl%20alma!5e0!3m2!1sru!2skg!4v1689839830947!5m2!1sru!2skg",
         star: 0
     },
     {
@@ -827,7 +830,7 @@ export const hotels = [
                 id:"bvjsekks",
                 one:lavitor3,
             }],
-        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor",
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d148925.33637954152!2d71.79259688036505!3d41.86190971022973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38a477e9b9a78199%3A0xc50db17847bef729!2sSary-Chelek%20Biosphere%20Reserve!5e0!3m2!1sru!2skg!4v1689840017348!5m2!1sru!2skg" ,
         star: 0
     },
     {
@@ -844,7 +847,8 @@ export const hotels = [
         img: zhen,
         img1: zhen,
         img2: [zhen1, supra2],
-        img3: [{
+        img3: [
+            {
             id:"bvjsekks",
             one:artek4
         },
@@ -860,7 +864,8 @@ export const hotels = [
                 id:"bvjf3sekks",
                 one:artek7,
             }],
-        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor"  ,
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2991.484712605115!2d75.99044679263109!3d41.428703105170875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38906962841abed1%3A0x6606f52e415424af!2sZheenkan%201!5e0!3m2!1sru!2skg!4v1689840064690!5m2!1sru!2skg" ,
+
         star: 0
     },
     {
@@ -877,7 +882,8 @@ export const hotels = [
         img: aska,
         img1: aska1,
         img2: [khan2, supra2],
-        img3: [{
+        img3: [
+            {
             id:"bvjsekks",
             one:artek4
         },
@@ -893,7 +899,7 @@ export const hotels = [
                 id:"bvjf3sekks",
                 one:artek7,
             }],
-        address: "https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2991.66033434138!2d76.0266291759592!3d41.42489147129514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38906badc3268115%3A0x92872eb46e78ad4e!2sASKA%20Hotel!5e0!3m2!1sru!2skg!4v1689840130165!5m2!1sru!2skg" ,
         star: 0
     },
     {
@@ -909,7 +915,8 @@ export const hotels = [
         img: kochkor,
         img1: kochkor1,
         img2: [supra3, supra2],
-        img3: [{
+        img3: [
+            {
             id:"bvjsekks",
             one:artek4
         },
@@ -925,7 +932,7 @@ export const hotels = [
                 id:"bvjf3sekks",
                 one:artek7,
             }],
-        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor"  ,
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2954.6674725420653!2d75.76512617600112!3d42.221551171206166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389affd1e4c682b1%3A0x5732bee75508c6af!2sOlive%20Hotel%20Kochkor!5e0!3m2!1sru!2skg!4v1689840190790!5m2!1sru!2skg" ,
         star: 3
     },
     {
@@ -960,7 +967,7 @@ export const hotels = [
                 id:"bvjssekks",
                 one:lavitor4,
             }],
-        address: "https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
+        address: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2976.2612487563533!2d75.12413017597657!3d41.75802487125523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389a194c1f9a9445%3A0xa8e0afbccec912ac!2sYurt%20Camp%20%22Sary-Bulu%C5%84%22!5e0!3m2!1sru!2skg!4v1689840234691!5m2!1sru!2skg" ,
         star: 5
     },
     {
@@ -978,7 +985,8 @@ export const hotels = [
         img: eco,
         img1: eco1,
         img2: [zaton1, zaton2],
-        img3: [{
+        img3: [
+            {
             id:"bvjssdfekks",
             one:zaton3
         },
@@ -994,7 +1002,7 @@ export const hotels = [
                 id:"bdff3sekks",
                 one:zaton6,
             }],
-        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor"  ,
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2933.3203900118992!2d74.61917617602533!3d42.675755171165264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38994a2148b2229d%3A0x3abb7dee437113b2!2z0K3QutC-LdGA0LXQt9C-0YDRgiDQmtCw0YDQsC3QkdGD0LvQsNC6!5e0!3m2!1sru!2skg!4v1689840288668!5m2!1sru!2skg",
         star: 0
     },
     {
@@ -1030,7 +1038,7 @@ export const hotels = [
                 id:"bvjssekks",
                 one:lavitor4,
             }],
-        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor"  ,
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.223277374428!2d74.49683487602428!3d42.65662367116685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3899339bfb57e759%3A0xd6c2e1246c6b62de!2sOlive%20Ala%20Archa!5e0!3m2!1sru!2skg!4v1689840335257!5m2!1sru!2skg" ,
         star: 3
     },
     {
@@ -1068,7 +1076,7 @@ export const hotels = [
                 id:"bvjsmerks",
                 one:myHotel7,
             }],
-        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2925.2671493586895!2d74.62036507603437!3d42.846091971151914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb6422cf2eb9d%3A0x40095ab1839e4a81!2zSG90ZWwgUmVzaWRlbnQgQmlzaGtlaywg0J7RgtC10LvRjCDQoNC10LfQuNC00LXQvdGCINCR0LjRiNC60LXQug!5e0!3m2!1sru!2skg!4v1689840372631!5m2!1sru!2skg" ,
         star: 4
     },
     {
@@ -1102,7 +1110,7 @@ export const hotels = [
                 id:"bvjsmerks",
                 one:myHotel7,
             }],
-        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2925.0836116085147!2d74.64425237603464!3d42.849967671151646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb6f479945697%3A0xb3f43dca986a7900!2sHotel%20Garnet!5e0!3m2!1sru!2skg!4v1689840421468!5m2!1sru!2skg" ,
         star: 0
 
     },
@@ -1141,7 +1149,7 @@ export const hotels = [
                 id:"bvjsmerks",
                 one:myHotel7,
             }],
-        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor",
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2925.8722408572794!2d74.60561257603369!3d42.83331247115287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb611e86dd089%3A0x8f934df4799fe5f6!2siO%20Hotel!5e0!3m2!1sru!2skg!4v1689840460765!5m2!1sru!2skg",
         star: 0
     },
     {
@@ -1179,10 +1187,9 @@ export const hotels = [
                 id:"bvjsmerks",
                 one:myHotel7,
             }],
-        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor",
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11696.946598485087!2d74.56381653955079!3d42.867849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389ec83ab57a5b5d%3A0x77933f4f4d2930ed!2sHotel%20Touristan%20Bishkek!5e0!3m2!1sru!2skg!4v1689840525012!5m2!1sru!2skg" ,
         star: 3
     },
-
     {
         name: "Leninsky district",
 
@@ -1218,7 +1225,7 @@ export const hotels = [
                 id:"bvjsmerks",
                 one:myHotel7,
             }],
-        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor",
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2924.06642211896!2d74.56656337603577!3d42.87144217114993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389ec8421c15f5a7%3A0x89cbbc3982f56296!2sEva%20at%20Home!5e0!3m2!1sru!2skg!4v1689840573573!5m2!1sru!2skg" ,
         star: 0
     },
     {
@@ -1249,7 +1256,7 @@ export const hotels = [
                 id:"bsgrsmerks",
                 one:royal7,
             }],
-        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor",
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2937.644243976204!2d76.7536360760204!3d42.58407297117297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3884c36cb1ab968b%3A0x6816f22fe809a145!2z0JrQu9GD0LEt0L7RgtC10LvRjCBSb3lhbCBCZWFjaA!5e0!3m2!1sru!2skg!4v1689840620370!5m2!1sru!2skg" ,
         star: 0
     },
     {
@@ -1277,7 +1284,7 @@ export const hotels = [
                 id:"bvjsekks",
                 one:artek7,
             }],
-        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor",
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2938.464421354826!2d76.66873482601946!3d42.56666407117444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3884c5053b3944a9%3A0x455f575ad214d254!2z0JPQvtGB0YLQtdCy0L7QuSDQutC-0LzQv9C70LXQutGBIMKrQVJUZWvCuw!5e0!3m2!1sru!2skg!4v1689840685770!5m2!1sru!2skg" ,
         star: 0
     },
     {
@@ -1291,7 +1298,8 @@ export const hotels = [
         img: hotel,
         img1: hotel,
         img2: [hotel1, hotel2],
-        img3: [{
+        img3: [
+            {
             id:"eajkks",
             one:hotel3
         },
@@ -1307,7 +1315,7 @@ export const hotels = [
                 id:"bvjsekks",
                 one:hotel4,
             }],
-        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor",
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2943.152630420396!2d76.20301023488769!3d42.46704240000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389b250fe44c7015%3A0xac731895f3c1d092!2sHotel%20Isyyk%20Kol!5e0!3m2!1sru!2skg!4v1689840772419!5m2!1sru!2skg" ,
         star: 0
     },
     {
@@ -1327,7 +1335,8 @@ export const hotels = [
         img: olimp,
         img1: olimp,
         img2: [olimp1, olimp2],
-        img3: [{
+        img3: [
+            {
             id:"bvjkks",
             one:olimp3
         },
@@ -1343,7 +1352,7 @@ export const hotels = [
                 id:"bvjseskks",
                 one:olimp6,
             }],
-        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.474495266421!2d77.11303532602398!3d42.65129932116728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3884f786e0201221%3A0x2f89dc9e78c8a02f!2sOlimp%20Hotel%20and%20Restaurant!5e0!3m2!1sru!2skg!4v1689840829507!5m2!1sru!2skg" ,
         star: 3
     },
     {
@@ -1361,7 +1370,8 @@ export const hotels = [
         img: zaton,
         img1: zaton,
         img2: [zaton1, zaton2],
-        img3: [{
+        img3: [
+            {
             id:"bvjkaks",
             one:zaton3
         },
@@ -1377,7 +1387,7 @@ export const hotels = [
                 id:"bvjswekks",
                 one:zaton6,
             }],
-        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.87620202102!2d77.0826188760235!3d42.64278437116808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3884f18988e3e30b%3A0xece75a0a49f22006!2sZaton%20Guesthouse!5e0!3m2!1sru!2skg!4v1689840886706!5m2!1sru!2skg" ,
         star: 0
     },
     {
@@ -1409,7 +1419,7 @@ export const hotels = [
                 id:"bvjsekks",
                 one:zeto7,
             }],
-        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11739.504900570586!2d77.07489406414064!3d42.64278388102103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3884f12819d25abf%3A0xeb61663522c693e6!2z0J7RgtC10LvRjCDQl9C10YLQvg!5e0!3m2!1sru!2skg!4v1689840938766!5m2!1sru!2skg" ,
         star: 0
 
     },
@@ -1446,7 +1456,7 @@ export const hotels = [
                 id:"bvjsekks",
                 one:myHotel7,
             }],
-        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2943.845749641597!2d78.40545087601333!3d42.45229797118442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38865ba558af362f%3A0xe23537f06b5e232!2smy%20hotel%20Karakol!5e0!3m2!1sru!2skg!4v1689840972575!5m2!1sru!2skg" ,
         star: 3
     },
     {
@@ -1478,7 +1488,7 @@ export const hotels = [
                 id:"bvjsekks",
                 one:cafe7,
             }],
-        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2942.5052233076226!2d78.39371247601487!3d42.480810671181956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38865b3934ccc939%3A0xa2de107bcde4abff!2sHotel%2078%20Cafe!5e0!3m2!1sru!2skg!4v1689841033545!5m2!1sru!2skg" ,
         star: 0
     },
     {
@@ -1512,7 +1522,7 @@ export const hotels = [
                 id:"bvjsekks",
                 one:lavitor6,
             }],
-        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2923.0500731237616!2d74.57705807603689!3d42.89289027114843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389ec80859527af1%3A0x96aca8cbdd8d8902!2sLavitor%20hotel!5e0!3m2!1sru!2skg!4v1689841117177!5m2!1sru!2skg" ,
         star: 0
     },
     {
@@ -1544,7 +1554,7 @@ export const hotels = [
                 id:"bvjsekks",
                 one:artek7,
             }],
-        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23392.424005659796!2d74.57948211171806!3d42.8717254606917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389ec92dcc2ffbdb%3A0xb80d5796cc8178b8!2sGOLDEN%20DRAGON%20VILLA%20HOTEL!5e0!3m2!1sru!2skg!4v1689841217817!5m2!1sru!2skg",
         star: 0
     },
     {
@@ -1577,7 +1587,7 @@ export const hotels = [
                 id:"bvjsekks",
                 one:artek7,
             }],
-        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2923.632952685421!2d74.58747317603621!3d42.88059077114937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389ec81ef6f17d99%3A0x7e238d39dd8b766c!2sFamily%20Guesthouse!5e0!3m2!1sru!2skg!4v1689841264826!5m2!1sru!2skg",
         star: 0
     },
     {
@@ -1610,7 +1620,7 @@ export const hotels = [
                 id:"bvjsekks",
                 one:artek7,
             }],
-        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2924.0927635287308!2d74.56929797603571!3d42.87088617114999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389ec83f2483ec69%3A0xd0401b55c8739ad7!2sFriend&#39;s%20Guest%20House%20Bishkek!5e0!3m2!1sru!2skg!4v1689841303955!5m2!1sru!2skg",
         star: 0
     },
     {
@@ -1643,7 +1653,7 @@ export const hotels = [
                 id:"bvjsekks",
                 one:artek7,
             }],
-        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1520780.1268554227!2d72.45037230877027!3d41.8869708406875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bd17772a555b3b%3A0x47d2d5617960b4e!2z0JPQvtGB0YLQtdCy0L7QuSDQlNC-0LwgItCt0YLQvdC-INCU0L7QvCI!5e0!3m2!1sru!2skg!4v1689841358259!5m2!1sru!2skg",
         star: 0
     },
     {
@@ -1679,7 +1689,7 @@ export const hotels = [
                 id:"bvjsekks",
                 one:mar7,
             }],
-        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46782.68009709711!2d74.49972055820312!3d42.874585300000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389ec86aaaaaaaab%3A0x9042ec9d1b06e13a!2sMaryotel%20Hotel!5e0!3m2!1sru!2skg!4v1689841442528!5m2!1sru!2skg",
         star: 4
     },
     {
@@ -1713,7 +1723,7 @@ export const hotels = [
                 id:"bvjsekks",
                 one:artek7,
             }],
-        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2923.683014474864!2d74.63558127603616!3d42.87953427114938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb7a0cf3c5bc9%3A0x711ec612bcb9051!2sLumarc%20Hotel!5e0!3m2!1sru!2skg!4v1689841482174!5m2!1sru!2skg" ,
         star: 0
     },
     {
@@ -1745,19 +1755,21 @@ export const hotels = [
                 id:"bvjsekks",
                 one:zeto7,
             }],
-        address:"https://yandex.ru/map-widget/v1/?um=constructor%3A04cf3210590634610d488eb9b9eb59b21077cd9d5217381d28610dcfb11235fb&amp;source=constructor" ,
+        address:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2923.831066458721!2d74.65185907603606!3d42.87640967114962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb71ab12020d9%3A0x425c24db9ab21b3!2sFuturo%20Hotel%20Bishkek!5e0!3m2!1sru!2skg!4v1689841538463!5m2!1sru!2skg" ,
         star: 0
     },
 ]
-export const review=[
-    {
-        id:1,
-        star:5,
-        name:"Cody Fisher",
-        title: "Delight! wow! Pleasure!\n" +
-            "I haven't received such emotions from excursions for a long time",
-        img:man,
-    },
-]
+
+
+
+
+export const reviewObj={
+    name:"",
+    title:"",
+    email:"",
+    id:Date.now(),
+
+}
+
 
 

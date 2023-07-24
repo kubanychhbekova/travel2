@@ -1,8 +1,5 @@
-import React, {useEffect} from 'react';
-import {Link, useParams} from "react-router-dom";
-import {useDispatch, useSelector} from "react-redux";
-import {Places} from "../../../../back-end/backend";
-import sonKulBg4 from "../../../../assets/img/sonKul4.png";
+import React from 'react';
+
 import Newlink from "../../../newLink/newLink";
 
 
@@ -12,7 +9,7 @@ const PopularDetails = ({cards}) => {
             <div>
                 {cards.map((el) => {
                     return (
-                        <div id="popularDetail">
+                        <div key={el.id} id="popularDetail">
                             <div className="container">
                                 <div className="popularDetail">
                                     <div className='popularDetail--first'>
@@ -56,7 +53,8 @@ const PopularDetails = ({cards}) => {
                                     el.photos.map((elem) => {
                                         return (
                                             <>
-                                                <img src={elem} alt=""/></>
+                                                <img  src={elem} alt=""/>
+                                            </>
                                         )
                                     })
                                 }

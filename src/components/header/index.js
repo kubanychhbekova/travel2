@@ -1,10 +1,34 @@
-import React from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import img from "../../assets/img/logo-89.png"
 import {BiUserCircle} from "react-icons/bi";
 import {NavLink} from "react-router-dom";
+import {useAuth} from "../../hooks/use-auth";
 
 
 const Header = () => {
+    const [modalVisible, setModalVisible] = useState(false);
+    const headerLogRef = useRef(null);
+    const headerModalRef = useRef(null);
+
+    const toggleModal = () => setModalVisible(!modalVisible);
+
+    const handleClickOutsideModal = (event) => {
+        if (
+            headerLogRef.current && !headerLogRef.current.contains(event.target) &&
+            headerModalRef.current && !headerModalRef.current.contains(event.target)
+        ) {
+            setModalVisible(false);
+        }
+    };
+
+    useEffect(() => {
+        document.addEventListener("mousedown", handleClickOutsideModal);
+
+        return () => {
+            document.removeEventListener("mousedown", handleClickOutsideModal);
+        };
+    }, []);
+    const {isAuth, email} = useAuth();
     return (
         <div id="header">
             <div className="container">
@@ -23,13 +47,13 @@ const Header = () => {
                             <NavLink to="/map"><h1>Map</h1></NavLink>
                             <NavLink to="/contacts"><h1>Contacts</h1></NavLink>
 
-                            
+
                             <div className="header--logo__pages--select">
                                 <select name="language" id="1">
                                     <option value="language">language</option>
-                                    <option value="usd">English </option>
-                                    <option value="ru">Русский </option>
-                                    <option value="cn">`中文 </option>
+                                    <option value="usd">English</option>
+                                    <option value="ru">Русский</option>
+                                    <option value="cn">`中文</option>
                                     <option value="arab"> عربي</option>
                                 </select>
 
@@ -38,9 +62,19 @@ const Header = () => {
                     </div>
 
 
-                    <div className="header--log">
+                    <div className="header--log"
+                         ref={headerLogRef}
+                         onClick={toggleModal}>
                         <BiUserCircle className="header--log__icon"/>
                         <p>Accaunt</p>
+                    </div>
+                    <div className="header--modal" style={{display: modalVisible ? "block" : "none"}}
+                         ref={headerModalRef}>
+
+                        <NavLink to={isAuth ? "/account" : "/register"} className="p"
+                                 onClick={() => setModalVisible(false)}>{isAuth ? "Profile" : " Sing Up"}</NavLink>
+
+                        <NavLink to={"/login"} className="p" onClick={() => setModalVisible(false)}>Log in</NavLink>
                     </div>
                 </div>
             </div>
