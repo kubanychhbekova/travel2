@@ -1,0 +1,194 @@
+#content {
+  .container {
+    .content {
+      &--search {
+        display: flex;
+        border-radius: 10px;
+        background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.5) 0%,
+          rgba(9, 146, 213, 0.5) 100%
+        );
+        backdrop-filter: blur(25px);
+        align-items: center;
+        width: 1160px;
+        height: 122px;
+        margin-top: -73px;
+        &__block1 {
+          width: 470px;
+          height: 62px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 10px;
+          background: #fff;
+          border-radius: 7px;
+          h4 {
+            color: #000;
+            font-family: Syne;
+            font-size: 14px;
+            font-weight: 500;
+            margin-left: 15px;
+          }
+        }
+        &__block2 {
+          width: 470px;
+          height: 62px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 10px;
+          background: #fff;
+          border-radius: 7px;
+          h4 {
+            color: #000;
+            font-family: Syne;
+            font-size: 14px;
+            font-weight: 500;
+            margin-left: 15px;
+          }
+        }
+        &__btn {
+          button {
+            color: #fff;
+            font-family: Syne;
+            font-size: 22px;
+            font-weight: 600;
+            border-radius: 10px;
+            background: #0992d5;
+            width: 150px;
+            height: 65px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+          }
+        }
+      }
+      &--selects {
+        width: 450px;
+        height: 17px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #ffffff;
+        padding: 23px;
+        cursor: pointer;
+
+        &__select1 {
+          border-radius: 10px;
+          background: #fff;
+          padding: 15px 10px;
+          width: 300px;
+          display: none;
+
+          h4 {
+            margin: 0;
+            color: #000;
+            font-family: Syne;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            border-radius: 10px;
+            background: #d9d9d9;
+            padding: 5px 10px;
+            cursor: pointer;
+
+            &:hover {
+              background: #0992d5;
+              color: #fff;
+            }
+          }
+        }
+        &__select2 {
+          display: flex;
+          flex-wrap: wrap;
+          width: 350px;
+          height: 100px;
+          gap: 10px;
+          background: #fff;
+          border-radius: 15px;
+          margin-left: 10px;
+          margin-top: 10px;
+          display: none;
+          h4 {
+            color: #fff;
+            display: flex;
+            align-items: center;
+            margin-top: 7px;
+            background: hsl(0, 0%, 50%);
+            border-radius: 10px;
+            height: 30px;
+          }
+        }
+      }
+      &--blocks {
+        display: flex;
+        margin-top: 110px;
+        align-items: center;
+        &__byPlane {
+          width: 190px;
+          gap: 10px;
+          h1 {
+            color: #0992d5;
+            font-family: Inter;
+            font-size: 36px;
+            font-weight: 700;
+            cursor: pointer;
+            margin-bottom: 10px;
+          }
+          &--linea {
+            width: 373px;
+            height: 6px;
+            background: #d9d9d9;
+            cursor: pointer;
+            &:hover {
+              background: #0992d5;
+            }
+          }
+        }
+        &__byBus {
+          width: 190px;
+          gap: 10px;
+          h1 {
+            color: #0992d5;
+            font-family: Inter;
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            cursor: pointer;
+          }
+          &--linea {
+            width: 373px;
+            height: 6px;
+            background: #d9d9d9;
+            cursor: pointer;
+            &:hover {
+              background: #0992d5;
+            }
+          }
+        }
+        &__byTrain {
+          width: 190px;
+          gap: 10px;
+          h1 {
+            color: #0992d5;
+            font-family: Inter;
+            font-size: 36px;
+            font-weight: 700;
+            cursor: pointer;
+            margin-bottom: 10px;
+          }
+          &--linea {
+            width: 373px;
+            height: 6px;
+            background: #d9d9d9;
+            cursor: pointer;
+            &:hover {
+              background: #0992d5;
+            }
+          }
+        }
+      }
+    }
+  }
+}
