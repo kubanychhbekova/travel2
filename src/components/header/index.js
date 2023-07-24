@@ -1,3 +1,4 @@
+
 import React, {useEffect, useRef, useState} from 'react';
 import img from "../../assets/img/logo-89.png"
 import {BiUserCircle} from "react-icons/bi";
@@ -55,31 +56,20 @@ const Header = () => {
                                     <option value="ru">Русский</option>
                                     <option value="cn">`中文</option>
                                     <option value="arab"> عربي</option>
-                                </select>
-
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div className="header--log"
-                         ref={headerLogRef}
-                         onClick={toggleModal}>
-                        <BiUserCircle className="header--log__icon"/>
-                        <p>Accaunt</p>
-                    </div>
-                    <div className="header--modal" style={{display: modalVisible ? "block" : "none"}}
-                         ref={headerModalRef}>
-
-                        <NavLink to={isAuth ? "/account" : "/register"} className="p"
-                                 onClick={() => setModalVisible(false)}>{isAuth ? "Profile" : " Sing Up"}</NavLink>
-
-                        <NavLink to={"/login"} className="p" onClick={() => setModalVisible(false)}>Log in</NavLink>
-                    </div>
-                </div>
+                               
+                </select>
+              </div>
             </div>
+          </div>
+
+          <div className="header--log">
+            <BiUserCircle className="header--log__icon" />
+            <p>Accaunt</p>
+          </div>
         </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default Header;

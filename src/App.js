@@ -1,12 +1,11 @@
-import './App.scss';
+import "./App.scss";
 import Header from "../../travel2/src/components/header";
 import Footer from "../../travel2/src/components/footer/footer";
-import {Route, Routes} from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Pages from "../../travel2/src/components/pages/pages";
 import Hotels from "../../travel2/src/components/hotels/hotels";
 import Detail from "../../travel2/src/components/popular/popularDetails/detail";
 import HotelDetail from "../../travel2/src/components/hotels/hotelDetail/hotelDetail";
-
 import Details from './components/detailed/detailed';
 import KyrgyzstanPage from './components/pages/kyrgyzstan/kyrgyzstan';
 import Culture from './components/pages/culture/culture';

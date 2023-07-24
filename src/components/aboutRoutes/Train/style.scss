@@ -1,0 +1,89 @@
+#train {
+    .container {
+      .train {
+        h1 {
+          color: #000;
+          font-family: Inter;
+          font-size: 22px;
+          font-weight: 600;
+          margin: 70px 0 50px 0;
+        }
+        &--card {
+          display: flex;
+          h1 {
+            color: #000;
+            font-family: Inter;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            margin: 70px 0 35px 0;
+          }
+          &__rout {
+            width: 70%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            &--city {
+              display: flex;
+              flex-direction: column;
+              border-radius: 16px;
+              position: relative;
+              border: 1px solid rgba(138, 133, 133, 0.355);
+              width: 341px;
+              height: 250px;
+              margin: 20px 10px 20px 10px;
+              img {
+                width: 317px;
+                margin-top: 10px;
+                height: 180px;
+                border-radius: 10px;
+                background: rgba(0, 0, 0, 0.2);
+              }
+              h1 {
+                position: absolute;
+                top: 79px;
+                left: 134px;
+                color: #fff;
+                font-family: Inter;
+                font-size: 22px;
+                font-weight: 600;
+                display: inline-flex;
+                padding: 11px 0px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+              }
+              &__go {
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                margin: 0;
+                &:hover {
+                  background: #d7d7d8;
+                }
+                h4 {
+                  color: #000;
+                  font-family: Inter;
+                  font-size: 14px;
+                  font-style: normal;
+                  font-weight: 500;
+                  line-height: normal;
+                  margin-top: 10px;
+                }
+                h4:nth-child(3) {
+                  color: #0992d5;
+                  font-family: Inter;
+                  font-size: 14px;
+                  font-style: normal;
+                  font-weight: 500;
+                  line-height: normal;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
