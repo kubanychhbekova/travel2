@@ -59,8 +59,8 @@ const HotelDetailPage = ({cards}) => {
                                         <div className="hotelPage--bottom__map">
 
                                             <iframe
-                                                src={el.address}
-                                                width="455" height="344" frameBorder="0"></iframe>
+                                                src={el.address} width="455" height="344"
+                                                style={{border:"0"}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                                         </div>
                                     </div>
                                 </div>

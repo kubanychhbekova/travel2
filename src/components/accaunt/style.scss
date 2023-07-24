@@ -1,0 +1,64 @@
+#account {
+  .account {
+    margin: 100px 0;
+
+    &--left {
+      border: 1px solid rgba(0, 0, 0, 0.50);
+      background: #FFF;
+      width: 280px;
+      height: 568px;
+      flex-shrink: 0;
+
+      h4 {
+        color: #000;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 280px;
+      }
+
+      img {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        margin-top: 40px;
+      }
+
+      .icon {
+        font-size: 24px;
+        margin-left: 20px;
+      }
+      .active {
+        width: 280px;
+        flex-shrink: 0;
+        background: #D9D9D9;
+        transition: 1s;
+
+        h4{
+          color: #000;
+          font-family: Inter;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+
+        }
+      }
+      &__personal {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: start;
+
+      }
+      .border{
+        width: 5px ;
+        color: grey;
+      }
+    }
+  }
+}
