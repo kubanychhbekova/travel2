@@ -37,6 +37,7 @@ const Popular = () => {
                                             display: isHover ? "block": "none"
                                         }
                                     }>
+
                                         <h4>{el.title}</h4>
                                         <p className='p1'>{el.description}</p>
                                         <NavLink to={`/popular/${el.id}`}  className='popular--cards__card--hover__icon'>

@@ -66,7 +66,10 @@ const PopularDetails = ({cards}) => {
                         </div>
                     )
                 })}
-<Newlink/>
+                <div className='linkDel'>
+                    <Newlink/>
+                </div>
+
             </div>
         );
     }
