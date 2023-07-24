@@ -82,9 +82,10 @@ gap: 88px;
 
 
     &--log {
+
       display: flex;
       align-items: center;
-
+cursor: pointer;
       p {
         color: #FFF;
         font-family: Inter;
@@ -97,6 +98,34 @@ gap: 88px;
       &__icon {
         color: white;
         font-size: 24px;
+      }
+
+
+
+    }
+    &--modal{
+      position: absolute;
+      right: 10%;
+      top: 50px;
+      border-radius: 6px;
+      background: #D9D9D9;
+      .p{
+        display: flex;
+        padding: 2px 15px 2px 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+        color: #000;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        &:hover{
+          border-radius: 6px;
+          background: #FFF;
+        }
       }
     }
   }

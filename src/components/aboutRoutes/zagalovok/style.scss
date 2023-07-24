@@ -1,0 +1,21 @@
+#route {
+  background: url("../../../assets/img/1643328997_1-pibig-info-p-gori-kirgizii-priroda-krasivo-foto-1\ 1.png")
+    no-repeat center/cover;
+  width: 100%;
+  height: 510px;
+  padding-top: 390px;
+  .container {
+    .route {
+      &--zagalovok {
+        h1 {
+          display: flex;
+          justify-content: center;
+          color: #fff;
+          font-size: 55px;
+          font-weight: 700;
+          margin-top: 60px;
+        }
+      }
+    }
+  }
+}

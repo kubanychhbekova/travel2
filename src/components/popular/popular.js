@@ -1,21 +1,24 @@
 import React, {useEffect, useState} from 'react';
 import {useDispatch, useSelector} from "react-redux";
-import {Places} from "../../../../travel2/src/back-end/backend";
-import {IoIosArrowForward} from "react-icons/io";
 import {MdKeyboardArrowRight} from "react-icons/md";
 import {NavLink} from "react-router-dom";
+import {getPopular} from "../../store/reducer/reducer";
+import {Places} from "../../back-end/backend";
 
 const Popular = () => {
-    const {popular} = useSelector(s => s)
+    const popular = useSelector(state => state.travel.popular)
+
     const dispatch = useDispatch()
-    const [hover,setHover]=useState(null)
+    const [hover, setHover] = useState(null)
+    const Popular = () => dispatch(getPopular(Places))
+
     useEffect(() => {
-        dispatch({type: "GET_POPULAR", payload: Places})
+        Popular()
     }, [])
-    const handleMouseOver=(el)=>{
+    const handleMouseOver = (el) => {
         setHover(el)
     }
-    const handleMouseOut=()=>{
+    const handleMouseOut = () => {
         setHover(null)
     }
     return (
@@ -25,21 +28,21 @@ const Popular = () => {
                     <h1>POPULAR SIGHTS OF KYRGYZSTAN</h1>
                     <div className='popular--cards'>
                         {popular.map((el) => {
-                            const isHover=hover===el.id
+                            const isHover = hover === el.id
                             return (
                                 <div className='popular--cards__card' key={el.id}
-                                onMouseOver={()=> handleMouseOver(el.id)}
+                                     onMouseOver={() => handleMouseOver(el.id)}
                                      onMouseOut={handleMouseOut}
                                 >
                                     <img src={el.img} alt=""/>
                                     <div className='popular--cards__card--hover' style={
                                         {
-                                            display: isHover ? "block": "none"
+                                            display: isHover ? "block" : "none"
                                         }
                                     }>
                                         <h4>{el.title}</h4>
                                         <p className='p1'>{el.description}</p>
-                                        <NavLink to={`/popular/${el.id}`}  className='popular--cards__card--hover__icon'>
+                                        <NavLink to={`/popular/${el.id}`} className='popular--cards__card--hover__icon'>
                                             <p className='p2'>read more</p>
                                             <MdKeyboardArrowRight className='popular--cards__card--hover__icon--arrow'/>
                                         </NavLink>

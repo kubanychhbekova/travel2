@@ -1,28 +1,30 @@
-import review from "../../components/reviews/review";
+import { createSlice } from "@reduxjs/toolkit";
 
-const initialState = {
-    popular:[],
-    product: [],
-    cards:[],
-    hotelsCard: JSON.parse(localStorage.getItem("hotelsCard")) || [],
-    review: JSON.parse(localStorage.getItem("review")) || [],
-};
-
-export const Reducer = (state = initialState, action) => {
-    switch (action.type) {
-        case "GET_PRODUCT":
-            return { ...state, product: action.payload };
-        case "GET_POPULAR":
-            return { ...state, popular: action.payload };
-        case "GET_CARDS":
+export const todoSlice = createSlice({
+    name: "travel",
+    initialState: {
+        popular: [],
+        product: [],
+        cards: [],
+        hotelsCard: JSON.parse(localStorage.getItem("hotelsCard")) || [],
+    },
+    reducers: {
+        getProduct(state, action) {
+            state.product = action.payload;
+        },
+        getPopular(state, action) {
+            state.popular = action.payload;
+        },
+        getCards(state, action) {
             const found = state.popular.find((el) => el.id === action.payload);
-            return { ...state, cards:[ { ...found}]};
-        case "GET_HOTELS":
+            state.cards = [{ ...found }];
+        },
+        getHotels(state, action) {
             const foundHotel = state.product.find((el) => el.id === action.payload);
-            return { ...state, hotelsCard: [{ ...foundHotel}] };
-        case "ADD__REVIEW":
-            return {...state,review: [...review,action.payload]}
-        default:
-            return state;
-    }
-};
+            state.hotelsCard = [{ ...foundHotel }];
+        },
+    },
+});
+
+export const { getProduct, getPopular, getCards, getHotels } = todoSlice.actions;
+export default todoSlice.reducer;
