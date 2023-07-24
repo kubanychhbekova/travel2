@@ -192,7 +192,7 @@ import damas7 from "../assets/img/damas7.jpg"
 export const Places = [
     {
         id: 1,
-        title: "Son-Kol Lake",
+        title: "Son-Kol Lakes",
         img: sonKul,
         description: "Son-Kol Lake (Sonkel,Son kul) is located in the north-west of the Naryn region of Kyrgythstan.THis is the second largest lake in the country after Issyk-Kul",
         bgImg: sonKulBg,

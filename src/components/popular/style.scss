@@ -3,7 +3,8 @@
 
   .popular {
     h1{
-      margin: 110px 0 30px 180px;
+      text-align: center;
+      margin-bottom: 30px;
       color: #0992D5;
       font-family: Poppins;
       font-size: 48px;
@@ -26,6 +27,8 @@
         &--hover {
           padding: 20px;
           position: absolute;
+          left: 0;
+          right: 0;
           //top: 380px;
           height: 145px;
           bottom: 0;
@@ -66,6 +69,7 @@
              font-style: normal;
              font-weight: 500;
              line-height: normal;
+
            }
             &--arrow{
               font-weight: 700;
