@@ -1,15 +1,11 @@
 #hero{
     background: url(../../assets/img/hero-bg.png)no-repeat center/cover;
-    // width: 100%;
     height: 798px!important;
-    // padding: 80px 0 0 0;
     .hero{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: start;
-        // height: 900px;
-        // margin-top: 60px;
         .hero-texts{
         margin: 0;
         display: flex;
@@ -17,9 +13,7 @@
         justify-content: space-between;
         height: 340px;
         padding-top: 160px;
-        
-    
-    h1{
+        h1{
     font-family: Inter;
     font-size: 60px;
     font-weight: 900;
@@ -37,10 +31,9 @@
     margin: 0;
     }
     button{
-    width:214px !important;
+    width:214px ;
     height: 60px;
     cursor: pointer;
-    // padding: 12px 22px 12px 22px;
     border: 2px;
     gap: 22px;
     background: rgba(0, 0, 0, 0.30);
@@ -49,7 +42,6 @@
     font-family: Poppins;
     font-size: 24px;
     font-weight: 700;
-    // line-height: 36px;
     text-align: center;
     margin: 0;
     }
@@ -61,13 +53,13 @@
         display: flex;
         justify-content: space-between;
         width: 1200px;
-        // margin: 0;
-        // padding-top: 30px;
         margin-top: 35px;
+        margin-left: 0;
+        margin-right: 0;
         .hero--blocks__block{
-            margin: 0;
-        width: 275px !important;
-        height: 263px !important;
+        margin: 0;
+        width: 275px ;
+        height: 263px ;
         border-radius: solid 1px white ;
         border-radius: 20px;
         background: rgba(9, 146, 213, 0.20);
@@ -78,16 +70,7 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: start;
-        // .hero--block__part{
-        //     display: flex;
-        //     flex-direction: column;
-        //     justify-content: space-around;
-        //     align-items: center;
-        //     height: 230px !important;
-        //     margin-top: 40px;
-        //     width: 205px;
-            .hero-block-container{
-                // height: 160px !important;
+        .hero-block-container{
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
@@ -96,7 +79,6 @@
                 margin-top: 30px;
                 .hero--block__line{
                     width: 235px;    
-                    // margin: 10px 0;
                     height: 1px!important;
                     background: white;
                    }
@@ -117,7 +99,6 @@
                             letter-spacing: 0em;
                             text-align: left;
                             margin: 0;
-                            // padding-top: 10px;
                         }
                     }
                     
@@ -133,7 +114,6 @@
                 justify-content: end;
                 width:260px;
                 padding-bottom: 10px;
-                // text-align: left !important;
                 color: #0992D5;
                 margin: 0 0!important;
                 cursor: pointer;
@@ -142,5 +122,4 @@
                 }
                 }
         }
-    // }
 

@@ -8,6 +8,7 @@ import wts from "../../assets/img/wts.svg"
 const Newlink = () => {
     return (
         <div className="link">
+            <div className='container'>
             <h2>Did you like the article? Share the page!</h2>
             <div className='imgs'>
                 <img src={ist} alt=""/>
@@ -16,6 +17,9 @@ const Newlink = () => {
                 <img src={tel} alt=""/>
                 <img src={wts} alt=""/>
             </div>
+
+            </div>
+            
 
         </div>
     );

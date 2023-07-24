@@ -1,0 +1,109 @@
+@media(max-width:1400px){
+    .aboutKg{
+        justify-content: space-between !important;
+    }
+    .aboutKg-texts{
+        margin: 0 !important;
+        p{
+            font-size: 13px !important;
+        }
+    }
+    .aboutKg img{
+        margin: 0 !important;
+    }
+   
+}
+@media(max-width:1200px){
+    .aboutKg{
+        justify-content: space-between !important;
+    }
+    img{
+        width: 40%;
+        height: 40% !important;
+        margin: 0;
+    }
+    .aboutKg-texts{
+        margin: 0;
+    }
+}
+@media(max-width:1024px){
+    
+    
+}
+@media(max-width: 993px){
+    .aboutKg{
+        flex-direction: column;
+        align-items: center;
+        img{
+            width: 90%;
+            height: 90%;
+            margin: 50px 0 0 0;
+        }
+    
+    }
+}
+@media(max-width: 768px){
+    #aboutKg{
+        padding-top: 30px !important;
+    }
+}
+@media(max-width: 575px){
+   .aboutKg-texts{
+    p{
+        font-size: 12px !important;
+        line-height: 20px !important;
+    }
+   }
+}
+@media(max-width: 480px){
+    .aboutKg-texts{
+        h4{
+            margin-bottom: 0px !important;
+            line-height: 20px !important;
+        }
+    }
+    .aboutKg-texts__p{
+        margin-top: 30px  !important;
+    }
+    
+}
+@media(max-width:414px){
+    .aboutKg{
+        .aboutKg-texts{
+            h4{
+                margin-bottom: 0px !important;
+                line-height: 20px !important;
+                width: 360px !important;
+            }
+            p{
+                font-size: 11.5px !important;
+                line-height: 16px !important;
+                width: 360px !important;
+            }
+           }
+    }
+
+}
+@media(max-width:375px){
+    #aboutKg{
+        padding-top: 30px !important;
+        img{
+            // margin: 10px 20px 0 0px !important;
+        }
+        h4{
+            font-size: 18px !important;
+            line-height: 20px !important;
+            width: 325px !important;
+        }
+        p{
+            line-height: 18px !important;
+            margin: 30px 0 !important;
+            width: 325px !important;
+        }
+        
+    }
+    
+}
+@media(max-width:320px){
+    
+}

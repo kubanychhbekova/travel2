@@ -1,5 +1,5 @@
 import React from 'react';
-import detailedBg from '../../../assets/img/detail-bg.png'
+import detailedBg from '../../../assets/img/detail-bg.png';
 const Detailed = () => {
     return (
         <div id='detailed'>

@@ -5,6 +5,7 @@ import CultSection2 from './cult-section2/cult-section2';
 import CultSection3 from './cult-section3/cult-section3';
 import CultSection4 from './cult-section4/cult-section4';
 import CultureBg from './culture-bg/culture-bg';
+import Newlink from '../../newLink/newLink';
 
 const Culture = () => {
     return (
@@ -14,6 +15,7 @@ const Culture = () => {
             <CultSection2/>
             <CultSection3/>
             <CultSection4/>
+            <Newlink/>
         </div>
     );
 };
