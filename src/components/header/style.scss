@@ -8,17 +8,20 @@
   height: 80px;
   display: flex;
   align-items: center;
-
   .header {
-  display: flex;
-justify-content: space-between;
-gap: 177px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 194px;
     margin: 0;
+
     &--logo {
       display: flex;
       align-items: center;
       justify-content: space-between;
-gap: 88px;
+      gap: 88px;
+      z-index: 5;
+
       &__icon {
         display: flex;
         align-items: center;
@@ -38,6 +41,7 @@ gap: 88px;
           line-height: normal;
         }
       }
+
       &__pages {
         display: flex;
         align-items: center;
@@ -51,12 +55,12 @@ gap: 88px;
           cursor: pointer;
           padding: 10px;
           letter-spacing: .5px;
+
           &:hover {
             color: #0992D5;
           }
 
         }
-
 
 
         &--select {
@@ -81,50 +85,155 @@ gap: 88px;
     }
 
 
-    &--log {
-
+    &--right {
       display: flex;
       align-items: center;
-cursor: pointer;
-      p {
-        color: #FFF;
-        font-family: Inter;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-      }
+      gap: 12px;
 
-      &__icon {
-        color: white;
-        font-size: 24px;
-      }
+      &__log {
 
-
-
-    }
-    &--modal{
-      position: absolute;
-      right: 10%;
-      top: 50px;
-      border-radius: 6px;
-      background: #D9D9D9;
-      .p{
         display: flex;
-        padding: 2px 15px 2px 16px;
-        justify-content: center;
         align-items: center;
-        gap: 10px;
         cursor: pointer;
-        color: #000;
-        font-family: Inter;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        &:hover{
-          border-radius: 6px;
-          background: #FFF;
+
+        p {
+          color: #FFF;
+          font-family: Inter;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+
+        &--icon {
+          color: white;
+          font-size: 24px;
+        }
+
+
+      }
+
+      &__modal {
+        position: absolute;
+        right: 10%;
+        top: 50px;
+        border-radius: 6px;
+        background: #D9D9D9;
+
+        .p {
+          display: flex;
+          padding: 2px 15px 2px 16px;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          cursor: pointer;
+          color: #000;
+          font-family: Inter;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+
+          &:hover {
+            border-radius: 6px;
+            background: #FFF;
+          }
+        }
+      }
+
+      &__burger {
+display: none;
+        &--icon {
+          position: relative;
+          width: 40px;
+          height: 40px;
+          border: none;
+          background: transparent;
+          z-index: 5;
+
+          span {
+            position: absolute;
+            height: 3px;
+            width: 35px;
+            background-color: #FFFFFF;
+            right: 0;
+          }
+
+          span:nth-child(1) {
+            transform: translateY(8px);
+
+          }
+
+          span:nth-child(2) {
+            transform: translateY(19px);
+
+          }
+
+          span:nth-child(3) {
+            transform: translateY(31px);
+
+          }
+
+
+        }
+
+        &--pages {
+          display: none;
+          position: fixed;
+          background: #FFFFFF;
+          top: 0;
+          left: 0;
+          width: 100%;
+          padding: 10%;
+          height: 100vh;
+          z-index: 2;
+
+          &__nav {
+            width: 360px;
+            margin-left: 0;
+
+            h1 {
+              color: #000;
+              font-family: Inter;
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: normal;
+              border-bottom: 2px solid grey;
+              padding: 20px 0 10px 0;
+            }
+
+            &--select {
+              border-bottom: 2px solid grey;
+              display: flex;
+              align-items: center;
+              gap: 241px;
+
+              select {
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                padding: 20px 0 10px 0;
+                color: #000;
+                font-family: Inter;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                border: none;
+                outline: none;
+
+                option {
+                  border: none;
+                  outline: none;
+                }
+              }
+
+              &__icon {
+                font-size: 24px;
+              }
+            }
+          }
         }
       }
     }

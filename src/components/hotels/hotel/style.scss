@@ -1,17 +1,18 @@
 #hotel{
   background: url("../../../assets/img/hotels.png") no-repeat center/cover;
   background-size: contain;
-  fill: rgba(0, 0, 0, 0.20);
-  height: 825px;
+  fill: rgba(0, 0, 0, 0.98);
+  height:822px;
 
 .hotel {
-  margin-top: -34.1%;
   margin-right: 14px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   gap: 22px;
+
   h1{
+    margin-top: 405px;
     color: #FFF;
     font-family: Poppins;
     font-size: 48px;

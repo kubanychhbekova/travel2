@@ -1,6 +1,5 @@
 #hotelPage {
   margin: 100px 0;
-
   .container {
     width: 67%;
 
@@ -94,9 +93,13 @@
     line-height: normal;
   }
 }
-        &__bottom{
-          width: 460px;
-          height: 344px;
+
+          &__map{
+            iframe{
+              width: 455px;
+              height: 344px;
+
+          }
         }
       }
     }

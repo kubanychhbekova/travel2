@@ -1,0 +1,109 @@
+.userLogin {
+  width: 850px;
+
+  h1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 30px 0;
+  }
+
+  &--pass {
+    text-align: start;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-top: 5px;
+    border-bottom: 2px solid grey;
+    padding: 15px 0;
+
+    &__first {
+      margin-left: 0;
+
+      h6 {
+        color: #000;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 10px;
+      }
+
+      p {
+        color: #000;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+
+    &__p {
+      margin-right: 0;
+      color: #000;
+      text-align: right;
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      cursor: pointer;
+    }
+  }
+
+  &--connect {
+    margin-top: 5px;
+    border-bottom: 2px solid grey;
+    padding: 15px 0 20px 0;
+ &__first{
+   h6 {
+     color: #000;
+     font-family: Inter;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+   }
+
+   &--p1 {
+     color: #000;
+     font-family: Inter;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     margin: 5px 0;
+   }
+button{
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-flex;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border: 0.5px solid rgba(0, 0, 0, 0.50);
+  background: transparent;
+  cursor: pointer;
+}
+   &--p2 {
+     color: #000;
+     font-family: Inter;
+     font-size: 10px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     margin-top: 5px;
+   }
+ }
+  }
+}
