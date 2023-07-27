@@ -1,8 +1,10 @@
 @media(max-width:1400px){
-    p{
-        font-size: 13px !important;
-        margin: 0 0 20px 0!important;
-    }
+   .about-map{
+       p{
+           font-size: 13px !important;
+           margin: 0 0 20px 0!important;
+       }
+   }
 
 
 }
@@ -21,19 +23,23 @@
     
 }
 @media(max-width: 768px){
-    p{
-        font-size: 12px !important;
-        line-height: 20px !important;
-    }
+   .about-map{
+       p{
+           font-size: 12px !important;
+           line-height: 20px !important;
+       }
+   }
 }
 @media(max-width: 575px){
     
 }
 @media(max-width: 480px){
-    p{
-        font-size: 11.5px !important;
-        line-height: 18px !important;
-    }
+   .about-map{
+       p{
+           font-size: 11.5px !important;
+           line-height: 18px !important;
+       }
+   }
 }
 @media(max-width:414px){
     .about-map{

@@ -1,0 +1,211 @@
+@media (max-width: 768px) {
+  #review {
+    center {
+      font-size: 45px;
+    }
+
+    .slice {
+      &--card {
+        width: 430px;
+        height: 200px;
+p{}
+        &__top {
+          margin-left: 20px;
+
+          img {
+            margin-left: 50px;
+          }
+        }
+
+        &__bottom {
+          margin-left: 20px;
+        }
+      }
+    }
+
+    .review {
+      &--input {
+        input {
+          width: 400px;
+        }
+      }
+
+      &--bottom {
+        width: 590px;
+
+        textarea {
+          width: 550px;
+
+        }
+
+        button {
+
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #review {
+    center {
+      font-size: 45px;
+    }
+
+    .slice {
+      &--card {
+        width: 350px;
+        height: 150px;
+
+        &__top {
+          margin-left: 15px;
+
+          img {
+            margin-top: -50px;
+            margin-left: 30px;
+            width: 55px;
+            height: 55px;
+          }
+          h6 {
+            font-size: 16px;
+          }
+        }
+
+        &__bottom {
+          width: 300px;
+        }
+      }
+    }
+
+    .review {
+      &--input {
+        input {
+          width: 420px;
+        }
+
+        p {
+          margin-top: 20px;
+        }
+      }
+
+      &--bottom {
+        width: 460px;
+
+        textarea {
+          width: 420px;
+          height: 100px;
+        }
+
+        button {
+          padding: 8px 20px;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 452px) {
+  #review {
+    center {
+      font-size: 30px;
+    }
+
+    .slice {
+      margin-left: 5%;
+      &--card {
+        width: 247px;
+        margin-top: 40px;
+        &__top{
+          margin-left: 6px;
+          margin-top: 20px;
+          margin-bottom: 15px;
+          img{
+            margin-left: -19px;
+          }
+          h6{
+            font-size: 12px;
+            margin-left: -30px;
+          }
+        }
+        &__bottom{
+          width: 230px;
+          margin-left: 6px;
+          p{
+            font-size: 12px;
+          }
+        }
+      }
+    }
+
+    .review {
+      &--input {
+        input {
+          width: 365px;
+        }
+
+        p {
+          margin-top: 20px;
+        }
+      }
+      &--bottom {
+        width: 407px;
+
+        textarea {
+          width: 365px;
+          height: 100px;
+        }
+
+        button {
+          padding: 8px 20px;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 376px) {
+  #review {
+    .review {
+      &--input {
+        input {
+          width: 295px;
+        }
+
+
+      }
+
+      &--bottom {
+        width: 336px;
+        textarea {
+          width: 295px;
+          height: 80px;
+        }
+
+      }
+    }
+  }
+}
+@media (max-width: 326px) {
+  #review {
+    .review {
+      &--input {
+        input {
+          width: 251px;
+        }
+
+
+      }
+
+      &--bottom {
+        width: 290px;
+
+        textarea {
+          width: 251px;
+          height: 80px;
+        }
+
+      }
+    }
+  }
+}

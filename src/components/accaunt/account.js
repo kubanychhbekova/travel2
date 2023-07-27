@@ -3,6 +3,9 @@ import logo from "../../assets/img/logo.png"
 import {CgEnter} from "react-icons/cg";
 import {AiOutlineSetting} from "react-icons/ai";
 import {FaRegUserCircle} from "react-icons/fa";
+import Personal from "./personal/personal";
+import UserLogin from "./login/userLogin";
+import UserSet from "./userSet/userSet";
 
 const Account = () => {
     const [active, setActive] = useState(true)
@@ -26,6 +29,16 @@ const Account = () => {
 
 
     }
+    const choose=()=>{
+        if(active){
+          return   <Personal/>
+        }else if(active2){
+            return <UserLogin/>
+        }else if(active3){
+            return <UserSet/>
+        }
+    }
+    console.log("hello")
     return (
         <div id="account">
             <div className="container">
@@ -55,7 +68,11 @@ const Account = () => {
                         <div className="border"></div>
 
                     </div>
-                    <div className="account--right"></div>
+                    <div className="account--right">
+                        {
+                           choose()
+                        }
+                    </div>
                 </div>
             </div>
         </div>

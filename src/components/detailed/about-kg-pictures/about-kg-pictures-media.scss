@@ -1,11 +1,13 @@
 @media(max-width:1400px){
-    h4{
-        font-size: 18px !important;
+    .about-kg-pictures{
+        h4{
+            font-size: 18px !important;
+        }
+        p{
+            font-size: 12px !important;
+        }
+
     }
-    p{
-        font-size: 12px !important;
-    }
-    
 
 
 }
@@ -19,9 +21,11 @@
 
 }
 @media(max-width:1024px){
-    p{
-        margin: 0 !important;
-    }
+  .about-kg-pictures{
+      p{
+          margin: 0 !important;
+      }
+  }
     
 }
 @media(max-width: 993px){
@@ -29,39 +33,51 @@
   
 }
 @media(max-width: 768px){
-    .about-scrollbar img{
-        width: 200px !important;
+    .about-scrollbar {
+        img{
+            width: 200px !important;
 
+        }
     }
 }
 @media(max-width: 575px){
 
 }
 @media(max-width: 480px){
-    .about-scrollbar img{
-        width: 180px !important;
-        margin: 0 5px !important;
+    .about-scrollbar{
+        img{
+            width: 180px !important;
+            margin: 0 5px !important;
 
+        }
     }
 }
 @media(max-width:414px){
-    .about-scrollbar img{
-        width: 150px !important;
+    .about-scrollbar {
+        img{
+            width: 150px !important;
 
+        }
     }
 }
 @media(max-width:375px){
-    .about-kg-pictures img{
-        margin-bottom: 18px !important;
+    .about-kg-pictures {
+        img{
+            margin-bottom: 18px !important;
+        }
     }
-    .about-scrollbar img{
-        width: 130px !important;
+    .about-scrollbar{
+        img{
+            width: 130px !important;
 
+        }
     }
 }
 @media(max-width:320px){
-    img{
-        margin: 10px !important;
-    }
-    
+  #about-kg-pictures{
+      img{
+          margin: 10px !important;
+      }
+
+  }
 }
