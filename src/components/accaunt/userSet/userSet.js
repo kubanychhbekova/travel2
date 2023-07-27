@@ -17,7 +17,7 @@ const UserSet = () => {
             <div className="userSet--currency">
                 <div className="userSet--currency__first">
                     <h6>Currency</h6>
-                    <p>$ - USD</p>
+                    <p>$ - USA</p>
                 </div>
                 <p className="userSet--currency__p" >Edit</p>
             </div>

@@ -34,7 +34,7 @@ const Header = () => {
     const handleBurger = () => {
         setBurger(!burger)
     }
-    const {isAuth, email} = useAuth();
+    const {isAuth} = useAuth();
     return (
         <div id="header">
             <div className="container">

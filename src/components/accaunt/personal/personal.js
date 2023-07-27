@@ -10,10 +10,10 @@ const Personal = () => {
         <div className="personal">
             <h1>Personal information</h1>
             <div className="personal--name">
-              {/*<div className="personal--name__first">*/}
-              {/*    <h6>Full Name</h6>*/}
-              {/*    <p>John Jacob</p>*/}
-              {/*</div>*/}
+              <div className="personal--name__first">
+                  <h6>Full Name</h6>
+                  <p>John Jacob</p>
+              </div>
                 <div className="personal--name__second">
                     <div className="personal--name__second--inputs">
                         <div className="personal--name__second--inputs__input">
@@ -25,7 +25,7 @@ const Personal = () => {
                             <input type="text"/>
                         </div>
                     </div>
-                    <button>SAVE</button>
+                    <button>save</button>
                 </div>
                 <p className="personal--name__p"
                    onClick={()=>{

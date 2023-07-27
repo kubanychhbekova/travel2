@@ -6,7 +6,7 @@ const Hotel = () => {
             <div className="container">
                 <div className="hotel">
                     <h1>HOTELS</h1>
-                    <p>Save on amazing places to stay and explore unique experiences
+                    <p>Save on amazing places to stay and explore unique experiences.
                     </p>
                 </div>
             </div>

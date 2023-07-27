@@ -38,6 +38,7 @@ const Account = () => {
             return <UserSet/>
         }
     }
+    console.log("hello")
     return (
         <div id="account">
             <div className="container">

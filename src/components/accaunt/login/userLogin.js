@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 
 const UserLogin = () => {
     const [name, setName] = useState(false)
+    const [email,setEmail]=useState(false)
     return (
         <div className="userLogin">
             <h1>Login information</h1>

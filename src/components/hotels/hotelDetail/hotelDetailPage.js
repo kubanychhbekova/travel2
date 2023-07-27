@@ -12,6 +12,7 @@ const HotelDetailPage = ({cards}) => {
         }
   return stars
     };
+    console.log("hello")
     return (
         <>
             {
