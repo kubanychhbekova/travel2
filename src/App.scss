@@ -50,7 +50,10 @@
 @import "../../travel2/src/components/aboutRoutes/Plane/style.scss";
 @import "../../travel2/src/components/aboutRoutes/Train/style.scss";
 @import "../../travel2/src/components/aboutRoutes/content/style.scss";
-@import "../../travel2//src/components/aboutRoutes/results/style.scss";
+@import "../../travel2/src/components/aboutRoutes/results/planeRout/style.scss";
+@import "../../travel2/src/components/aboutRoutes/results/busRout/style.scss";
+@import "../../travel2/src/components/aboutRoutes/results/trainRout/style.scss";
+@import "../../travel2/src/components/aboutRoutes/results/style.scss";
 @import "../../travel2/src/components/aboutRoutes/zagalovok/style.scss";
 @import "../../travel2/src/components/mission/mission";
 @import "../../travel2//src/components/detailed/about-kg-pictures/about-kg-pictures-media.scss";
@@ -73,10 +76,6 @@
 @import "../../travel2/src/components/hero/media.scss";
 @import "../../travel2/src/components/contacts/contacts-bg/contatcs-bg-media.scss";
 @import "../../travel2/src/components/contacts/contacts-section1/contacts-section1-mefia.scss";
-
-
-
-
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700&family=Syne:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
