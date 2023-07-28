@@ -35,21 +35,26 @@
 @import "../../travel2/src/components/pages/kyrgyzstan/kg-section6/kg-section6";
 @import "../../travel2/src/components/pages/culture/cult-section1/cult-section1";
 @import "../../travel2/src/components/pages/culture/culture-bg/culture-bg.scss";
-@import "../../travel2/src/components/pages/culture/cult-section2/cult-section2";
-@import "../../travel2/src/components/pages/culture/cult-section3/cult-section3";
-@import "../../travel2/src/components/pages/culture/cult-section4/cult-section4";
-@import "../../travel2/src/components/pages/tradition/trad-bg/trad-section";
-@import "../../travel2/src/components/pages/tradition/trad-section1/trad-section1";
-@import "../../travel2/src/components/pages/tradition/trad-section2/trad-section2";
-@import "../../travel2/src/components/contacts/contacts-bg/contacts-bg";
-@import "../../travel2/src/components/contacts/contacts-section1/contacts-section1";
-@import "../../travel2/src/components/detailed/about-kg/about-kg-media";
-@import "../../travel2/src/components/detailed/detail/detail-media";
-@import "../../travel2/src/components/aboutRoutes/Bus/style";
-@import "../../travel2/src/components/aboutRoutes/Plane/style";
-@import "../../travel2/src/components/aboutRoutes/Train/style";
-@import "../../travel2/src/components/aboutRoutes/content/style";
-@import "../../travel2/src/components/aboutRoutes/results/style";
+@import "../../travel2/src/components/pages/culture/cult-section1/cult-section1.scss";
+@import "../../travel2/src/components/pages/culture/cult-section2/cult-section2.scss";
+@import "../../travel2/src/components/pages/culture/cult-section3/cult-section3.scss";
+@import "../../travel2/src/components/pages/culture/cult-section4/cult-section4.scss";
+@import "../../travel2/src/components/pages/tradition/trad-bg/trad-section.scss";
+@import "../../travel2/src/components/pages/tradition/trad-section1/trad-section1.scss";
+@import "../../travel2/src/components/pages/tradition/trad-section2/trad-section2.scss";
+@import "../../travel2/src/components/contacts/contacts-bg/contacts-bg.scss";
+@import "../../travel2/src/components/contacts/contacts-section1/contacts-section1.scss";
+@import "../../travel2/src/components/detailed/about-kg/about-kg-media.scss";
+@import "../../travel2//src/components/detailed/detail/detail-media.scss";
+@import "../../travel2/src/components/aboutRoutes/Bus/style.scss";
+@import "../../travel2/src/components/aboutRoutes/Plane/style.scss";
+@import "../../travel2/src/components/aboutRoutes/Train/style.scss";
+@import "../../travel2/src/components/aboutRoutes/content/style.scss";
+@import "../../travel2/src/components/aboutRoutes/results/planeRout/style.scss";
+@import "../../travel2/src/components/aboutRoutes/results/busRout/style.scss";
+@import "../../travel2/src/components/aboutRoutes/results/trainRout/style.scss";
+@import "../../travel2/src/components/aboutRoutes/results/style.scss";
+
 @import "../../travel2/src/components/aboutRoutes/zagalovok/style.scss";
 @import "../../travel2/src/components/mission/mission";
 @import "../../travel2/src/components/detailed/about-kg-pictures/about-kg-pictures-media.scss";
@@ -76,10 +81,6 @@
 @import "../../travel2/src/components/accaunt/userSet/style";
 @import "../../travel2/src/components/contacts/contacts-bg/contatcs-bg-media.scss";
 @import "../../travel2/src/components/contacts/contacts-section1/contacts-section1-mefia.scss";
-
-
-
-
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700&family=Syne:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
