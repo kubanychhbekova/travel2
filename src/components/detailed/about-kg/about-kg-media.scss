@@ -16,15 +16,16 @@
 @media(max-width:1200px){
     .aboutKg{
         justify-content: space-between !important;
+        img{
+            width: 40%;
+            height: 40% !important;
+            margin: 0;
+        }
+        .aboutKg-texts{
+            margin: 0;
+        }
     }
-    img{
-        width: 40%;
-        height: 40% !important;
-        margin: 0;
-    }
-    .aboutKg-texts{
-        margin: 0;
-    }
+
 }
 @media(max-width:1024px){
     

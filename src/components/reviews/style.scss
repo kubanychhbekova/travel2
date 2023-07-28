@@ -7,9 +7,11 @@
     font-weight: 700;
     line-height: normal;
   }
-  ::-webkit-scrollbar{
+
+  ::-webkit-scrollbar {
     width: 0;
   }
+
   .slice {
     margin-left: 10%;
     display: flex;
@@ -25,16 +27,18 @@
       flex-shrink: 0;
       display: flex;
       flex-direction: column;
-      margin-top: 60px ;
+      margin-top: 60px;
+
       &__top {
         display: flex;
         justify-content: space-between;
         margin-left: 40px;
         margin-top: 20px;
         margin-bottom: 30px;
+
         img {
           margin-top: -60px;
-          margin-left: 70px ;
+          margin-left: 70px;
           margin-right: 40px;
         }
 
@@ -48,31 +52,35 @@
           line-height: normal;
         }
       }
-&__bottom{
-  margin-left: 40px;
-  width: 350px;
-  height: 150px;
-  p {
-    color: #000;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    height: 3.9em;
-  }
-}
+
+      &__bottom {
+        margin-left: 40px;
+        width: 350px;
+        height: 150px;
+
+        p {
+          color: #000;
+          font-family: Inter;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          overflow: hidden;
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical;
+          height: 3.9em;
+        }
+      }
 
     }
   }
-  .review{
+p{}
+  .review {
     margin: 20px 0 50px 0;
-    &--top{
-      p{
+
+    &--top {
+      p {
         color: #000;
         margin-bottom: 10px;
         font-family: Inter;
@@ -82,14 +90,16 @@
         line-height: normal;
         text-align: start;
       }
-      div{
+
+      div {
         height: 2px;
         flex-shrink: 0;
         background: #D9D9D9;
       }
     }
-    &--input{
-      p{
+
+    &--input {
+      p {
         margin-top: 30px;
         color: #000;
         font-family: Poppins;
@@ -98,7 +108,8 @@
         font-weight: 500;
         line-height: normal;
       }
-      input{
+
+      input {
 
         width: 540px;
         height: 50px;
@@ -110,7 +121,8 @@
         padding: 0 20px;
       }
     }
-    &--bottom{
+
+    &--bottom {
       display: flex;
       flex-direction: column;
       justify-content: start;
@@ -118,7 +130,8 @@
       margin-top: 30px;
       width: 680px;
       margin-left: 0;
-      textarea{
+
+      textarea {
         margin-left: 0;
         padding: 20px;
         width: 640px;
@@ -129,7 +142,8 @@
         background: #FFF;
         outline: none;
       }
-      button{
+
+      button {
         margin-top: 20px;
         margin-right: 0;
         display: inline-flex;

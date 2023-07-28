@@ -18,7 +18,7 @@ const HotelDetail = () => {
       Product()
        Hotels()
     }, [id])
-
+    console.log("hello")
     return (
         <div>
             <Hotel/>

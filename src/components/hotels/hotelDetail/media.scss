@@ -1,0 +1,377 @@
+@media (max-width: 1200px) {
+  #hotelPage{
+    .hotelPage{
+      &--photos{
+        &__top{
+          &--left{
+            img{
+              max-width: 221px;
+              max-height: 194px;
+            }
+          }
+          &--img{
+            max-height: 400px;
+            max-width: 563px;
+          }
+        }
+        &__bottom{
+          img{
+            max-width: 200px;
+            max-height: 175px;
+          }
+          div:nth-child(4) {
+            img {
+              max-width: 158px;
+
+            }
+          }
+        }
+        p{}
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  #hotelPage{
+  .container{
+    width: 75%;
+    .hotelPage{
+      &--photos{
+        &__top{
+          &--left{
+            img{
+              max-width: 207px;
+              max-height: 168px;
+            }
+          }
+          &--img{
+            max-height: 349px;
+            max-width: 545px;
+          }
+        }
+        &__bottom{
+          img{
+            max-width: 188px;
+            max-height: 167px;
+          }
+          div:nth-child(4) {
+            img {
+              max-width: 158px;
+
+            }
+          }
+        }
+      }
+    }
+  }
+  }
+}
+@media (max-width: 992px) {
+  #hotelPage{
+    margin:55px 0;
+  .container{
+    .hotelPage{
+      &--photos{
+        gap: 12px;
+        &__top{
+          &--left{
+            img{
+              max-width: 190px;
+              max-height: 150px;
+            }
+          }
+          &--img{
+            max-height: 314px;
+            max-width: 539px;
+          }
+        }
+        &__bottom{
+          img{
+            max-width: 180px;
+            max-height: 152px;
+          }
+        }
+      }
+    }
+  }
+  }
+}
+@media (max-width: 768px) {
+  #hotelPage{
+    margin: 40px 0;
+  .container{
+    width: 80%;
+    .hotelPage{
+      &--title{
+        margin: 15px 0;
+        p{
+          font-size: 25px;
+        }
+        h1{
+          font-size: 35px;
+        }
+      }
+      &--photos{
+        &__top{
+          gap: 10px;
+          &--left{
+            img{
+              max-width: 158px;
+              max-height: 127px;
+            }
+          }
+          &--img{
+            max-height: 268px;
+            max-width: 445px;
+          }
+        }
+        &__bottom{
+          gap: 10px;
+          img{
+            max-width: 148px;
+            max-height: 116px;
+          }
+          div:nth-child(4) {
+            img {
+              width: 140px;
+            }
+          }
+        }
+      }
+      &--bottom{
+        flex-direction: column;
+        margin-left: 0;
+        &__text{
+          width: 610px;
+        }
+        &__map{
+          margin-left: 0;
+        }
+      }
+    }
+  }
+  }
+}
+@media (max-width: 576px) {
+  #hotelPage{
+  .container{
+    .hotelPage{
+      &--title{
+        margin: 10px 0;
+        p{
+          font-size: 22px;
+        }
+        h1{
+          font-size: 30px;
+        }
+      }
+      &--photos{
+        gap: 4px;
+        &__top{
+          &--left{
+            img{
+              max-width: 145px;
+              max-height: 108px;
+            }
+          }
+          &--img{
+            max-height: 230px;
+            max-width: 305px;
+          }
+        }
+        &__bottom{
+          gap: 5px;
+          img{
+            max-width: 120px;
+            max-height: 86px;
+          }
+          div:nth-child(4) {
+            img {
+              width: 87px;
+            }
+          }
+        }
+      }
+      &--bottom{
+        flex-direction: column;
+        margin-left: 0;
+        &__text{
+          width: 468px;
+        }
+      }
+    }
+  }
+  }
+}
+@media (max-width: 452px) {
+  #hotelPage{
+    margin: 30px 0;
+  .container{
+    .hotelPage{
+      &--title{
+        margin: 8px 0;
+        p{
+          font-size: 22px;
+        }
+        h1{
+          font-size: 20px;
+        }
+      }
+      &--photos{
+        gap: 4px;
+        &__top{
+          &--left{
+            gap: 5px;
+            img{
+              max-width: 123px;
+              max-height: 82px;
+            }
+          }
+          &--img{
+            max-height: 175px;
+            max-width: 226px;
+          }
+        }
+        &__bottom{
+          gap: 5px;
+          img{
+            max-width: 94px;
+            max-height: 69px;
+          }
+          div:nth-child(4) {
+            img {
+              width: 65px;
+            }
+          }
+        }
+      }
+      &--bottom{
+        margin: 10px 0 10px 0;
+        flex-direction: column;
+        gap: 20px;
+        &__text{
+          width: 365px;
+          p{
+            font-size: 10px;
+          }
+        }
+        &__map{
+          iframe{
+            max-width: 99.9%;
+            max-height: 50%;
+          }
+        }
+      }
+    }
+  }
+  }
+}
+@media (max-width: 376px) {
+  #hotelPage{
+    margin: 10px 0;
+  .container{
+    .hotelPage{
+      &--title{
+        margin: 8px 0;
+        p{
+          font-size: 22px;
+        }
+        h1{
+          font-size: 20px;
+        }
+      }
+      &--photos{
+        gap: 4px;
+        &__top{
+          gap: 5px;
+          &--left{
+            gap: 2px;
+            img{
+              max-width: 100px;
+              max-height: 62px;
+            }
+          }
+          &--img{
+            max-height: 130px;
+            max-width: 192px;
+          }
+        }
+        &__bottom{
+          gap: 5px;
+          img{
+            max-width: 78px;
+            max-height: 58px;
+          }
+          div:nth-child(4) {
+            img {
+              width: 51px;
+            }
+          }
+        }
+      }
+      &--bottom{
+        margin: 10px 0 10px 0;
+        flex-direction: column;
+        gap: 20px;
+        &__text{
+          width: 297px;
+          p{
+            font-size: 10px;
+          }
+        }
+
+      }
+    }
+  }
+  }
+}
+@media (max-width: 326px) {
+  #hotelPage{
+  .container{
+    .hotelPage{
+      &--title{
+        margin: 8px 0;
+        p{
+          font-size: 15px;
+        }
+        h1{
+          font-size: 16px;
+        }
+      }
+      &--photos{
+        &__top{
+          &--left{
+            img{
+              max-width: 78px;
+              max-height: 51px;
+            }
+          }
+          &--img{
+            max-height: 110px;
+            max-width: 177px;
+          }
+        }
+        &__bottom{
+          gap: 5px;
+          img{
+            max-width: 65px;
+            max-height: 49px;
+          }
+        }
+      }
+      &--bottom{
+        margin: 10px 0 10px 0;
+        flex-direction: column;
+        gap: 20px;
+        &__text{
+          width: 259px;
+          p{
+            font-size: 10px;
+          }
+        }
+
+      }
+    }
+  }
+  }
+}
