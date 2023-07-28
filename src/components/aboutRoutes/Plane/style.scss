@@ -62,22 +62,37 @@
               &:hover {
                 background: #d7d7d8;
               }
-              h4 {
-                color: #000;
-                font-family: Inter;
-                font-size: 14px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: normal;
-                margin-top: 10px;
+              &--elCity {
+                h4 {
+                  color: #000;
+                  font-family: Inter;
+                  font-size: 14px;
+                  font-style: normal;
+                  font-weight: 500;
+                  line-height: normal;
+                  margin-top: 10px;
+                }
               }
-              h4:nth-child(3) {
-                color: #0992d5;
-                font-family: Inter;
-                font-size: 14px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: normal;
+              &--elChas {
+                h4 {
+                  color: #000;
+                  font-family: Inter;
+                  font-size: 14px;
+                  font-style: normal;
+                  font-weight: 500;
+                  line-height: normal;
+                  margin-top: 10px;
+                }
+              }
+              &--elSena {
+                h4 {
+                  color: #0992d5;
+                  font-family: Inter;
+                  font-size: 14px;
+                  font-style: normal;
+                  font-weight: 500;
+                  line-height: normal;
+                }
               }
             }
           }
