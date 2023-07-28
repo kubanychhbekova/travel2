@@ -10,32 +10,52 @@
     
 }
 @media(max-width: 993px){
-    h1{
-        margin-top: 30px;
-    }
+ #detail{
+     .detailed{
+         h1{
+             margin-top: 30px;
+         }
+     }
+ }
 }
 @media(max-width: 768px){
     
 }
 @media(max-width: 575px){
-    h1{
-        text-align: center;
-        line-height: 50px !important;
+    #detail{
+        .detailed{
+            h1{
+                text-align: center;
+                line-height: 50px !important;
+            }
+        }
     }
 }
+
+
 @media(max-width: 480px){
-    h1{
-        font-size: 40px !important;
+    #detail{
+        .detailed{
+            h1{
+                font-size: 40px !important;
+            }
+        }
     }
+
 }
 @media(max-width:414px){
     
 }
 @media(max-width:375px){
-    h1{
-        font-size: 30px !important;
-        line-height:  40px !important;
+    #detail{
+        .detailed{
+            h1{
+                font-size: 30px !important;
+                line-height:  40px !important;
+            }
+        }
     }
+
 }
 @media(max-width:320px){
     

@@ -20,6 +20,7 @@ const Review = () => {
         const storedComments = JSON.parse(localStorage.getItem('comments')) || [];
         setComments(storedComments);
     }, []);
+    console.log("hello")
     return (
         <div id="review">
             <center>REVIEWS</center>
