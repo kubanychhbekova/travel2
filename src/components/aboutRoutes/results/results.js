@@ -23,6 +23,7 @@ const Results = () => {
     setShowBusRout(false);
     setShowTrainRout(true);
   };
+  console.log("hello world");
   return (
     <div id="results">
       <div className="container">

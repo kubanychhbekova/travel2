@@ -19,7 +19,7 @@ const PlaneRout = () => {
               </h3>
               <h4>Plane</h4>
               <div className="planeRout--blocks__blockGrey--price">
-                <p>4h 35min</p>
+                <p>4h 34min</p>
               </div>
             </div>
             <div className="planeRout--blocks__blockWhite">

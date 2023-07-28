@@ -65,7 +65,7 @@ const TrainRout = () => {
                 />
                 <h6>
                   Issyk-Kul (lake) <br />
-                  <span>Issyk-Kul (lake), Kyrgyzstan</span>{" "}
+                  <span>Issyk--Kul (lake), Kyrgyzstan</span>{" "}
                 </h6>
               </div>
               <div className="trainRout--blocks__blockWhite--blockCircle">

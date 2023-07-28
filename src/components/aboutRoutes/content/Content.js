@@ -57,7 +57,7 @@ const [select,setSelect]=useState("Where from?")
             <div className="content--selects__select1" onClick={(e)=>{
             setSelect(e.target.innerText)
             }}> 
-              <h4>Ysyk-kol</h4>
+              <h4>YSYK-KOL</h4>
               <h4>Bishkek</h4>
               <h4>Cholpon-Ata</h4>
               <h4>Ysyk-Ata</h4>
