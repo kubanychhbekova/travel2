@@ -1,5 +1,5 @@
 import React, {useEffect, useRef, useState} from 'react';
-import img from "../../assets/img/logo-89.png";
+import image from "../../assets/img/logo-89.png";
 import {BiUserCircle} from "react-icons/bi";
 import {NavLink} from "react-router-dom";
 import {useAuth} from "../../hooks/use-auth";
@@ -41,7 +41,7 @@ const Header = () => {
                 <div className="header">
                     <div className="header--logo">
                         <div className="header--logo__icon">
-                            <img src={img} alt=""/>
+                            <img src={image} alt=""/>
                             <h3 style={{
                                 color: burger ? "#0992D5" : ""
                             }}>Country travel <br/> Guide
@@ -70,8 +70,9 @@ const Header = () => {
                     </div>
                     <div className="header--right">
                         <div className="header--right__log" ref={headerLogRef} onClick={toggleModal}>
-                            <BiUserCircle className="header--right__log--icon"/>
-                            <p>Account</p>
+                                    <BiUserCircle className="header--right__log--icon"/>
+
+                            <p>{isAuth? "Aisha" : "Account"}</p>
                         </div>
                         {modalVisible && (
                             <div className="header--right__modal" ref={headerModalRef}>
