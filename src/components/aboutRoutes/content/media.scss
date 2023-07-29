@@ -1,0 +1,164 @@
+@media (max-width: 1200px) {
+  #content {
+    .container {
+      .content {
+        &--search {
+          margin-top: -60px;
+          margin-left: -36px;
+          padding: 15px 15px;
+          height: 60px;
+          width: 958px;
+          &__block1 {
+            width: 360px;
+            height: 55px;
+          }
+          &__block2 {
+            width: 360px;
+            height: 55px;
+          }
+          &__btn {
+            button {
+              width: 162px;
+              height: 52px;
+            }
+          }
+        }
+        &--selects {
+          &__select1 {
+            // margin-left: -263px;
+          }
+          &__select2 {
+            // margin-left: 119px;
+            // margin-top: -110px;
+          }
+        }
+        &--blocks {
+          margin-top: 39px;
+          margin-left: -110px;
+
+          &__byPlane {
+            &--linea {
+              width: 289px;
+            }
+          }
+          &__byBus {
+            &--linea {
+              width: 289px;
+            }
+          }
+          &__byTrain {
+            &--linea {
+              width: 265px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  #content {
+    .container {
+      .content {
+        &--search {
+          width: 907px;
+          margin-left: -71px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  #content {
+    .container {
+      .content {
+        &--blocks {
+          gap: 65px;
+          margin-left: -89px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  #content {
+    .container {
+      .content {
+        &--search {
+          padding: 10px 10px;
+          height: 60px;
+          gap: 8px;
+          width: 703px;
+          margin-left: -58px;
+          margin-top: -41px;
+          &__block1 {
+            width: 253px;
+          }
+          &__block2 {
+            width: 253px;
+          }
+          &__btn {
+            button {
+              padding: 15px 22px;
+              font-size: 18px;
+              width: 121px;
+              height: 52px;
+            }
+          }
+        }
+        &--blocks {
+          margin-top: 3px;
+          margin-left: -72px;
+          gap: 45px;
+          &__byPlane {
+            h1 {
+              color: #0992d5;
+              font-family: Inter;
+              font-size: 30px;
+              font-weight: 700;
+            }
+            &--linea {
+              width: 200px;
+              height: 3px;
+            }
+          }
+          &__byBus {
+            h1 {
+              color: #0992d5;
+              font-family: Inter;
+              font-size: 30px;
+              font-weight: 700;
+            }
+            &--linea {
+              width: 200px;
+              height: 3px;
+            }
+          }
+          &__byTrain {
+            h1 {
+              color: #0992d5;
+              font-family: Inter;
+              font-size: 30px;
+              font-weight: 700;
+            }
+            &--linea {
+              width: 200px;
+              height: 3px;
+            }
+          }
+        }
+        &--selects {
+          &__select1 {
+            width: 221px;
+          }
+          &__selects2 {
+            h4 {
+              font-size: 12px;
+            }
+            width: 221px;
+          }
+        }
+      }
+    }
+  }
+}

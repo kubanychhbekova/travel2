@@ -4,8 +4,8 @@ import BusRout from "./busRout/busRout";
 import TrainRout from "./trainRout/trainRout";
 
 const Results = () => {
-  const [showPlaneRout, setShowPlaneRout] = useState(true);
-  const [showbusRout, setShowBusRout] = useState(false);
+  const [showPlaneRout, setShowPlaneRout] = useState(false);
+  const [showbusRout, setShowBusRout] = useState(true);
   const [showtrainRout, setShowTrainRout] = useState(false);
 
   const handleShowPlaneRout = () => {

@@ -42,6 +42,9 @@
           background: #fff;
           border-radius: 7px;
           cursor: pointer;
+          &:focus {
+            background: #000;
+          }
           h4 {
             color: #000;
             font-family: Syne;
@@ -84,7 +87,8 @@
           display: flex;
           flex-wrap: wrap;
           gap: 10px;
-
+          margin-left: -264px;
+          margin-top: 166px;
           h4 {
             margin: 0;
             color: #000;
@@ -105,16 +109,17 @@
           }
         }
         &__select2 {
+          border-radius: 10px;
+          background: hsla(0, 2%, 55%, 0.641);
+          padding: 15px 10px;
+          width: 300px;
           display: flex;
           flex-wrap: wrap;
-          width: 350px;
-          height: 100px;
           gap: 10px;
-          display: none;
-          background: #fff;
-          border-radius: 15px;
-          margin-left: 10px;
-          margin-top: 10px;
+          font-family: Syne;
+          font-size: 14px;
+          margin-left: -248px;
+          margin-top: 188px;
           h4 {
             color: #fff;
             display: flex;
@@ -130,6 +135,7 @@
         display: flex;
         margin-top: 110px;
         align-items: center;
+        justify-content: center;
         &__byPlane {
           width: 190px;
           gap: 10px;
