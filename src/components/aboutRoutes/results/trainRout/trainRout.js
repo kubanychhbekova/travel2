@@ -9,7 +9,7 @@ const TrainRout = () => {
   return (
     <div id="trainRout">
       <div className="container">
-        <div className="traonRout">
+        <div className="trainRout">
           <div className="trainRout--blocks">
             <div className="trainRout--blocks__blockGrey">
               <h3>
@@ -90,6 +90,7 @@ const TrainRout = () => {
               </div>
             </div>
           </div>
+          <div className="trainRout--cart"></div>
         </div>
       </div>
     </div>

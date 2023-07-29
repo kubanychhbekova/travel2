@@ -1,6 +1,8 @@
 #trainRout {
   .container {
     .trainRout {
+      display: flex;
+      justify-content: center;
       &--blocks {
         margin: 30px 0;
         display: flex;

@@ -1,0 +1,68 @@
+@media (max-width: 1200px) {
+  #train {
+    .container {
+      .train {
+        &--card {
+          &__rout {
+            width: 750px;
+            &--city {
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  #train {
+    .container {
+      .train {
+        &--card {
+          &__rout {
+            &--city {
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  #train {
+    .container {
+      .train {
+        &--card {
+          &__rout {
+            &--city {
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  #train {
+    .container {
+      .train {
+        display: flex;
+        justify-content: center;
+        h1 {
+          display: none;
+        }
+        &--card {
+          &__rout {
+            &--city {
+              width: 283px;
+              height: 216px;
+              img {
+                width: 263px;
+                height: 154px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
