@@ -19,8 +19,28 @@ import HomePage from "./components/signUp/homePage";
 import RegisterPage from "./components/signUp/registerPage";
 import Account from "./components/accaunt/account";
 import AboutRoutes from "./components/aboutRoutes/aboutRoutes";
+import {useEffect} from "react";
+import {useDispatch} from "react-redux";
+import {setUser} from "./store/reducer/userSlice";
+import {useAuth} from "./hooks/use-auth";
 
 function App() {
+    const { isAuth } = useAuth();
+    const dispatch = useDispatch();
+
+    // Check for user authentication status on app initialization
+    useEffect(() => {
+        const isAuthenticated = localStorage.getItem('isAuthenticated');
+        if (isAuthenticated === 'true') {
+            // Get user data from local storage
+            const userEmail = localStorage.getItem('userEmail');
+            const userId = localStorage.getItem('userId');
+            const userToken = localStorage.getItem('userToken');
+
+            // Set the user as authenticated in the redux store or in your preferred state management solution
+            dispatch(setUser({ email: userEmail, id: userId, token: userToken }));
+        }
+    }, [dispatch]);
     return (
         <div className="App">
             <Header/>
