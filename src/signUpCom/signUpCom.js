@@ -4,28 +4,36 @@ import {useDispatch} from "react-redux";
 import {setUser} from "../store/reducer/userSlice";
 import { useNavigate} from 'react-router-dom'
 import SignForm from "./signForm";
-
+import 'firebase/auth';
 const SignUpCom = () => {
     const dispatch = useDispatch()
     const navigate=useNavigate()
-    const handleRegister = (email, password) => {
+    const handleRegister = (email, password, userName) => {
         const auth = getAuth();
+
         createUserWithEmailAndPassword(auth, email, password)
             .then(({ user }) => {
-                dispatch(setUser({
-                    email: user.email,
-                    id: user.uid,
-                    token: user.accessToken,
-                }));
+                dispatch(
+                    setUser({
+                        email: user.email,
+                        id: user.uid,
+                        token: user.accessToken,
+                        userName: userName,
+                    })
+                );
+
+
+
                 navigate("/");
-                // Save user authentication status and data in local storage
                 localStorage.setItem('isAuthenticated', true);
                 localStorage.setItem('userEmail', user.email);
                 localStorage.setItem('userId', user.uid);
                 localStorage.setItem('userToken', user.accessToken);
+                localStorage.setItem('userName', userName);
             })
             .catch(console.error);
     };
+
     return (
 <SignForm
 handleClick={handleRegister}

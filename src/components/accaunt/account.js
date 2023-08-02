@@ -1,78 +1,113 @@
-import React, {useState} from 'react';
-import logo from "../../assets/img/logo.png"
-import {CgEnter} from "react-icons/cg";
-import {AiOutlineSetting} from "react-icons/ai";
-import {FaRegUserCircle} from "react-icons/fa";
+
+import React, { useState } from 'react';
+import logo from "../../assets/img/user.png";
+import { CgEnter } from "react-icons/cg";
+import { AiOutlineSetting } from "react-icons/ai";
+import { FaRegUserCircle } from "react-icons/fa";
 import Personal from "./personal/personal";
 import UserLogin from "./login/userLogin";
 import UserSet from "./userSet/userSet";
+import { FiPlus } from "react-icons/fi";
 
 const Account = () => {
-    const [active, setActive] = useState(true)
-    const [active2, setActive2] = useState(false)
-    const [active3, setActive3] = useState(false)
+    const [active, setActive] = useState(true);
+    const [active2, setActive2] = useState(false);
+    const [active3, setActive3] = useState(false);
+    const [selectedImage, setSelectedImage] = useState(null);
+    const [fileModal,setFileModal]=useState(false)
     const addAActive = () => {
-        setActive(true)
-        setActive3(false)
-        setActive2(false)
-    }
+        setActive(true);
+        setActive3(false);
+        setActive2(false);
+    };
     const addAActive2 = () => {
-       setActive(false)
-       setActive2(true)
-       setActive3(false)
-
-    }
+        setActive(false);
+        setActive2(true);
+        setActive3(false);
+    };
     const addAActive3 = () => {
-        setActive(false)
-        setActive2(false)
-        setActive3(true)
+        setActive(false);
+        setActive2(false);
+        setActive3(true);
+    };
 
-
-    }
-    const choose=()=>{
-        if(active){
-          return   <Personal/>
-        }else if(active2){
-            return <UserLogin/>
-        }else if(active3){
-            return <UserSet/>
+    const handleImageChange = (e) => {
+        const file = e.target.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onloadend = () => {
+                setSelectedImage(reader.result);
+            };
+            reader.readAsDataURL(file);
         }
-    }
-    console.log("hello")
+    };
+    const choose = () => {
+        if (active) {
+            return <Personal />;
+        } else if (active2) {
+            return <UserLogin />;
+        } else if (active3) {
+            return <UserSet />;
+        }
+    };
+
     return (
         <div id="account">
             <div className="container">
                 <div className="account">
                     <div className="account--left">
-                        <img src={logo} alt=""/>
-                        <div className={`account--left__personal ${active ? "active " : ""}`}
-                             onClick={addAActive}
+                        <div className="account--left__logo" onClick={()=>{
+                            setFileModal(true)
+                        }}>
+                            {selectedImage ? (
+                                <img src={selectedImage} alt="" />
+                            ) : (
+                                <>
+                                    <img src={logo} alt="" />
+                                    <FiPlus className="account--left__logo--plus" />
+                                </>
+                            )}
+                            <input
+                                type="file"
+                                accept="image/*"
+                                onChange={
+                                    handleImageChange}
+                                style={{ display:  "block"}}
+                            />
+                        </div>
+
+                        <div
+                            className={`account--left__personal ${
+                                active ? "active " : ""
+                            }`}
+                            onClick={addAActive}
                         >
-                            <FaRegUserCircle className="icon"/>
+                            <FaRegUserCircle className="icon" />
                             <h4>Personal information</h4>
                         </div>
                         <div className="border"></div>
-                        <div className={`account--left__personal ${active2 ? "active " : ""}`}
-                             onClick={addAActive2}
+                        <div
+                            className={`account--left__personal ${
+                                active2 ? "active " : ""
+                            }`}
+                            onClick={addAActive2}
                         >
-                            <CgEnter className="icon"/>
+                            <CgEnter className="icon" />
                             <h4>Login information</h4>
-
                         </div>
                         <div className="border"></div>
-                        <div className={`account--left__personal ${active3 ? "active " : ""}`}
-                             onClick={addAActive3}>
-                            <AiOutlineSetting className="icon"/>
+                        <div
+                            className={`account--left__personal ${
+                                active3 ? "active " : ""
+                            }`}
+                            onClick={addAActive3}
+                        >
+                            <AiOutlineSetting className="icon" />
                             <h4>Site Setting</h4>
                         </div>
                         <div className="border"></div>
-
                     </div>
-                    <div className="account--right">
-                        {
-                           choose()
-                        }
-                    </div>
+                    <div className="account--right">{choose()}</div>
                 </div>
             </div>
         </div>

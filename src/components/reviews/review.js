@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from "../../hooks/use-auth";
 import logo from "../../assets/img/logo.png";
+import {AiOutlineStar} from "react-icons/ai";
 
 const Review = () => {
-    const { isAuth, email } = useAuth();
+    const { isAuth, email,userName } = useAuth();
     const [username, setUsername] = useState('');
     const [emails, setEmails] = useState('');
     const [comment, setComment] = useState('');
@@ -16,7 +17,6 @@ const Review = () => {
         const storedComments = JSON.parse(localStorage.getItem('comments')) || [];
         setComments(storedComments);
 
-        // If the user is authenticated, pre-populate the username and emails fields
         if (isAuth) {
             setUsername(email);
             setEmails(email);
@@ -24,37 +24,47 @@ const Review = () => {
     }, [isAuth, email]);
 
     const handleSubmit = () => {
-        // Check if any of the inputs is empty
+        console.log('Button clicked!');
+
         if (!username.trim()) {
+            console.log('Username is empty');
             setIsUsernameEmpty(true);
         }
         if (!comment.trim()) {
+            console.log('Comment is empty');
             setIsCommentEmpty(true);
         }
+        if (!emails.trim()) {
+            console.log('Email is empty');
+            setIsEmailEmpty(true);
+        }
 
-        // If all required inputs are filled, proceed to save the data in local storage
         if (username.trim() && comment.trim()) {
+            console.log('Submitting comment...');
             const newComment = { username, emails, comment };
             const existingComments = JSON.parse(localStorage.getItem('comments')) || [];
             const updatedComments = [...existingComments, newComment];
             localStorage.setItem('comments', JSON.stringify(updatedComments));
-            setUsername('');
-            setEmails('');
+            console.log('Comment submitted successfully!');
+
             setComment('');
             setIsUsernameEmpty(false);
             setIsCommentEmpty(false);
+            setIsEmailEmpty(false);
         }
     };
+
 
     const resetBorderStyling = () => {
         setIsUsernameEmpty(false);
         setIsCommentEmpty(false);
+        setIsEmailEmpty(false);
     };
 
     useEffect(() => {
-        const timer = setTimeout(resetBorderStyling, 3000);
+        const timer = setTimeout(resetBorderStyling, 5000);
         return () => clearTimeout(timer);
-    }, [username, comment]);
+    }, [username, comment,emails]);
 
     return (
         <div id="review">
@@ -114,6 +124,7 @@ const Review = () => {
                                 boxShadow: isCommentEmpty ? "0 0 10px 2px red" : ""
                             }}
                         />
+
                         <button onClick={handleSubmit}>Send</button>
                     </div>
                 </div>
