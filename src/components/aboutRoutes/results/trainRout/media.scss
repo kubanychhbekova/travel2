@@ -1,0 +1,24 @@
+@media (max-width: 576px) {
+  #trainRout {
+    .container {
+      .trainRout {
+        &--blocks {
+          width: 421px;
+          height: 767px;
+
+          &__blockGrey {
+            width: 420px;
+            height: 120px;
+            border-radius: 27px;
+            h3 {
+              font-size: 20px;
+            }
+            h4 {
+              margin: 10px 0 10px 21px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

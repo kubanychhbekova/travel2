@@ -66,3 +66,57 @@
     }
   }
 }
+@media (max-width: 576px) {
+  #plane {
+    .container {
+      .plane {
+        display: flex;
+
+        &--card {
+          &__rout {
+            &--city {
+              width: 208px;
+              height: 227px;
+              img {
+                width: 189px;
+                height: 124px;
+              }
+              &__go {
+                h4 {
+                  font-size: 12px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 451px) {
+  #plane {
+    .container {
+      .plane {
+        display: flex;
+
+        &--card {
+          &__rout {
+            &--city {
+              width: 180px;
+              height: 227px;
+              img {
+                width: 166px;
+                height: 111px;
+              }
+              &__go {
+                h4 {
+                  font-size: 12px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

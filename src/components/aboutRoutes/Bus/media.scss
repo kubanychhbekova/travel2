@@ -42,23 +42,49 @@
   }
 }
 @media (max-width: 768px) {
-    #bus {
-      .container {
-        .bus {
-          display: flex;
-          justify-content: center;
-          h1 {
-            display: none;
-          }
-          &--card {
-            &__rout {
-              &--city {
-                width: 283px;
-                height: 438px;
+  #bus {
+    .container {
+      .bus {
+        display: flex;
+        justify-content: center;
+        h1 {
+          display: none;
+        }
+        &--card {
+          &__rout {
+            &--city {
+              width: 283px;
+              height: 438px;
             }
-                img {
-                  width: 263px;
-                  height: 154px;
+            img {
+              width: 263px;
+              height: 154px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  #bus {
+    .container {
+      .bus {
+        display: flex;
+
+        &--card {
+          &__rout {
+            &--city {
+              width: 208px;
+              height: 404px;
+
+              img {
+                width: 189px;
+                height: 124px;
+              }
+              &__go {
+                h4 {
+                  font-size: 12px;
                 }
               }
             }
@@ -66,5 +92,5 @@
         }
       }
     }
-  
-  
+  }
+}
