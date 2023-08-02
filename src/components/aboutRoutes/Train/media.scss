@@ -66,3 +66,30 @@
     }
   }
 }
+@media (max-width: 576px) {
+  #train {
+    .container {
+      .train {
+        display: flex;
+
+        &--card {
+          &__rout {
+            &--city {
+              width: 208px;
+              height: 185px;
+              img {
+                width: 189px;
+                height: 124px;
+              }
+              &__go {
+                h4 {
+                  font-size: 12px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

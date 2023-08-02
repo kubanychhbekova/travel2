@@ -1,4 +1,4 @@
-@media(max-width: 1200px) {
+@media (max-width: 1200px) {
   #popular {
     padding: 90px 0;
 
@@ -11,11 +11,10 @@
         width: 300px;
       }
     }
-
   }
 }
 
-@media(max-width: 992px) {
+@media (max-width: 992px) {
   #popular {
     padding: 80px 0;
 
@@ -50,13 +49,11 @@
   }
 }
 
-@media(max-width: 768px) {
-
+@media (max-width: 768px) {
   #popular {
     padding: 20px 0;
 
     .popular {
-
       h1 {
         font-size: 25px;
         width: 500px;
@@ -123,8 +120,9 @@
   }
 }
 
-@media(max-width: 452px) {
+@media (max-width: 452px) {
   #popular {
+    margin-top: 450px !important;
     .popular {
       h1 {
         font-size: 18px;
@@ -148,7 +146,7 @@
             height: 38.5px;
 
             h4 {
-              color: #FFF;
+              color: #fff;
               font-family: Inter;
               font-size: 14px;
               font-style: normal;
@@ -162,7 +160,7 @@
               bottom: 12px;
 
               .p2 {
-                color: #FFF;
+                color: #fff;
                 font-family: Inter;
                 font-size: 10px;
                 font-style: normal;
@@ -175,7 +173,6 @@
                 font-size: 14px;
                 font-weight: 100;
               }
-
             }
           }
         }
@@ -184,7 +181,7 @@
   }
 }
 
-@media(max-width: 376px) {
+@media (max-width: 376px) {
   #popular {
     .container {
       width: 95%;
@@ -205,7 +202,7 @@
     }
   }
 }
-@media(max-width: 320px) {
+@media (max-width: 320px) {
   #popular {
     .container {
       width: 95%;
@@ -217,7 +214,7 @@
           font-weight: 400;
           margin-bottom: 10px;
         }
-        &--cards{
+        &--cards {
           gap: 5px;
         }
       }

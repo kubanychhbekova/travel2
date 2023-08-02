@@ -17,16 +17,10 @@ const Plane = () => {
                   {el.go.map((elem) => {
                     return (
                       <div className="plane--card__rout--city__go">
-                        <div className="plane--card__rout--city__go--elCity">
-                          <h4>{elem.city}</h4>
-                        </div>
-                        <div className="plane--card__rout--city__go--elChas">
-                          <h4>{elem.price.chas}</h4>
-                        </div>
+                        <h4>{elem.city}</h4>
+                        <h4>{elem.price.chas}</h4>
 
-                        <div className="plane--card__rout--city__go--elSena">
-                          <h4>{elem.price.sena}</h4>
-                        </div>
+                        <h4>{elem.price.sena}</h4>
                       </div>
                     );
                   })}
