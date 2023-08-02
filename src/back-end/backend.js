@@ -1763,13 +1763,4 @@ export const hotels = [
 
 
 
-export const reviewObj={
-    name:"",
-    title:"",
-    email:"",
-    id:Date.now(),
-
-}
-
-
 

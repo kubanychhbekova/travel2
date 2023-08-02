@@ -22,12 +22,34 @@
         width: 280px;
       }
 
-      img {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 30px;
-        margin-top: 40px;
-      }
+   &__logo{
+     display: flex;
+     justify-content: center;
+     margin-bottom: 30px;
+     margin-top: 40px;
+     position: relative;
+     cursor: pointer;
+     img {
+
+       width: 80px;
+       height: 80px;
+       border-radius: 50%;
+     }
+     &--plus{
+       position: absolute;
+       color: grey;
+       font-size: 20px;
+       top: 58px;
+     }
+     input{
+       position: absolute;
+       width: 80px;
+       height: 80px;
+       top: 5px;
+       opacity: 0;
+       cursor: pointer;
+     }
+   }
 
       .icon {
         font-size: 24px;

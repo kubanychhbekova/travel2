@@ -20,7 +20,6 @@ const HotelSearch = () => {
     useEffect(() => {
         Product()
     }, []);
-    console.log("hello")
     useEffect(() => {
         const handleFromLocalStorage = localStorage.getItem('handle');
         if (handleFromLocalStorage) {

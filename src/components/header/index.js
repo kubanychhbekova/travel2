@@ -4,6 +4,7 @@ import {BiUserCircle} from "react-icons/bi";
 import {NavLink} from "react-router-dom";
 import {useAuth} from "../../hooks/use-auth";
 import {MdKeyboardArrowDown} from "react-icons/md";
+import {useSelector} from "react-redux";
 
 const Header = () => {
     const [modalVisible, setModalVisible] = useState(false);
@@ -11,6 +12,7 @@ const Header = () => {
     const headerModalRef = useRef(null);
     const [burger, setBurger] = useState(false)
     const toggleModal = () => setModalVisible(!modalVisible);
+    const {isAuth,userName} = useAuth();
 
     const handleClickOutsideModal = (event) => {
         if (
@@ -23,7 +25,6 @@ const Header = () => {
             setModalVisible(false);
         }
     };
-
     useEffect(() => {
         document.addEventListener("mousedown", handleClickOutsideModal);
 
@@ -34,7 +35,7 @@ const Header = () => {
     const handleBurger = () => {
         setBurger(!burger)
     }
-    const {isAuth} = useAuth();
+
     return (
         <div id="header">
             <div className="container">
@@ -72,7 +73,7 @@ const Header = () => {
                         <div className="header--right__log" ref={headerLogRef} onClick={toggleModal}>
                                     <BiUserCircle className="header--right__log--icon"/>
 
-                            <p>{isAuth? "Aisha" : "Account"}</p>
+                            <p>{isAuth? userName : "Account"}</p>
                         </div>
                         {modalVisible && (
                             <div className="header--right__modal" ref={headerModalRef}>
