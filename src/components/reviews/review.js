@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
-import { useAuth } from "../../hooks/use-auth";
-import logo from "../../assets/img/logo.png";
-import {AiOutlineStar} from "react-icons/ai";
+import React, {useState, useEffect} from 'react';
+import {useAuth} from "../../hooks/use-auth";
+import logo from "../../assets/img/user.png";
+import {useSelector} from "react-redux";
 
 const Review = () => {
-    const { isAuth, email,userName } = useAuth();
+    const {isAuth, email, name} = useAuth();
     const [username, setUsername] = useState('');
     const [emails, setEmails] = useState('');
     const [comment, setComment] = useState('');
@@ -12,59 +12,93 @@ const Review = () => {
     const [isUsernameEmpty, setIsUsernameEmpty] = useState(false);
     const [isEmailEmpty, setIsEmailEmpty] = useState(false);
     const [isCommentEmpty, setIsCommentEmpty] = useState(false);
+    const [rating, setRating] = useState(0);
+    const {userImage}=useSelector(s=>s.user)
+    const [image, setImage] = useState(userImage ? userImage : logo);
 
+
+    const handleStarClick = (value) => {
+        setRating(value);
+    };
+    const renderStars = () => {
+        const stars = [];
+        for (let i = 1; i <= 5; i++) {
+            const starClass = i <= rating ? 'star active' : 'star';
+            stars.push(
+                <span
+                    key={i}
+                    className={starClass}
+                    onClick={() => handleStarClick(i)}
+                >
+          &#9733;
+        </span>
+            );
+        }
+        return stars
+    };
+    const CommentRenderStars = (ratingValue) => {
+        const stars = [];
+        for (let i = 1; i <= 5; i++) {
+            const starClass = i <= ratingValue ? 'star active' : 'star';
+            stars.push(
+                <span key={i} className={starClass}>
+        &#9733;
+      </span>
+            );
+        }
+        return stars;
+    };
     useEffect(() => {
         const storedComments = JSON.parse(localStorage.getItem('comments')) || [];
         setComments(storedComments);
-
         if (isAuth) {
-            setUsername(email);
+            setUsername(name);
             setEmails(email);
         }
-    }, [isAuth, email]);
+    }, [isAuth, email, name]);
 
     const handleSubmit = () => {
-        console.log('Button clicked!');
-
         if (!username.trim()) {
-            console.log('Username is empty');
             setIsUsernameEmpty(true);
         }
         if (!comment.trim()) {
-            console.log('Comment is empty');
             setIsCommentEmpty(true);
         }
         if (!emails.trim()) {
-            console.log('Email is empty');
             setIsEmailEmpty(true);
         }
 
-        if (username.trim() && comment.trim()) {
-            console.log('Submitting comment...');
-            const newComment = { username, emails, comment };
+        if (username.trim() && comment.trim() && emails.trim()) {
+            const newComment = {username, emails, comment,rating,image};
             const existingComments = JSON.parse(localStorage.getItem('comments')) || [];
             const updatedComments = [...existingComments, newComment];
             localStorage.setItem('comments', JSON.stringify(updatedComments));
-            console.log('Comment submitted successfully!');
-
             setComment('');
+            if(isAuth){
+                setUsername(name);
+                setEmails(email);
+                setImage(userImage)
+            }else{
+                setUsername('');
+                setEmails('');
+                setImage(logo)
+
+            }
             setIsUsernameEmpty(false);
             setIsCommentEmpty(false);
-            setIsEmailEmpty(false);
+            setRating(0)
         }
     };
-
-
     const resetBorderStyling = () => {
         setIsUsernameEmpty(false);
         setIsCommentEmpty(false);
-        setIsEmailEmpty(false);
+        setIsEmailEmpty(false)
     };
 
     useEffect(() => {
-        const timer = setTimeout(resetBorderStyling, 5000);
+        const timer = setTimeout(resetBorderStyling, 3000);
         return () => clearTimeout(timer);
-    }, [username, comment,emails]);
+    }, [username, comment]);
 
     return (
         <div id="review">
@@ -73,8 +107,8 @@ const Review = () => {
                 {comments.map((el, index) => (
                     <div key={index} className="slice--card">
                         <div className="slice--card__top">
-                            <span>⭐⭐⭐⭐⭐</span>
-                            <img src={logo} alt="" />
+                            <span>{CommentRenderStars(el.rating)}</span>
+                            <img src={el.image  } alt=""/>
                             <h6>{el.username}</h6>
                         </div>
                         <div className="slice--card__bottom">
@@ -115,6 +149,9 @@ const Review = () => {
                         />
                     </div>
                     <div className="review--bottom">
+                        <div className="review--bottom__star">
+                            {renderStars()}
+                        </div>
                         <textarea
                             placeholder="Write a review"
                             value={comment}
@@ -124,7 +161,6 @@ const Review = () => {
                                 boxShadow: isCommentEmpty ? "0 0 10px 2px red" : ""
                             }}
                         />
-
                         <button onClick={handleSubmit}>Send</button>
                     </div>
                 </div>

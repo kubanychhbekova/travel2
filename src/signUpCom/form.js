@@ -1,21 +1,25 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import {BsApple} from "react-icons/bs";
 import google from ".././assets/img/google.png"
 import facebook from ".././assets/img/facebook.png"
+import {useDispatch} from "react-redux";
+import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 
+const Form = () => {
+    const dispatch=useDispatch()
+    const [email,setEmail]=useState("")
+    const [pass,setPass]=useState("")
+    const handleLogin=(email,password)=>{
+        const auth = getAuth();
+        signInWithEmailAndPassword(auth, email, password)
+            .then((userCredential) => {
+                const user = userCredential.user;
+            })
+            .catch((error) => {
+                const errorCode = error.code;
+                const errorMessage = error.message;
+            });
 
-const Form = ({ handleClick}) => {
-    const [email, setEmail] = useState("");
-    const [pass, setPass] = useState("");
-    const [next, setNext] = useState(false)
-    const handleNext = () => {
-        if (next === false) {
-            setNext(true)
-        } else {
-            handleClick(email, pass)
-           setEmail("")
-            setPass("")
-        }
     }
     return (
         <div id="sign">
@@ -28,19 +32,17 @@ const Form = ({ handleClick}) => {
                     <div className="sign--input">
                         <p>Email</p>
                         <input type="email"
-                               value={email}
-                               onChange={(e) => setEmail(e.target.value)}
-                        />
-                        <div style={{
-                            display: next ? "block" : "none"
-                        }}>
+                        value={email}
+                        onChange={(e)=>setEmail(e.target.value)}/>
+                        <div >
                             <p style={{textAlign:"start"}}>Password</p>
                             <input  type="password"
-                                   value={pass}
-                                   onChange={(e) => setPass(e.target.value)}
-                            />
+                                    value={pass}
+                                    onChange={(e)=>setPass(e.target.value)}/>
                         </div>
-                        <button onClick={handleNext}>Continue</button>
+                        <button onClick={()=>{
+                            handleLogin(email,pass)
+                        }}>Continue</button>
 
 
                     </div>

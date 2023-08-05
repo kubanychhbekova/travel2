@@ -1,0 +1,275 @@
+@media (max-width: 1400px) {
+  .personal {
+    max-width: 775px;
+
+    &--name {
+      &__second {
+        &--inputs{
+          input{
+            padding: 6px 156px 6px 0 !important;
+          }
+        }
+      }
+    }
+    &--email{
+      &__second{
+        &--inputs{
+          input{
+            padding: 6px 478px 6px 6px !important;
+          }
+          &__pass{
+            input{
+
+            }
+          }
+        }
+
+      }
+    }
+    &--phone{
+      &__second{
+        &--inputs{
+          input{
+            padding: 6px 362px 6px 6px !important;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .personal {
+    max-width: 630px;
+
+    &--name {
+      &__second {
+        &--inputs{
+          input{
+            padding: 6px 82px 6px 0 !important;
+          }
+        }
+      }
+    }
+    &--email{
+      &__second{
+        &--inputs{
+          input{
+            padding: 6px 332px 6px 6px !important;
+          }
+
+        }
+
+      }
+    }
+    &--phone{
+      &__second{
+        &--inputs{
+          input{
+            padding: 6px 216px 6px 6px !important;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .personal {
+    max-width: 489px;
+
+    &--name {
+      &__second {
+        &--inputs{
+          input{
+            padding: 6px 14px 6px 0 !important;
+          }
+        }
+      }
+    }
+    &--email{
+      &__second{
+        &--inputs{
+          input{
+            padding: 6px 192px 6px 6px !important;
+          }
+
+        }
+
+      }
+    }
+    &--phone{
+      &__second{
+        &--inputs{
+          input{
+            padding: 6px 77px 6px 6px !important;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  .personal {
+    max-width: 465px;
+
+    &--name {
+      &__second {
+        &--inputs{
+          flex-direction: column;
+          gap: 5px !important;
+          input{
+            padding: 6px 243px 6px 0 !important;
+          }
+        }
+      }
+    }
+    &--email{
+      &__second{
+        &--inputs{
+          h6{
+            margin-bottom: 0;
+          }
+          input{
+            padding: 6px 169px 6px 6px !important;
+          }
+
+        }
+
+      }
+    }
+    &--phone{
+      &__second{
+        &--inputs{
+          select{
+            padding: 0 93px 0 0 !important;
+          }
+
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+//LOGIN
+
+@media (max-width: 1400px) {
+  .userLogin{
+    max-width: 775px;
+  }
+}
+@media (max-width: 1200px) {
+  .userLogin{
+    max-width: 630px;
+  }
+}
+@media (max-width: 1024px) {
+  .userLogin{
+    max-width: 489px;
+  }
+}
+@media (max-width: 992px) {
+  .userLogin{
+    max-width: 465px;
+  }
+}
+
+
+
+
+//SETTING
+
+@media (max-width: 1400px) {
+  .userSet{
+    max-width: 775px;
+    &--lan{
+      &__first{
+        &--lang{
+          select{
+            padding: 4px 680px 4px 8px !important;
+          }
+        }
+      }
+    }
+    &--currency{
+      &__first{
+        &--select{
+          select{
+            padding: 4px 680px 4px 8px !important;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .userSet{
+    max-width: 630px;
+    &--lan{
+      &__first{
+        &--lang{
+          select{
+            padding: 4px 535px 4px 8px !important;
+          }
+        }
+      }
+    }
+    &--currency{
+      &__first{
+        &--select{
+          select{
+            padding: 4px 535px 4px 8px !important;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .userSet{
+    max-width: 489px;
+    &--lan{
+      &__first{
+        &--lang{
+          select{
+            padding: 4px 393px 4px 8px !important;
+          }
+        }
+      }
+    }
+    &--currency{
+      &__first{
+        &--select{
+          select{
+            padding: 4px 393px 4px 8px !important;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  .userSet{
+    max-width: 465px;
+    &--lan{
+      &__first{
+        &--lang{
+          select{
+            padding: 4px 373px 4px 8px !important;
+          }
+        }
+      }
+    }
+    &--currency{
+      &__first{
+        &--select{
+          select{
+            padding: 4px 373px 4px 8px !important;
+          }
+        }
+      }
+    }
+  }
+}

@@ -14,33 +14,15 @@ import Contacts from './components/contacts/contacts';
 import Map from "../../travel2/src/components/map/map"
 import Mission from "../../travel2/src/components/mission/mission"
 import Use from "../../travel2/src/components/use/usePage"
-import LoginPage from "./components/signUp/loginPage";
-import HomePage from "./components/signUp/homePage";
-import RegisterPage from "./components/signUp/registerPage";
 import Account from "./components/accaunt/account";
 import AboutRoutes from "./components/aboutRoutes/aboutRoutes";
-import {useEffect} from "react";
-import {useDispatch} from "react-redux";
-import {setUser} from "./store/reducer/userSlice";
-import {useAuth} from "./hooks/use-auth";
+
+import SignForm from "./signUpCom/signForm";
+import Form from "./signUpCom/form";
+
 
 function App() {
-    const { isAuth } = useAuth();
-    const dispatch = useDispatch();
 
-    // Check for user authentication status on app initialization
-    useEffect(() => {
-        const isAuthenticated = localStorage.getItem('isAuthenticated');
-        if (isAuthenticated === 'true') {
-            // Get user data from local storage
-            const userEmail = localStorage.getItem('userEmail');
-            const userId = localStorage.getItem('userId');
-            const userToken = localStorage.getItem('userToken');
-
-            // Set the user as authenticated in the redux store or in your preferred state management solution
-            dispatch(setUser({ email: userEmail, id: userId, token: userToken }));
-        }
-    }, [dispatch]);
     return (
         <div className="App">
             <Header/>
@@ -58,9 +40,8 @@ function App() {
                 <Route path={"/map"} element={<Map/>}/>
                 <Route path={"/mission"} element={<Mission/>}/>
                 <Route path={"/use"} element={<Use/>}/>
-                <Route path={"/login"} element={<LoginPage/>}/>
-                <Route path={"/homePage"} element={<HomePage/>}/>
-                <Route path={"/register"} element={<RegisterPage/>}/>
+                <Route path={"/register"} element={<SignForm/>}/>
+                <Route path={"/login"} element={<Form/>}/>
                 <Route path={"/account"} element={<Account/>}/>
 
             </Routes>

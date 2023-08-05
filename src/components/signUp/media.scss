@@ -1,0 +1,162 @@
+@media (max-width: 768px) {
+  #sign{
+    margin: 150px 0;
+    .sign{
+      width: 614px;
+&--title{
+  h6{
+    width: 560px;
+  }
+}
+      &--input{
+        input{
+          width: 590px;
+        }
+        button{
+          width: 610px;
+        }
+      }
+      &--btn{
+        gap: 37px;
+
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  #sign{
+    .sign{
+      width: 460px;
+&--title{
+  h6{
+    width: 460px;
+  }
+}
+      &--input{
+        input{
+          width: 440px;
+        }
+        button{
+          width: 400px;
+          padding: 16px 230px;
+        }
+      }
+      &--btn{
+        gap: 15px;
+        &__img{
+          width: 142px;
+        }
+
+      }
+    }
+  }
+}
+@media (max-width: 452px) {
+  #sign{
+    margin: 150px 0 120px 0;
+    .sign{
+      width: 406px;
+&--title{
+  h6{
+    width: 380px;
+  }
+}
+      &--log{
+        margin: 0 0 22px 0;
+      }
+      &--input{
+        input{
+          width: 385px;
+          margin: 5px 0 19px 0;
+        }
+        button{
+          padding: 16px 204px;
+        }
+      }
+      &--btn{
+        &__img{
+          width: 126px;
+        }
+
+      }
+    }
+  }
+}
+@media (max-width: 376px) {
+  #sign{
+    .sign{
+      width: 335px;
+&--title{
+  h6{
+    width: 333px;
+  }
+}
+      &--log{
+        margin: 0 0 22px 0;
+      }
+      &--input{
+        input{
+          height: 40px;
+          width: 312px;
+        }
+        button{
+          width: 330px;
+          padding: 12px 167px;
+          font-size: 16px;
+          font-weight: 500;
+
+        }
+      }
+      &--btn{
+        &__img{
+          width: 102px;
+          height: 38px;
+          img{
+            width: 18px;
+            height: 18px;
+          }
+          &--icon{
+            font-size: 18px;
+          }
+        }
+
+      }
+    }
+  }
+}
+@media (max-width: 326px) {
+  #sign{
+    margin: 117px 0 77px 0;
+    .sign{
+      width: 292px;
+&--title{
+  h6{
+    font-size: 16px;
+    width: 288px;
+  }
+}
+      &--log{
+        margin: 0 0 22px 0;
+      }
+      &--input{
+        p{
+          font-size: 16px;
+        }
+        input{
+          width: 270px;
+        }
+        button{
+          width: 290px;
+          padding: 12px 141px;
+
+        }
+      }
+      &--btn{
+        &__img{
+          width: 88px;
+        }
+
+      }
+    }
+  }
+}
