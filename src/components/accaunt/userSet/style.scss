@@ -19,9 +19,29 @@
     margin-top: 5px;
     border-bottom: 2px solid grey;
     padding: 15px 0;
+    position: relative;
 
     &__first {
       margin-left: 0;
+
+      &--lang {
+        select {
+
+          border-radius: 4px;
+          border: 1px solid rgba(0, 0, 0, 0.60);
+          padding: 4px 755px 4px 8px;
+          gap: 724px;
+          color: #000;
+          outline: none;
+          font-family: Inter;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+
+
+        }
+      }
 
       h6 {
         color: #000;
@@ -44,7 +64,7 @@
     }
 
     &__p {
-      margin-right: 0;
+      position: absolute;
       color: #000;
       text-align: right;
       font-family: Inter;
@@ -53,6 +73,7 @@
       font-weight: 500;
       line-height: normal;
       cursor: pointer;
+      right: 0;
     }
   }
 
@@ -64,13 +85,32 @@
     margin-top: 5px;
     border-bottom: 2px solid grey;
     padding: 15px 0;
-
+position: relative;
     &__first {
       margin-left: 0;
 
+      &--select {
+        select {
+
+          border-radius: 4px;
+          border: 1px solid rgba(0, 0, 0, 0.60);
+          padding: 4px 755px 4px 8px;
+          color: #000;
+          outline: none;
+          font-family: Inter;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+
+
+        }
+
+      }
+
       h6 {
         color: #000;
-        font-family: Inter sans-serif;
+        font-family: Inter;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -89,9 +129,9 @@
     }
 
     &__p {
-      margin-right: 0;
+      right: 0;
       color: #000;
-      text-align: right;
+      position: absolute;
       font-family: Inter;
       font-size: 16px;
       font-style: normal;

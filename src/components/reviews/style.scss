@@ -28,7 +28,7 @@
       display: flex;
       flex-direction: column;
       margin-top: 60px;
-
+position: relative;
       &__top {
         display: flex;
         justify-content: space-between;
@@ -36,20 +36,40 @@
         margin-top: 20px;
         margin-bottom: 30px;
 
+span{
+  .star-rating {
+    font-size: 30px;
+  }
+
+  .star {
+    color: rgba(229, 229, 229, 0.4);
+    margin-right: 3px;
+    font-size: 20px;
+  }
+
+  .star.active {
+    color: #f1e50d;
+  }
+}
         img {
-          margin-top: -60px;
-          margin-left: 70px;
-          margin-right: 40px;
+          position: absolute;
+          top: -40px;
+          right: 41%;
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
         }
 
         h6 {
           color: #000;
-          text-align: right;
           font-family: Inter;
           font-size: 18px;
           font-style: normal;
           font-weight: 600;
           line-height: normal;
+          position: absolute;
+          right: 50px;
+          top: 20px;
         }
       }
 
@@ -75,7 +95,7 @@
 
     }
   }
-p{}
+
   .review {
     margin: 20px 0 50px 0;
 
@@ -130,7 +150,24 @@ p{}
       margin-top: 30px;
       width: 680px;
       margin-left: 0;
+     &__star{
+       margin-left: 0;
+       margin-bottom: 10px;
+       .star-rating {
+         font-size: 30px;
+       }
 
+       .star {
+         color: rgba(229, 229, 229, 0.4);
+         margin-right: 5px;
+         cursor: pointer;
+      font-size: 40px;
+       }
+
+       .star.active {
+         color: #f1e50d;
+       }
+     }
       textarea {
         margin-left: 0;
         padding: 20px;

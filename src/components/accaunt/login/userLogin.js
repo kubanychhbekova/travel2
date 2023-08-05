@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-
+import img from "../../../assets/img/Google - Original (1).png"
 const UserLogin = () => {
     const [name, setName] = useState(false)
     const [email,setEmail]=useState(false)
@@ -20,7 +20,7 @@ const UserLogin = () => {
                     <h6>Connected Accounts</h6>
                     <p className="userLogin--connect__first--p1">Viator will only have access to your name and
                         email.</p>
-                    <button>google</button>
+                    <button><img src={img} alt=""/> google</button>
                     <p className="userLogin--connect__first--p2">Connected</p>
                 </div>
             </div>

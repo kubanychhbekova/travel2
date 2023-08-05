@@ -4,7 +4,7 @@
       gap: 140px;
 
       &--logo {
-        gap: 50px;
+        gap: 75px;
       }
     }
   }
@@ -145,6 +145,7 @@
 
      &--right{
        &__log {
+         right: 50px;
        p {
          display: none;
        }
@@ -160,6 +161,8 @@
        }
        &__burger{
          display: block;
+         position: absolute;
+         right: 0;
        }
      }
     }
