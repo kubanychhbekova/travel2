@@ -148,6 +148,202 @@
     }
   }
 }
+@media (max-width: 768px) {
+  .personal {
+    max-width: 460px;
+    &--name {
+      &__second {
+        &--inputs{
+          flex-direction: column;
+          gap: 5px !important;
+          input{
+            padding: 6px 243px 6px 0 !important;
+          }
+        }
+      }
+    }
+    &--email{
+      &__second{
+        &--inputs{
+          h6{
+            margin-bottom: 0;
+          }
+          input{
+            padding: 6px 169px 6px 6px !important;
+          }
+
+        }
+
+      }
+    }
+    &--phone{
+      &__second{
+        &--inputs{
+          select{
+            padding: 0 93px 0 0 !important;
+          }
+
+        }
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  .personal {
+    &--name {
+      &__second {
+        &--inputs{
+          input{
+            padding: 6px 237px 6px 0 !important;
+          }
+        }
+      }
+    }
+    &--email{
+      &__second{
+        &--inputs{
+          input{
+            padding: 6px 162px 6px 6px !important;
+          }
+
+        }
+
+      }
+    }
+    &--phone{
+      &__second{
+        &--inputs{
+          input{
+            padding: 6px 68px 6px 6px !important;
+          }
+
+        }
+      }
+    }
+  }
+}
+@media (max-width: 452px) {
+  .personal {
+    max-width: 405px;
+    &--name {
+      &__second {
+        &--inputs{
+          input{
+            padding: 6px 182px 6px 0 !important;
+          }
+        }
+      }
+    }
+    &--email{
+      &__second{
+        &--inputs{
+          input{
+            padding: 6px 105px 6px 6px !important;
+          }
+
+        }
+
+      }
+    }
+    &--phone{
+      &__second{
+        &--inputs{
+          input{
+            padding: 6px 32px 6px 6px !important;
+          }
+          select{
+            padding: 0 78px 0 0 !important;
+          }
+
+        }
+      }
+    }
+  }
+}
+@media (max-width: 376px) {
+  .personal {
+    max-width: 336px;
+    &--name {
+      &__second {
+        &--inputs{
+          input{
+            padding: 6px 111px 6px 0 !important;
+          }
+        }
+      }
+    }
+    &--email{
+      &__second{
+        &--inputs{
+          input{
+            padding: 6px 39px 6px 6px !important;
+          }
+
+        }
+
+      }
+    }
+    &--phone{
+      &__second{
+        &--inputs{
+          input{
+            padding: 6px 19px 6px 6px !important;
+          }
+          select{
+            padding: 0 21px 0 0 !important;
+          }
+
+        }
+      }
+    }
+  }
+}
+@media (max-width: 325px) {
+  .personal {
+    max-width: 292px;
+    h1{
+      font-size: 23px !important;
+      margin: 20px 0 !important;
+    }
+    &--name {
+      &__second {
+        &--inputs{
+          input{
+            padding: 6px 68px 6px 0 !important;
+          }
+        }
+      }
+    }
+    &--email{
+      &__second{
+        &--inputs{
+          input{
+            padding: 6px 0 6px 6px !important;
+          }
+          &__pass{
+            gap: 4px;
+          }
+
+        }
+
+      }
+    }
+    &--phone{
+      &__second{
+        &--inputs{
+          gap: 5px !important;
+          input{
+            padding: 6px 0 6px 6px !important;
+          }
+          select{
+            padding: 0 3px 0 0 !important;
+          }
+
+        }
+      }
+    }
+  }
+}
 
 
 
@@ -173,6 +369,26 @@
 @media (max-width: 992px) {
   .userLogin{
     max-width: 465px;
+  }
+}
+@media (max-width: 576px) {
+  .userLogin{
+    max-width: 460px;
+  }
+}
+@media (max-width: 452px) {
+  .userLogin{
+    max-width: 405px;
+  }
+}
+@media (max-width: 376px) {
+  .userLogin{
+    max-width: 333px;
+  }
+}
+@media (max-width: 325px) {
+  .userLogin{
+    max-width: 292px;
   }
 }
 
@@ -273,3 +489,97 @@
     }
   }
 }
+@media (max-width: 576px) {
+  .userSet{
+    max-width: 460px;
+    &--lan{
+      &__first{
+        &--lang{
+          select{
+            padding: 4px 363px 4px 8px !important;
+          }
+        }
+      }
+    }
+    &--currency{
+      &__first{
+        &--select{
+          select{
+            padding: 4px 369px 4px 8px !important;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 452px) {
+  .userSet{
+    max-width: 402px;
+    &--lan{
+      &__first{
+        &--lang{
+          select{
+            padding: 4px 307px 4px 8px !important;
+          }
+        }
+      }
+    }
+    &--currency{
+      &__first{
+        &--select{
+          select{
+            padding: 4px 310px 4px 8px !important;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 376px) {
+  .userSet{
+    max-width: 339px;
+    &--lan{
+      &__first{
+        &--lang{
+          select{
+            padding: 4px 240px 4px 8px !important;
+          }
+        }
+      }
+    }
+    &--currency{
+      &__first{
+        &--select{
+          select{
+            padding: 4px 245px 4px 8px !important;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 325px) {
+  .userSet{
+    max-width: 292px;
+    &--lan{
+      &__first{
+        &--lang{
+          select{
+            padding: 4px 194px 4px 8px !important;
+          }
+        }
+      }
+    }
+    &--currency{
+      &__first{
+        &--select{
+          select{
+            padding: 4px 196px 4px 8px !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+
