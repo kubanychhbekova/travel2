@@ -13,3 +13,115 @@
     }
   }
 }
+@media (max-width: 768px) {
+  #account{
+    .account{
+
+&--left{
+
+  width: 480px;
+  margin-left: 86px;
+  .active{
+    background: transparent;
+    width: 480px;
+  }
+  .icon {
+    margin-left: 128px;
+  }
+  .border{
+    width: 343px;
+  }
+  &__logo{
+
+  }
+}
+      &--right{
+        &__icon{
+          font-size: 45px;
+          margin-left: -79px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  #account{
+    .account{
+
+&--left{
+
+  width: 460px;
+  margin-left: 0;
+  .active{
+    background: transparent;
+    width: 480px;
+  }
+  .icon {
+    margin-left: 128px;
+  }
+  .border{
+    width: 343px;
+  }
+  &__logo{
+
+  }
+}
+      &--right{
+        &__icon{
+          margin-left: -5px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 452px) {
+  #account{
+    .account{
+      &--left{
+          width: 406px;
+border: none;
+      }
+      &--right{
+        &__icon{
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 376px) {
+  #account{
+    .account{
+      &--left{
+        width: 335px;
+        .icon{
+          margin-left: 60px;
+        }
+        .border{
+          width: 309px;
+          height: 1px;
+        }
+        &__personal{
+          margin-bottom: 0;
+        }
+      }
+
+    }
+  }
+}
+@media (max-width: 325px) {
+  #account{
+    margin-top: 85px;
+    .account{
+      &--left{
+        width: 303px;
+
+        .border{
+          width: 260px;
+        }
+
+      }
+
+    }
+  }
+}
