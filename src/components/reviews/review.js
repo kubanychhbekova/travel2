@@ -52,7 +52,7 @@ const Review = () => {
         const storedComments = JSON.parse(localStorage.getItem('comments')) || [];
         setComments(storedComments);
         if (isAuth) {
-            setUsername(name);
+            setUsername(name.split(" ")[0]);
             setEmails(email);
         }
     }, [isAuth, email, name]);
