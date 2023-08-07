@@ -36,7 +36,7 @@ const Account = () => {
         };
     }, [dispatch]);
     useEffect(() => {
-        if (windowWidth >= 768) {
+        if (windowWidth <= 768 ) {
             setActive(false);
         }
     }, [windowWidth]);
@@ -84,7 +84,7 @@ const Account = () => {
             <div className="container">
                 <div className="account">
                     <div className="account--left" style={{
-                        display: navigate ? "none" : "block"
+                        display: navigate && windowWidth <=768 ? "none" : "block"
                     }}>
                         <div className="account--left__logo" onClick={() => {
                         }}>
@@ -146,7 +146,7 @@ const Account = () => {
                     </div>
                     <div className="account--right">
                         {
-                            navigate && (
+                            navigate && windowWidth <=768 && (
                                 <>
                                     <HiArrowLongLeft className="account--right__icon"
                                     onClick={()=>{
