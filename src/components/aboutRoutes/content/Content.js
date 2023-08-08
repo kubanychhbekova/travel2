@@ -47,11 +47,9 @@ const Content = () => {
 
               <div
                 className="content--selects__select1"
-                style={
-                  {
-                    display: "none",
-                  }
-                }
+                style={{
+                  display: "none",
+                }}
                 onClick={(e) => {
                   setSelect1(e.target.innerText);
                 }}
@@ -70,11 +68,9 @@ const Content = () => {
               <h4>{select2}</h4>
               <div
                 className="content--selects__select2"
-                style={
-                  {
-                     display: "none",
-                  }
-                }
+                style={{
+                  display: "none",
+                }}
                 onClick={(e) => {
                   setSelect2(e.target.innerText);
                 }}
@@ -98,7 +94,7 @@ const Content = () => {
               </button>
             </div>
           </div>
-          <div className="content--selects"></div>
+          {/* <div className="content--selects"></div> */}
 
           <div
             className="content--blocks"
