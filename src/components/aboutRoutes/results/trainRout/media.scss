@@ -22,3 +22,29 @@
     }
   }
 }
+@media (max-width: 400px) {
+  #trainRout {
+    .container {
+      .trainRout {
+        &--blocks {
+          width: 378px;
+          height: 765px;
+          &__blockGrey {
+            width: 355px;
+          }
+          &__blockWhite {
+            
+          &--hotels {
+            h6 {
+              font-size: 12px;
+            }
+            p {
+              font-size: 13px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+}

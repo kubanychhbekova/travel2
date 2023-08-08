@@ -108,7 +108,7 @@
         }
         &--blocks {
           margin-top: 3px;
-          margin-left: -72px;
+          margin-left: -27px;
           gap: 45px;
           &__byPlane {
             h1 {
@@ -278,33 +278,108 @@
           }
         }
         &--blocks {
+          margin-top: -37px;
+          margin-left: 21px;
+          gap: 40px;
           &__byPlane {
             h1 {
               color: #0992d5;
               font-family: Inter;
-              font-size: 25px;
+              font-size: 15px;
               font-weight: 700;
             }
             &--linea {
-              width: 152px;
-
+              width: 100px;
               height: 5px;
             }
           }
-          
+
           &__byBus {
             h1 {
               color: #0992d5;
               font-family: Inter;
-              font-size: 25px;
+              font-size: 15px;
               font-weight: 700;
             }
             &--linea {
-              width: 152px;
-
+              width: 100px;
               height: 5px;
             }
           }
+          &__byTrain {
+            h1 {
+              color: #0992d5;
+              font-family: Inter;
+              font-size: 15px;
+              font-weight: 700;
+            }
+            &--linea {
+              width: 100px;
+              height: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 400px) {
+  #content {
+    .container {
+      .content {
+        &--search {
+          height: 53px;
+          width: 360px;
+          &__block1 {
+            width: 191px;
+            height: 46px;
+          }
+          &__block2 {
+            width: 191px;
+            height: 46px;
+          }
+          &__btn {
+            button {
+              padding: 2px 7px;
+              font-size: 15px;
+              width: 90px;
+              height: 46px;
+            }
+          }
+        }
+        &--blocks {
+          margin-top: -37px;
+          margin-left: -4px;
+          gap: 31px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 375px) {
+  #content {
+    .container {
+      .content {
+        &--search {
+          height: 46px;
+          width: 344px;
+          &__block1 {
+            width: 192px;
+            height: 42px;
+          }
+          &__block2 {
+            width: 192px;
+            height: 42px;
+          }
+          &__btn {
+            button {
+              height: 42px;
+            }
+          }
+        }
+        &--blocks {
+          margin-left: 2px;
+          gap: 11px;
         }
       }
     }
