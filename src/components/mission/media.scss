@@ -1,0 +1,124 @@
+@media (max-width: 1200px) {
+  #mission1 {
+    .mainImg {
+      height: 612px;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  #mission1 {
+  }
+}
+@media (max-width: 992px) {
+  #mission1 {
+    .mainImg {
+      height: 590px !important;
+    }
+    .missionText {
+      p {
+        margin-top: -66px;
+        font-size: 20px !important;
+        width: 841px;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  #mission1 {
+    .mainImg {
+      height: 508px !important;
+    }
+    .mission {
+      h1 {
+        font-size: 42px;
+      }
+    }
+    .missionText {
+      p {
+        margin-top: -66px;
+        font-size: 20px !important;
+        width: 643px !important;
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  #mission1 {
+    .mainImg {
+      height: 387px !important;
+    }
+    .mission {
+      h1 {
+        margin-top: -44px;
+        font-size: 35px !important;
+      }
+    }
+    .missionText {
+      p {
+        margin-top: -66px;
+        font-size: 18px !important;
+        width: 488px !important;
+      }
+    }
+  }
+}
+@media (max-width: 451px) {
+  #mission1 {
+    .mainImg {
+      height: 341px !important;
+    }
+    .mission {
+      h1 {
+        margin-top: -44px;
+        font-size: 30px !important;
+      }
+    }
+    .missionText {
+      p {
+        margin-top: -66px;
+        font-size: 15px !important;
+        width: 409px !important;
+      }
+    }
+  }
+}
+@media (max-width: 400px) {
+  #mission1 {
+    .mainImg {
+      height: 309px !important;
+    }
+    .mission {
+      h1 {
+        margin-top: -63px;
+        font-size: 25px !important;
+      }
+    }
+    .missionText {
+      p {
+        margin-top: -66px;
+        font-size: 15px !important;
+        width: 375px !important;
+      }
+    }
+  }
+}
+@media (max-width: 375px) {
+  #mission1 {
+    .mainImg {
+      height: 252px !important;
+    }
+    .mission {
+      h1 {
+        margin-top: -97px;
+        font-size: 20px !important;
+      }
+    }
+    .missionText {
+      p {
+        margin-top: -86px;
+        font-size: 15px !important;
+        width: 350px !important;
+      }
+    }
+  }
+}

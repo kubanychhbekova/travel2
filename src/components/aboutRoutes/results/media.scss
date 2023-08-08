@@ -45,7 +45,8 @@
       .results {
         &--blocks {
           margin-top: 3px;
-          margin-left: -11px;
+          margin-left: -44px;
+          gap: 51px;
           &__byPlane {
             h1 {
               color: #0992d5;
@@ -89,6 +90,113 @@
             margin-left: -248px;
             margin-top: 188px;
           }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  #results {
+    .container {
+      .results {
+        &--blocks {
+          &__byPlane {
+            h1 {
+              font-size: 24px;
+            }
+            &--linea {
+              width: 161px;
+            }
+          }
+          &__byBus {
+            h1 {
+              font-size: 24px;
+            }
+            &--linea {
+              width: 161px;
+            }
+          }
+          &__byTrain {
+            h1 {
+              font-size: 24px;
+            }
+            &--linea {
+              width: 161px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 451px) {
+  #results {
+    .container {
+      .results {
+        &--blocks {
+          margin-top: -37px;
+          margin-left: 21px;
+          gap: 40px;
+          &__byPlane {
+            h1 {
+              color: #0992d5;
+              font-family: Inter;
+              font-size: 15px;
+              font-weight: 700;
+            }
+            &--linea {
+              width: 100px;
+              height: 5px;
+            }
+          }
+          &__byBus {
+            h1 {
+              color: #0992d5;
+              font-family: Inter;
+              font-size: 15px;
+              font-weight: 700;
+            }
+            &--linea {
+              width: 100px;
+              height: 5px;
+            }
+          }
+          &__byTrain {
+            h1 {
+              color: #0992d5;
+              font-family: Inter;
+              font-size: 15px;
+              font-weight: 700;
+            }
+            &--linea {
+              width: 100px;
+              height: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 400px) {
+  #results {
+    .container {
+      .results {
+        &--blocks {
+          margin-top: -37px;
+          margin-left: -4px;
+          gap: 31px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 375px) {
+  #results {
+    .container {
+      .results {
+        &--blocks {
+          gap: 21px;
         }
       }
     }

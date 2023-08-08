@@ -19,7 +19,7 @@ const Plane = () => {
                       <div className="plane--card__rout--city__go">
                         <h4>{elem.city}</h4>
                         <h4>{elem.price.chas}</h4>
-
+                        
                         <h4>{elem.price.sena}</h4>
                       </div>
                     );
