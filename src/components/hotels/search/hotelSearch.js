@@ -9,6 +9,7 @@ import {getProduct} from "../../../store/reducer/reducer";
 
 const HotelSearch = () => {
     const product = useSelector(s => s.travel.product);
+
     const dispatch = useDispatch();
     const [modal, setModal] = useState(false);
     const [modal1, setModal1] = useState(false);

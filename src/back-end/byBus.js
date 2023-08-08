@@ -318,6 +318,6 @@ const byBus = [
       ],
     },
   ];
-  
+
   export default byBus;
   

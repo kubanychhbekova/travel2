@@ -4,7 +4,7 @@ import Newlink from "../../../newLink/newLink";
 
 
 const PopularDetails = ({cards}) => {
-
+z
         return (
             <div>
                 {cards.map((el) => {

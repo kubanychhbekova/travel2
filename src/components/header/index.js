@@ -5,7 +5,7 @@ import {NavLink} from "react-router-dom";
 import {MdKeyboardArrowDown} from "react-icons/md";
 import {useAuth} from "../../hooks/use-auth";
 import logo from "../../assets/img/user.png"
-import {useSelector} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
 
 const Header = () => {
     const {isAuth, name} = useAuth();
@@ -14,6 +14,7 @@ const Header = () => {
     const headerModalRef = useRef(null);
     const [burger, setBurger] = useState(false)
     const {userImage}=useSelector(s=>s.user)
+    const dispatch = useDispatch();
     const toggleModal = () => setModalVisible(!modalVisible);
     const handleClickOutsideModal = (event) => {
         if (
@@ -61,8 +62,8 @@ const Header = () => {
                             <div className="header--logo__pages--select">
                                 <select name="language" id="1">
                                     <option value="language">language</option>
-                                    <option value="usd">English</option>
-                                    <option value="ru">Русский</option>
+                                    <option value="English">English</option>
+                                    <option value="Russian">Русский</option>
                                     <option value="cn">`中文</option>
                                     <option value="arab"> عربي</option>
 
